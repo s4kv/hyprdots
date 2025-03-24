@@ -57,6 +57,8 @@ alias cd='z'
 # alias checkstyle='java -jar /home/sakvi/gatech/cs1332/checkstyle/checkstyle-10.14.2-all.jar -c /home/sakvi/gatech/cs1332/checkstyle/CS1332-checkstyle.xml'
 # alias xclip='xclip -selection clipboard'
 alias circuit-sim='java -jar /home/sakvi/gatech/cs2110/programs/CS2110-CircuitSim.jar'
+alias czmoie='chezmoi edit'
+alias czmoi='chezmoi'
 
 # xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
