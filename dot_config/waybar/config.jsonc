@@ -4,8 +4,8 @@
   "margin-left": 10,
   "margin-right": 10,
   "height": 30,
-  "modules-left": ["hyprland/window"],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/workspaces"],
+  "modules-center": ["hyprland/window"],
   "modules-right": [
     "tray",
     "cpu",
@@ -40,10 +40,6 @@
   "clock": {
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format-alt": "{:%Y-%m-%d}",
-  },
-  "cpu": {
-    "format": "  {usage}%",
-    "tooltip": false,
   },
   "memory": {
     "format": "{}%  ",
