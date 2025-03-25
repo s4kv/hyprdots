@@ -23,6 +23,8 @@ PURE_GIT_PULL=0
 zstyle :prompt:pure:git:stash show yes
 prompt pure
 
+# eval "$(starship init zsh)"
+
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
 HISTSIZE=1000000000
