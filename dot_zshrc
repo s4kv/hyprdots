@@ -61,6 +61,7 @@ alias cd='z'
 alias circuit-sim='java -jar /home/sakvi/gatech/cs2110/programs/CS2110-CircuitSim.jar'
 alias czmoie='chezmoi edit'
 alias czmoi='chezmoi'
+alias zen-browser='zenb'
 
 # xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
