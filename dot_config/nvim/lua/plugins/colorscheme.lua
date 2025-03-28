@@ -67,11 +67,11 @@ return {
             background = "dark",
         },
     },
-   --  light theme
-   -- {
-   --      "LazyVim/LazyVim",
-   --      opts = {
-   --          colorscheme = "catppuccin-latte",
-   --      },
-   --  },
+    --  light theme
+    -- {
+    --      "LazyVim/LazyVim",
+    --      opts = {
+    --          colorscheme = "catppuccin-latte",
+    --      },
+    --  },
 }

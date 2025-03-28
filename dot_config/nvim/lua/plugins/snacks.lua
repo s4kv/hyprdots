@@ -1,9 +1,77 @@
+---@module 'lazy'
+
 return {
-    "folke/snacks.nvim",
-    opts = {
-        dashboard = {
-            preset = {
-                header = [[
+    {
+        "snacks.nvim",
+        ---@type snacks.Config
+        opts = {
+            explorer = {
+                replace_netrw = false, -- Replace netrw with the snacks explorer
+            },
+            picker = {
+                debug = { scores = false, leaks = false, explorer = false, files = false },
+                sources = {
+                    files_with_symbols = {
+                        multi = { "files", "lsp_symbols" },
+                        filter = {
+                            ---@param p snacks.Picker
+                            ---@param filter snacks.picker.Filter
+                            transform = function(p, filter)
+                                local symbol_pattern = filter.pattern:match("^.-@(.*)$")
+                                -- store the current file buffer
+                                if filter.source_id ~= 2 then
+                                    local item = p:current()
+                                    if item and item.file then
+                                        filter.meta.buf = vim.fn.bufadd(item.file)
+                                    end
+                                end
+
+                                if symbol_pattern and filter.meta.buf then
+                                    filter.pattern = symbol_pattern
+                                    filter.current_buf = filter.meta.buf
+                                    filter.source_id = 2
+                                else
+                                    filter.source_id = 1
+                                end
+                            end,
+                        },
+                    },
+                },
+                win = {
+                    input = {
+                        keys = {
+                            ["<c-l>"] = { "toggle_lua", mode = { "n", "i" } },
+                            -- ["<c-t>"] = { "edit_tab", mode = { "n", "i" } },
+                            -- ["<Esc>"] = { "close", mode = { "n", "i" } },
+                        },
+                    },
+                    list = {
+                        keys = {},
+                    },
+                },
+                actions = {
+                    toggle_lua = function(p)
+                        local opts = p.opts --[[@as snacks.picker.grep.Config]]
+                        opts.ft = not opts.ft and "lua" or nil
+                        p:find()
+                    end,
+                },
+            },
+            profiler = {
+                runtime = "~/projects/neovim/runtime/",
+                presets = {
+
+                    on_stop = function()
+                        Snacks.profiler.scratch()
+                    end,
+                },
+            },
+            indent = {
+                chunk = { enabled = true },
+            },
+            dashboard = {
+                preset = {
+                    header = [[
    ▄▄▄▄▄   ██   █  █▀   ▄   ▄█ 
   █     ▀▄ █ █  █▄█      █  ██ 
 ▄  ▀▀▀▀▄   █▄▄█ █▀▄ █     █ ██ 
@@ -12,91 +80,9 @@ return {
              █   ▀     █▐      
             ▀          ▐       
  ]],
-        -- stylua: ignore
-        ---@type snacks.dashboard.Item[]
-        keys = {
-          { icon = " ", key = "f", desc = "Find File", action = ":lua Snacks.dashboard.pick('files')" },
-          { icon = " ", key = "n", desc = "New File", action = ":ene | startinsert" },
-          { icon = " ", key = "g", desc = "Find Text", action = ":lua Snacks.dashboard.pick('live_grep')" },
-          { icon = " ", key = "r", desc = "Recent Files", action = ":lua Snacks.dashboard.pick('oldfiles')" },
-          { icon = " ", key = "c", desc = "Config", action = ":lua Snacks.dashboard.pick('files', {cwd = vim.fn.stdpath('config')})" },
-          { icon = " ", key = "s", desc = "Restore Session", section = "session" },
-          { icon = " ", key = "x", desc = "Lazy Extras", action = ":LazyExtras" },
-          { icon = "󰒲 ", key = "l", desc = "Lazy", action = ":Lazy" },
-          { icon = " ", key = "q", desc = "Quit", action = ":qa" },
-        },
+                },
             },
         },
-
-        explorer = {
-            replace_netrw = false, -- Replace netrw with the snacks explorer
-        },
+        -- stylua: ignore
     },
 }
-
--- return {
---   "nvimdev/dashboard-nvim",
---   lazy = false, -- As https://github.com/nvimdev/dashboard-nvim/pull/450, dashboard-nvim shouldn't be lazy-loaded to properly handle stdin.
---   opts = function()
---     local logo = [[
---    ▄▄▄▄▄   ██   █  █▀   ▄   ▄█
---   █     ▀▄ █ █  █▄█      █  ██
--- ▄  ▀▀▀▀▄   █▄▄█ █▀▄ █     █ ██
---  ▀▄▄▄▄▀    █  █ █  █ █    █ ▐█
---               █   █   █  █   ▐
---              █   ▀     █▐
---             ▀          ▐
---     ]]
---
---     logo = string.rep("\n", 8) .. logo .. "\n\n"
---
---     local opts = {
---       theme = "doom",
---       hide = {
---         -- this is taken care of by lualine
---         -- enabling this messes up the actual laststatus setting after loading a file
---         statusline = false,
---       },
---       config = {
---         header = vim.split(logo, "\n"),
---         -- stylua: ignore
---         center = {
---           { action = 'lua LazyVim.pick()()',                           desc = " Find File",       icon = " ", key = "f" },
---           { action = "ene | startinsert",                              desc = " New File",        icon = " ", key = "n" },
---           { action = 'lua LazyVim.pick("oldfiles")()',                 desc = " Recent Files",    icon = " ", key = "r" },
---           { action = 'lua LazyVim.pick("live_grep")()',                desc = " Find Text",       icon = " ", key = "g" },
---           { action = 'lua LazyVim.pick.config_files()()',              desc = " Config",          icon = " ", key = "c" },
---           { action = 'lua require("persistence").load()',              desc = " Restore Session", icon = " ", key = "s" },
---           { action = "LazyExtras",                                     desc = " Lazy Extras",     icon = " ", key = "x" },
---           { action = "Lazy",                                           desc = " Lazy",            icon = "󰒲 ", key = "l" },
---           { action = function() vim.api.nvim_input("<cmd>qa<cr>") end, desc = " Quit",            icon = " ", key = "q" },
---         },
---         footer = function()
---           local stats = require("lazy").stats()
---           local ms = (math.floor(stats.startuptime * 100 + 0.5) / 100)
---           return { "⚡ Neovim loaded " .. stats.loaded .. "/" .. stats.count .. " plugins in " .. ms .. "ms" }
---         end,
---       },
---     }
---
---     for _, button in ipairs(opts.config.center) do
---       button.desc = button.desc .. string.rep(" ", 43 - #button.desc)
---       button.key_format = "  %s"
---     end
---
---     -- open dashboard after closing lazy
---     if vim.o.filetype == "lazy" then
---       vim.api.nvim_create_autocmd("WinClosed", {
---         pattern = tostring(vim.api.nvim_get_current_win()),
---         once = true,
---         callback = function()
---           vim.schedule(function()
---             vim.api.nvim_exec_autocmds("UIEnter", { group = "dashboard" })
---           end)
---         end,
---       })
---     end
---
---     return opts
---   end,
--- }
