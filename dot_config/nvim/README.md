@@ -1,9 +1,4 @@
-# Neovim Configuration
+# 💤 LazyVim
 
-- Author: s4kv
-
-This is my personal Neovim configuration.
-
-Package manager 💤 [LazyVim](https://github.com/LazyVim/LazyVim).
-
-- Refer to the [documentation](https://lazyvim.github.io/installation).
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
