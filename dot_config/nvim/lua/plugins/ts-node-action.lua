@@ -12,6 +12,7 @@ return {
         function()
           require("ts-node-action").node_action()
         end,
+        desc = "Run node action",
       },
     },
     config = function()
@@ -111,6 +112,7 @@ return {
           end
         end,
         { noremap = true, silent = true },
+        desc = "Toggle treesj",
       },
     },
     opts = {

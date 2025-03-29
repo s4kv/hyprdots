@@ -1,0 +1,27 @@
+pane	0	1	1	:*Z	1	sakvi: nvim hi.sh	:/home/sakvi	0	nvim	:nvim hi.sh
+pane	0	1	1	:*Z	2	plugins: nvim .	:/home/sakvi/.config/nvim/lua/plugins	1	nvim	:nvim .
+pane	0	2	0	:-Z	1	~/Repos/dot/nvim/lua/plugins/specs	:/home/sakvi/Repos/dot/nvim/lua/plugins/specs	0	zsh	:
+pane	0	2	0	:-Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	4	2	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:
+window	0	1	:nvim	1	:*Z	3f5f,208x53,0,0{104x53,0,0,1,103x53,105,0,2}	:
+window	0	2	:zsh	0	:-Z	6007,208x53,0,0{104x53,0,0,3,103x53,105,0,11}	:
+window	1	1	:zsh	1	:*	b621,51x25,0,0,4	:
+window	2	1	:zsh	1	:*	bc02,103x25,0,0,5	:
+window	3	1	:zsh	1	:*	b5a3,50x25,0,0,6	:
+window	4	1	:zsh	0	:-	bca4,208x53,0,0,7	:
+window	4	2	:zsh	1	:*	bca6,208x53,0,0,9	:
+window	5	1	:zsh	1	:*	5e81,208x53,0,0,12	:
+window	6	1	:zsh	1	:*	5d32,103x53,0,0,13	:
+window	7	1	:zsh	1	:*	5e83,208x53,0,0,14	:
+window	8	1	:zsh	1	:*	5e34,103x25,0,0,15	:
+window	9	1	:zsh	1	:*	5e85,208x53,0,0,16	:
+state	9	

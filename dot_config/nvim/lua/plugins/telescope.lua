@@ -50,7 +50,7 @@ return {
           --
           require("telescope").extensions.neoclip.default({})
         end,
-        { desc = "Paste with telescope (neoclip)" },
+        desc = "Paste with telescope (neoclip)",
       },
     },
     opts = {

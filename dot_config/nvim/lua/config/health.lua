@@ -24,7 +24,7 @@ return {
 
     -- utility for printing the resolved path of a file, used for e.g. relative
     -- file resolution
-    check("grealpath")
+    check("realpath")
 
     -- jq - a lightweight and flexible command-line JSON processor
     -- https://github.com/jqlang/jq

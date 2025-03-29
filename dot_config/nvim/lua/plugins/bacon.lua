@@ -17,6 +17,7 @@ return {
         bacon.bacon_load()
         bacon.bacon_next()
       end,
+      desc = "Load and show the next bacon error",
     },
   },
   -- ft = { "rs" }, -- rust

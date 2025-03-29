@@ -1,0 +1,22 @@
+pane	0	1	1	:*Z	1	~/.config/nvim.bak.final/lua/plugins	:/home/sakvi/.config/nvim.bak.final/lua/plugins	0	zsh	:chezmoi cd
+pane	0	1	1	:*Z	2	~/.local/share/chezmoi	:/home/sakvi/.local/share/chezmoi	1	zsh	:chezmoi cd
+pane	0	2	0	:-	1	~/.local/share/nvim/lazy	:/home/sakvi/.local/share/nvim.bak/lazy	1	zsh	:
+pane	1	1	1	:*	1	~/.config/nvim.bak.final/lua/plugins	:/home/sakvi/.config/nvim.bak.final/lua/plugins	1	zsh	:
+pane	2	1	1	:*	1	~/Repos/dot/nvim/lua/plugins	:/home/sakvi/Repos/dot/nvim/lua/plugins	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*Z	428d,103x53,0,0{52x53,0,0,0,50x53,53,0,1}	:
+window	0	2	:zsh	0	:-	bc9f,208x53,0,0,2	:
+window	1	1	:zsh	1	:*	bca0,208x53,0,0,3	:
+window	2	1	:zsh	1	:*	ba01,103x53,0,0,4	:
+window	3	1	:zsh	1	:*	b622,51x25,0,0,5	:
+window	4	1	:zsh	1	:*	ba03,103x53,0,0,6	:
+window	5	1	:zsh	1	:*	b624,51x25,0,0,7	:
+window	6	1	:zsh	1	:*	ba05,103x53,0,0,8	:
+window	7	1	:zsh	1	:*	ba06,103x53,0,0,9	:
+window	8	1	:zsh	1	:*	5d2f,103x53,0,0,10	:
+state	0	7

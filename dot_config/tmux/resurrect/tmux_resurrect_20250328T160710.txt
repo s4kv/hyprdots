@@ -1,0 +1,4 @@
+pane	0	1	1	:*	1	~/.config	:/home/sakvi/.config	1	zsh	:chezmoi cd
+pane	0	1	1	:*	2	~/.config/baknvim_final/lua/config	:/home/sakvi/.config/baknvim_final/lua/config	0	zsh	:
+window	0	1	:zsh	1	:*	38ad,103x53,0,0{51x53,0,0,0,51x53,52,0,1}	:
+state	0	

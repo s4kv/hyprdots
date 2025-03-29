@@ -12,6 +12,7 @@ return {
         mode = { "n", "v" },
         "<cmd>AdvancedGitSearch<cr>",
         { silent = true, desc = "AdvancedGitSearch" },
+        desc = "AdvancedGitSearch",
       },
     },
     config = function()

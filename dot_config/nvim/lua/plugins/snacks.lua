@@ -79,29 +79,29 @@ return {
       -- },
     },
     -- stylua: ignore
-    keys = {
-      { "<leader><space>", function() Snacks.picker.smart() end, desc = "Smart Open" },
-      { "<leader>t", function() Snacks.scratch({ icon = " ", name = "Todo", ft = "markdown", file = "~/dot/TODO.md" }) end, desc = "Todo List" },
-      {
-        "<leader>dpd",
-        desc = "Debug profiler",
-        function()
-          do return {
-            a = {
-              b = {
-                c =  123,
-              },
-            },
-          } end
-          if not Snacks.profiler.running() then
-            Snacks.notify("Profiler debug started")
-            Snacks.profiler.start()
-          else
-            Snacks.profiler.debug()
-            Snacks.notify("Profiler debug stopped")
-          end
-        end,
-      },
-    },
+    -- keys = {
+    --   { "<leader><space>", function() Snacks.picker.smart() end, desc = "Smart Open" },
+    --   { "<leader>t", function() Snacks.scratch({ icon = " ", name = "Todo", ft = "markdown", file = "~/dot/TODO.md" }) end, desc = "Todo List" },
+    --   {
+    --     "<leader>dpd",
+    --     desc = "Debug profiler",
+    --     function()
+    --       do return {
+    --         a = {
+    --           b = {
+    --             c =  123,
+    --           },
+    --         },
+    --       } end
+    --       if not Snacks.profiler.running() then
+    --         Snacks.notify("Profiler debug started")
+    --         Snacks.profiler.start()
+    --       else
+    --         Snacks.profiler.debug()
+    --         Snacks.notify("Profiler debug stopped")
+    --       end
+    --     end,
+    --   },
+    -- },
   },
 }
