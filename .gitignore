@@ -1,4 +1,4 @@
 # Ignore all the files in the ./dot_config/tmux/plugins/ directory
 dot_config/tmux/plugins/*
-
+dot_config/tmux/resurrect/*
 
