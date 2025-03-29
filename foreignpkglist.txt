@@ -1,5 +1,6 @@
 asusctl-git
 excalidraw-cli
+firefox-tridactyl-native
 google-chrome-dev
 gray-git
 grimshot-bin-sway
@@ -21,3 +22,5 @@ woeusbgui
 wofimoji
 xwaylandvideobridge
 zapzap-git
+zf
+zzz
