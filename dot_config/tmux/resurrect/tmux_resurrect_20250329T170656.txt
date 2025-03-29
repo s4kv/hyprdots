@@ -1,3 +1,0 @@
-pane	0	1	1	:*	1	plugins: nvim hi.lua	:/home/sakvi/.config/nvim/lua/plugins	1	nvim	:nvim hi.lua
-window	0	1	:nvim	1	:*	bc9d,208x53,0,0,0	:
-state	0	
