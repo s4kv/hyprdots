@@ -48,6 +48,7 @@ git-lfs
 github-cli
 gitsign
 gksu
+gnome-bluetooth
 gnome-bluetooth-3.0
 gnome-multi-writer
 go
@@ -91,7 +92,7 @@ mesa-utils
 nano
 ncdu
 neofetch
-neovim-git
+neovim
 network-manager-applet
 networkmanager
 ngrok
@@ -125,6 +126,7 @@ paru-debug
 pasystray
 pavucontrol
 picom
+pinta
 pipes.sh
 pipewire
 pipewire-pulse
@@ -161,7 +163,6 @@ rogauracore-git
 sccache
 sd
 searxng-git
-shadps4-git
 shell-color-scripts-git
 slurp
 speech-dispatcher
@@ -278,8 +279,7 @@ ttf-zed-mono-nerd
 typos
 update-grub
 uwsm
-vcvrack-audible-instruments
-vcvrack-valley
+vcvrack
 ventoy-bin
 vi
 vim
@@ -348,7 +348,7 @@ xorg-xwininfo
 xorg-xwud
 xterm
 xwaylandvideobridge
-yazi
+yazi-git
 ydotool
 youtube-music-bin
 zapzap-git
@@ -358,4 +358,3 @@ zoom
 zoxide
 zsh
 zsh-completions
-zzz

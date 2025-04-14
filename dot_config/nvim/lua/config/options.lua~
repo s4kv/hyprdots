@@ -5,8 +5,8 @@
 -- hide all kinds of line numbers
 vim.opt.relativenumber = true
 vim.opt.number = true
-vim.opt.swapfile = true
-vim.opt.backup = false
+vim.opt.swapfile = false
+vim.opt.backup = true
 vim.opt.scrolloff = 15 -- makes sure zt and zb have some context
 vim.o.pumheight = 0 -- take as much space as needed
 vim.o.timeoutlen = 100

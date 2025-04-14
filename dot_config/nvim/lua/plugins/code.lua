@@ -1,11 +1,11 @@
 return {
-  {
-    "zbirenbaum/copilot.lua",
-    optional = true,
-    opts = {
-      filetypes = { ["*"] = true },
-    },
-  },
+  -- {
+  --   "zbirenbaum/copilot.lua",
+  --   optional = true,
+  --   opts = {
+  --     filetypes = { ["*"] = true },
+  --   },
+  -- },
 
   { "markdown-preview.nvim", enabled = false },
 

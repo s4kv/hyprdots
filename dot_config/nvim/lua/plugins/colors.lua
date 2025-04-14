@@ -1,5 +1,8 @@
 return {
   {
+    "ramojus/mellifluous.nvim",
+  },
+  {
     "dgox16/oldworld.nvim",
     lazy = false,
     priority = 1000,
@@ -7,7 +10,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "oldworld",
+      colorscheme = "mellifluous",
       background = "dark",
     },
   },

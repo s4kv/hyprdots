@@ -14,8 +14,7 @@ python-fabric-git
 python-pygobject-stubs
 python-rlottie-python
 rogauracore-git
-vcvrack-audible-instruments
-vcvrack-valley
+vcvrack
 vtsls
 wired-git
 woeusbgui
@@ -23,4 +22,3 @@ wofimoji
 xwaylandvideobridge
 zapzap-git
 zf
-zzz
