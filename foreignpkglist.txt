@@ -11,8 +11,10 @@ nitch
 nvidia-prime-rtd3pm
 pipes.sh
 python-fabric-git
+python-google-genai
 python-pygobject-stubs
 python-rlottie-python
+rofi-lbonn-wayland-git
 rogauracore-git
 vcvrack
 vtsls

@@ -9,6 +9,7 @@ bat
 blackarch-keyring
 blackarch-officials
 blueman
+bluetui
 bluez-utils
 bottom
 brightnessctl
@@ -89,6 +90,7 @@ linux-headers
 mako
 matrix-synapse
 mesa-utils
+minecraft-launcher
 nano
 ncdu
 neofetch
@@ -136,8 +138,10 @@ power-profiles-daemon
 presenterm
 pyright
 python-django
+python-dotenv
 python-fabric-git
 python-fuzzyfinder
+python-google-genai
 python-pillow
 python-pipx
 python-pygobject-stubs
@@ -157,7 +161,7 @@ reaper
 resvg
 ripgrep
 rofi-calc
-rofi-wayland
+rofi-lbonn-wayland-git
 rofimoji
 rogauracore-git
 sccache
