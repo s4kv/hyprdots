@@ -21,7 +21,7 @@
 
 /* ----------------------------------------------------- MAIN BACKGROUND --- */
 
-window#waybar>box {
+window#waybar > box {
   background: @main-bg;
   margin: 2px;
 }
@@ -290,12 +290,12 @@ tooltip label {
   color: @hover-fg;
 }
 
-#custom-update {
+#power-profiles-daemon {
   padding-right: 8px;
   background: @tray;
 }
 
-#custom-update:hover {
+#power-profiles-daemon:hover {
   color: @hover-fg;
 }
 

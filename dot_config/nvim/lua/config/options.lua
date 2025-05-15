@@ -5,20 +5,6 @@
 -- hide all kinds of line numbers
 vim.opt.relativenumber = true
 vim.opt.number = true
-vim.opt.swapfile = true
-vim.opt.backup = false
-vim.opt.scrolloff = 15 -- makes sure zt and zb have some context
-vim.o.pumheight = 0 -- take as much space as needed
-vim.o.timeoutlen = 100
-vim.o.ttimeoutlen = 10
-
-vim.g.snacks_animate = false
-vim.g.snacks_scroll = false
-
--- disable pop up menu transparency
-vim.opt.pumblend = 0
-
-vim.g.maplocalleader = " "
 
 -- **lazygit** now automatically uses the colors of your current colorscheme.
 -- This is enabled by default. To disable, add the below to your `options.lua`:

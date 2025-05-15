@@ -33,7 +33,8 @@
     "custom/right4",
     "custom/wifi", // wi-fi
     "bluetooth", // bluetooth
-    "custom/update", // system update
+    "power-profiles-daemon", // power profile
+    // "custom/update", // system update
     "custom/right5"
   ],
   "modules-right": [

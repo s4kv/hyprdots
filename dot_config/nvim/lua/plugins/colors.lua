@@ -8,9 +8,14 @@ return {
     priority = 1000,
   },
   {
+    "mellow-theme/mellow.nvim",
+    lazy = false,
+    priority = 1000,
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "mellifluous",
+      colorscheme = "mellow",
       background = "dark",
     },
   },

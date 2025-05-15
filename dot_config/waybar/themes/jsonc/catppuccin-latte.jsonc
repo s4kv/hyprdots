@@ -33,13 +33,13 @@
     "custom/right4",
     "custom/wifi", // wi-fi
     "bluetooth", // bluetooth
-    "custom/update", // system update
+    "power-profiles-daemon", // power-profiles-daemon
+    // "custom/update", // system update
     "custom/right5"
   ],
   "modules-right": [
     "tray",
     "mpris", // media info
-    "power-profiles-daemon", // power-profiles-daemon
     "custom/left6",
     "pulseaudio", // output device
     "custom/left7",
