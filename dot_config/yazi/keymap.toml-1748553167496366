@@ -2,17 +2,17 @@
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 "$schema" = "https://yazi-rs.github.io/schemas/keymap.json"
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on = ["i"]
 run = "plugin easyjump"
 desc = "easyjump"
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on = ["<Right>"]
 run = "shell lazygit --block --confirm"
 
 # https://yazi-rs.github.io/docs/tips/#cd-to-git-root
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on = ["g", "r"]
 run = '''
 	shell 'ya emit cd "${NVIM_CWD:-$(git rev-parse --show-toplevel 2>/dev/null)}"'
@@ -20,19 +20,19 @@ run = '''
 
 # copy the relative path to the current file/selected files in the current git repo
 # (remove the last newline)
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on = ["c", "r"]
 run = '''
   shell 'git ls-files --full-name $@ | perl -pe "chomp if eof" | pbcopy'
 '''
 
-[[mgr.prepend_keymap]]
+[[manager.prepend_keymap]]
 on = ["c", "i"] # copy inside
 run = '''
   shell 'cat $@ | pbcopy'
 '''
 
-[mgr]
+[manager]
 
 keymap = [
   { on = ["<Esc>"], run = "escape", desc = "Exit visual mode, clear selected, or cancel search" },

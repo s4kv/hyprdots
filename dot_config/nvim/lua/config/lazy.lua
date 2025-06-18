@@ -16,7 +16,7 @@ if os.getenv("NVIM") == nil then
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import any extras modules here
     { import = "lazyvim.plugins.extras.lang.json" },
-    { import = "lazyvim.plugins.extras.lang.markdown" },
+    -- { import = "lazyvim.plugins.extras.lang.markdown" },
     { import = "lazyvim.plugins.extras.lang.yaml" },
     { import = "lazyvim.plugins.extras.coding.blink" },
     { import = "lazyvim.plugins.extras.editor.telescope" },
@@ -33,7 +33,8 @@ if os.getenv("NVIM") == nil then
     { import = "lazyvim.plugins.extras.editor.navic" },
     { import = "lazyvim.plugins.extras.ui.smear-cursor" },
 
-    { import = "lazyvim.plugins.extras.linting.eslint" },
+    -- TODO: removed this for now, because of having two linters, but should add it later
+    -- { import = "lazyvim.plugins.extras.linting.eslint" },
     { import = "lazyvim.plugins.extras.ui.treesitter-context", opts = {
       max_lines = 0,
     } },

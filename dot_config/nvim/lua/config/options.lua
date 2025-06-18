@@ -16,3 +16,7 @@ vim.g.lazygit_config = false
 -- https://www.lazyvim.org/extras/editor/telescope
 vim.g.lazyvim_picker = "snacks"
 vim.opt.foldopen = "jump" -- don't open folds when I navigate with { and }
+vim.opt.clipboard = "unnamedplus" -- use system clipboard
+
+-- Rust inlay_hint
+vim.lsp.inlay_hint.enable(true)

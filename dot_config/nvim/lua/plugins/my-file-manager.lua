@@ -78,19 +78,19 @@ return {
     "nvim-neo-tree/neo-tree.nvim",
     opts = {
       -- ../../../../../.local/share/nvim/lazy/neo-tree.nvim/lua/neo-tree/defaults.lua
-      sources = {
-        "filesystem",
-      },
-      mappings = {
-        ["<cr>"] = { "open", config = { expand_nested_files = true } }, -- expand nested file takes precedence
-      },
+      -- sources = {
+      --   "filesystem",
+      -- },
+      -- mappings = {
+      --   ["<cr>"] = { "open", config = { expand_nested_files = true } }, -- expand nested file takes precedence
+      -- },
       filesystem = {
-        filtered_items = {
-          hide_dotfiles = false,
-        },
+        --   filtered_items = {
+        --     hide_dotfiles = false,
+        --   },
         hijack_netrw_behavior = "disabled",
       },
-      follow_current_file = { enabled = true },
+      -- follow_current_file = { enabled = true },
     },
   },
 }

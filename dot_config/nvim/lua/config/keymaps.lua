@@ -3,13 +3,6 @@
 -- Add any additional keymaps here
 --
 
-do
-  local colors = require("catppuccin.palettes.macchiato")
-  local darken = require("catppuccin.utils.colors").darken
-  local bg = darken(colors.mauve, 0.5)
-  vim.api.nvim_set_hl(0, "Visual", { bg = bg })
-end
-
 vim.api.nvim_create_autocmd("FileType", {
   -- always open help buffers in a vertical split
   pattern = { "help", "man" },
@@ -18,13 +11,6 @@ vim.api.nvim_create_autocmd("FileType", {
 
 vim.keymap.set({ "t" }, "<esc><esc>", "<Nop>")
 vim.keymap.set({ "n" }, "<leader>w", "<Nop>")
-
-vim.keymap.set({ "v" }, "ä", function()
-  -- both c-space (from LazyVim) and a are used for treesitter incremental
-  -- selection. It's faster to hit these alternate keys in quick succession.
-  -- This way I can quickly select a large node.
-  require("nvim-treesitter.incremental_selection").node_incremental()
-end, { desc = "Increment selection" })
 
 vim.keymap.set({ "n" }, "<leader>br", function()
   -- Reopen the current buffer/file to fix LSP warnings being out of sync. For
@@ -45,12 +31,12 @@ end, { desc = "Reopen buffer" })
 
 vim.keymap.set({ "v" }, "s", "<Plug>(nvim-surround-visual)")
 
-vim.api.nvim_create_autocmd("BufEnter", {
-  callback = function()
-    vim.opt.formatoptions:remove({ "c", "r", "o" })
-  end,
-  desc = "Disable New Line Comment",
-})
+-- vim.api.nvim_create_autocmd("BufEnter", {
+--   callback = function()
+--     vim.opt.formatoptions:remove({ "c", "r", "o" })
+--   end,
+--   desc = "Disable New Line Comment",
+-- })
 
 vim.keymap.set("n", "<leader>gd", function()
   require("telescope.builtin").lsp_definitions({ jump_type = "vsplit" })
@@ -79,8 +65,6 @@ vim.keymap.set("v", "<A-j>", "<esc>gj", { desc = "Move down" })
 -- move to previous and next changes in the current file
 vim.api.nvim_set_keymap("n", "-", "g;", { noremap = true })
 vim.api.nvim_set_keymap("n", "+", "g,", { noremap = true })
-
--- based mapping section from ThePrimeagen
 
 -- joins lines without moving the cursor
 vim.keymap.set("n", "J", "m9J`9", { desc = "Join line" })

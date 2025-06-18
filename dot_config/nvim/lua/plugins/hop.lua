@@ -7,7 +7,7 @@ return {
   opts = {
     -- remove the g and q key because catppuccin/nvim sets an underline highlight
     -- group. It's very hard to tell g and q apart.
-    keys = ("asdghklqwertyuiopzxcvbnmfjäö"):gsub("g", ""):gsub("q", ""),
+    keys = ("asdghklqwertyuiopzxcvbnmfjq"):gsub("g", ""):gsub("q", ""),
   },
   keys = {
     {

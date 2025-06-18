@@ -8,7 +8,6 @@ return {
   -- },
 
   { "markdown-preview.nvim", enabled = false },
-
   {
     -- md preview
     "toppair/peek.nvim",
