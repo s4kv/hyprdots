@@ -9,7 +9,6 @@ google-chrome-dev
 gray-git
 grimshot-bin-sway
 hererocks
-hyprshade-git
 hyprsome-git
 liberica-jdk-21-full-bin
 mongosh-bin
@@ -27,7 +26,6 @@ python-rlottie-python
 rauthy-bin
 rofi-lbonn-wayland-git
 rogauracore-git
-ryujinx-git
 vcvrack
 vtsls
 wired-git
