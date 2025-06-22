@@ -4,6 +4,8 @@
 
 [flavor]
 dark = "kanagawa-dragon"
+light = "kanagawa-dragon"
+# dark = "ayu-dark"
 # dark = "catppuccin-macchiato"
 # light = "catppuccin-macchiato"
 

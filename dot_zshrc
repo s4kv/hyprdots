@@ -61,7 +61,8 @@ alias cd='z'
 alias circuit-sim='java -jar /home/sakvi/gatech/cs2110/programs/CS2110-CircuitSim.jar'
 alias czmoie='chezmoi edit'
 alias czmoi='chezmoi'
-alias zen-browser='zenb'
+alias zenb='zen-browser'
+alias yz=yazi
 
 # xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
@@ -94,16 +95,20 @@ eval "$(zoxide init zsh)"
 eval $(thefuck --alias)
 
 # Cargo
-# export PATH="$PATH:$HOME/.cargo/bin"
+export PATH="$PATH:$HOME/.cargo/bin"
 
 # tmux
 # if [ -z "$TMUX" ]; then
 #     exec tmux
 # fi
 
+export PATH=$PATH:$HOME/.local/bin
 
 
 # Exports:
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 export JAVA_HOME=/usr/lib/jvm/liberica-jdk-21-full/
+# fix webkitgtk
+export __NV_DISABLE_EXPLICIT_SYNC=1
+
