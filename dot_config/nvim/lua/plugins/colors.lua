@@ -2,10 +2,28 @@ return {
   {
     "ramojus/mellifluous.nvim",
   },
+
+  {
+    "folke/tokyonight.nvim",
+    opts = {
+      transparent = true,
+      styles = {
+        sidebars = "transparent",
+        floats = "transparent",
+      },
+    },
+  },
   {
     "dgox16/oldworld.nvim",
     lazy = false,
     priority = 1000,
+    -- opts = {
+    --   transparent = true,
+    --   styles = {
+    --     sidebars = "transparent",
+    --     floats = "transparent",
+    --   },
+    -- },
   },
   {
     "mellow-theme/mellow.nvim",

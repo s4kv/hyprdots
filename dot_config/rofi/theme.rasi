@@ -1,3 +1,4 @@
+@import "colors.rasi"
 /* Gruvbox Dark */
 
 * {
@@ -36,10 +37,10 @@
 */
 
 * {
-  main-bg:        @bg0h;
-  main-fg:        @fg0;
-  main-br:        #7DAEA3;
-  input-bg:       @bg1;
-  select-bg:      #7DAEA3;
-  select-fg:      @bg0h;
+  main-bg:        @surface-container;
+  main-fg:        @on-surface;
+  main-br:        @primary;
+  input-bg:       @inverse-on-surface;
+  select-bg:      @secondary;
+  select-fg:      @surface-container;
 }

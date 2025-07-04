@@ -423,11 +423,11 @@ keymap = [
   { on = [
     "g",
     "p",
-  ], run = "cd ~/git/", desc = "Go to projects (~/git)" },
+  ], run = "cd ~/projects/", desc = "Go to projects (~/projects)" },
   { on = [
     "g",
     "f",
-  ], run = "cd ~/dotfiles/", desc = "Go to ~/dotfiles/" },
+  ], run = "cd ~/.local/share/chezmoi/", desc = "Go to ~/.local/share/chezmoi" },
   { on = [
     "g",
     "c",

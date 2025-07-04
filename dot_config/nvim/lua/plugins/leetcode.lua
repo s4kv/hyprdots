@@ -1,20 +1,12 @@
 return {
-    "kawre/leetcode.nvim",
-    build = ":TSUpdate html",
-    dependencies = {
-        "nvim-telescope/telescope.nvim",
-        "nvim-lua/plenary.nvim", -- required by telescope
-        "MunifTanjim/nui.nvim",
-
-        -- optional
-        "nvim-treesitter/nvim-treesitter",
-        "rcarriga/nvim-notify",
-        "nvim-tree/nvim-web-devicons",
-    },
-    opts = {
-        plugins = {
-            non_standalone = true,
-        }
-        -- configuration goes here
-    },
+  "kawre/leetcode.nvim",
+  build = ":TSUpdate html", -- if you have `nvim-treesitter` installed
+  dependencies = {
+    -- include a picker of your choice, see picker section for more details
+    "nvim-lua/plenary.nvim",
+    "MunifTanjim/nui.nvim",
+  },
+  opts = {
+    -- configuration goes here
+  },
 }
