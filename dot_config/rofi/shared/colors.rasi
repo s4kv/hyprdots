@@ -1,8 +1,10 @@
+@import "../colors.rasi"
+
 * {
-    background:     #110b0d;
-    background-alt: #262626;
-    foreground:     #8a989a;
-    selected:       #feffd3;
-    active:         #afb979;
-    urgent:         #dd7c4c;
+    background:     @on-secondary-fixed;
+    background-alt: @on-secondary-fixed-variant;
+    foreground:     @primary;
+    selected:       @tertiary-fixed;
+    active:         @on-surface;
+    urgent:         @error;
 }

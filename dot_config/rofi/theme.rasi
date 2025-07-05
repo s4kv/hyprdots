@@ -38,9 +38,9 @@
 
 * {
   main-bg:        @surface-container;
-  main-fg:        @on-surface;
+  main-fg:        @secondary;
   main-br:        @primary;
-  input-bg:       @inverse-on-surface;
-  select-bg:      @secondary;
-  select-fg:      @surface-container;
+  input-bg:       @tertiary;
+  select-bg:      @primary-fixed;
+  select-fg:      @inverse-on-surface;
 }
