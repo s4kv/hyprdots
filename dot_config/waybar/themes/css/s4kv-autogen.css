@@ -45,7 +45,7 @@
 @define-color main-bg #110B0D;
 @define-color main-br @text;
 
-@define-color active-bg #7DAEA3;
+@define-color active-bg @primary;
 @define-color active-fg @bg0_h;
 
 @define-color hover-bg @bg2;
@@ -60,7 +60,7 @@
 @define-color memory @bg1;
 @define-color cpu @bg2;
 @define-color distro-fg @black;
-@define-color distro-bg #7DAEA3;
+@define-color distro-bg @primary;
 @define-color time @bg2;
 @define-color date @bg1;
 @define-color tray @bg0;
@@ -68,7 +68,7 @@
 @define-color pulseaudio @bg0;
 @define-color backlight @bg1;
 @define-color battery @bg2;
-@define-color power #7DAEA3;
+@define-color power @primary;
 
 /* State Colors */
 
