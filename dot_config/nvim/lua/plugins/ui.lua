@@ -72,6 +72,11 @@ return {
       },
 
       picker = {
+        formatters = {
+          file = {
+            truncate = 100,
+          },
+        },
         sources = {
           autocmds = { layout = my_layout },
           buffers = { layout = my_layout },
@@ -135,12 +140,22 @@ return {
         win = {
           input = {
             keys = {
-              -- my-nvim-micro-plugins defines this
-              ["<C-y>"] = { "my_copy_relative_path", mode = { "n", "i" } },
+              -- yazi.nvim defines this
+              -- https://github.com/mikavilpas/yazi.nvim/blob/main/documentation/copy-relative-path-to-files.md
+              ["<C-y>"] = { "yazi_copy_relative_path", mode = { "n", "i" } },
             },
           },
         },
       },
+    },
+  },
+
+  {
+    "smear-cursor.nvim",
+    -- https://github.com/sphamba/smear-cursor.nvim
+    opts = {
+      smear_insert_mode = false,
+      never_draw_over_target = true,
     },
   },
 }
