@@ -1,1 +1,6 @@
 **/.api.conf
+
+**/.git/
+**/.git/**
+**/.gitignore
+!.config/nvim/.gitignore

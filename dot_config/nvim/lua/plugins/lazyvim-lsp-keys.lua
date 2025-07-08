@@ -1,0 +1,23 @@
+return {
+	-- -- Pull LazyVim in *only* as a code library (no options, no UI tweaks)
+	-- "LazyVim/LazyVim",
+	-- lazy = true, -- don’t auto-load anything
+	-- version = false, -- always latest
+	--
+	-- -- When any LSP client attaches, call LazyVim’s key-binding helper
+	-- config = function()
+	-- 	local lazy_keys = require("lazyvim.plugins.lsp.keymaps")
+	--
+	-- 	vim.api.nvim_create_autocmd("LspAttach", {
+	-- 		callback = function(args)
+	-- 			local bufnr = args.buf
+	-- 			local client = vim.lsp.get_client_by_id(args.data.client_id)
+	--
+	-- 			-- Re-use LazyVim’s on_attach: sets *all* its default LSP maps
+	-- 			if client and lazy_keys.on_attach then
+	-- 				lazy_keys.on_attach(client, bufnr)
+	-- 			end
+	-- 		end,
+	-- 	})
+	-- end,
+}
