@@ -1,6 +1,6 @@
 return {
 	"kawre/leetcode.nvim",
-	event = "VeryLazy",
+	-- event = "VeryLazy",
 	build = ":TSUpdate html", -- if you have `nvim-treesitter` installed
 	dependencies = {
 		-- include a picker of your choice, see picker section for more details

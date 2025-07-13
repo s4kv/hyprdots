@@ -172,8 +172,8 @@ vim.o.confirm = true
 
 -- no cmd "Press enter to continue" when using :messages
 
--- virtual lines for lsp
-vim.diagnostic.config({ virtual_lines = true })
+-- virtual lines for lsp now is toggled with <leader>ul
+-- vim.diagnostic.config({ virtual_lines = true })
 
 -- [[ Configure inlay hints ]]
 -- vim.lsp.inlay_hint.enable(true)
@@ -972,7 +972,7 @@ require("lazy").setup({
 
 			require("mini.icons").setup()
 
-			require("mini.pairs").setup()
+			-- require("mini.pairs").setup()
 
 			require("mini.sessions").setup()
 
@@ -1003,6 +1003,9 @@ require("lazy").setup({
 				"rust",
 				"ron",
 				"typst",
+				"markdown",
+				"markdown_inline",
+				"yaml",
 			},
 			-- Autoinstall languages that are not installed
 			auto_install = true,
@@ -1034,8 +1037,21 @@ require("lazy").setup({
 	--
 	require("kickstart.plugins.debug"),
 	-- require 'kickstart.plugins.indent_line',
-	-- require 'kickstart.plugins.lint',
-	-- require 'kickstart.plugins.autopairs',
+	require("kickstart.plugins.lint"),
+	-- linting for every lsp in mason
+	{
+		"rshkarin/mason-nvim-lint",
+		-- event = "VimEnter",
+		dependencies = { "williamboman/mason.nvim", "mfussenegger/nvim-lint" },
+
+		config = function()
+			require("mason-nvim-lint").setup({
+				automatic_installation = true, -- install any linters you’ve configured via nvim-lint
+				-- ensure_installed = { ... },  -- optionally force-install additional ones
+			})
+		end,
+	},
+	require("kickstart.plugins.autopairs"),
 	-- require 'kickstart.plugins.neo-tree',
 	require("kickstart.plugins.gitsigns"), -- adds gitsigns recommend keymaps
 

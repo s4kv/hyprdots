@@ -76,7 +76,8 @@ return {
 	},
 	{
 		"MeanderingProgrammer/render-markdown.nvim",
-		ft = { "markdown", "codecompanion" },
+		-- ft = { "markdown", "codecompanion" },
+		ft = { "codecompanion" },
 	},
 	-- {
 	--   "OXY2DEV/markview.nvim",

@@ -83,3 +83,15 @@ vim.keymap.set(
 
 -- wrap with leader u w toggle
 vim.keymap.set("n", "<leader>uw", "<cmd>ToggleWrapMode<CR>", { desc = "Toggle wrap" })
+
+-- toggle vim.diagnostic.config({ virtual_lines = true })
+vim.keymap.set("n", "<leader>ul", function()
+	local config = vim.diagnostic.config()
+	if not config then
+		vim.notify("Diagnostic config not found", vim.log.levels.ERROR)
+		return
+	end
+	local current = config.virtual_lines
+	local enabled = (current ~= nil) and current or false
+	vim.diagnostic.config({ virtual_lines = not enabled })
+end, { desc = "Toggle virtual lines" })
