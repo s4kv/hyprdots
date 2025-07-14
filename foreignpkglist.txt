@@ -9,8 +9,13 @@ google-chrome-dev
 gray-git
 grimshot-bin-sway
 hererocks
+heroic-games-launcher-bin-wayland-hook
 hyprsome-git
+java-lombok
 liberica-jdk-21-full-bin
+lombok-common
+matugen-bin
+mongodb-compass-beta-bin
 mongosh-bin
 neofetch
 nitch
@@ -21,8 +26,10 @@ prettierd
 python-fabric-git
 python-google-genai
 python-googlemaps
+python-jupyterlab-vim
 python-pygobject-stubs
 python-rlottie-python
+r2modman-appimage
 rauthy-bin
 rofi-lbonn-wayland-git
 rogauracore-git
