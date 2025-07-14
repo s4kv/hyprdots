@@ -1,5 +1,8 @@
 # kickstart.nvim
 
+# NOTES: HOW TO DONT BREAK THE CONFIG
+Make sure to have the correct location of your lambok jar file in `./ftplugin/java.lua`
+
 ## Introduction
 
 A starting point for Neovim that is:
