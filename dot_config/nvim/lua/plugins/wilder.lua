@@ -2,7 +2,9 @@
 return {
 	-- "ogaken-1/wilder.nvim", -- most updated fork
 	"gelguy/wilder.nvim", -- original repo, bit outdate
-	lazy = false,
+	-- lazy = false,
+	event = "CmdlineEnter", -- load when entering command line mode
+	build = ":UpdateRemotePlugins", -- required for remote plugins
 	-- event = "CmdlineEnter", -- load when entering command line mode
 	config = function()
 		local wilder = require("wilder")

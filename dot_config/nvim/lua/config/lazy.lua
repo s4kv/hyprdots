@@ -724,6 +724,42 @@ require("lazy").setup({
 		},
 	},
 
+	-- colorscheme
+	{
+		"ficcdaf/ashen.nvim",
+		lazy = false,
+		priority = 1000,
+		opts = {
+			style_presets = {
+				bold_functions = true,
+				italic_comments = true,
+			},
+
+			colors = {
+				-- red variations
+				red_flame = "#BF65FF",
+				red_glowing = "#d7bafb",
+				red_ember = "#eab5ee",
+
+				-- orange variations
+				--  orange_glow = "#D87C4A", -- Bright, glowing orange
+				-- orange_blaze = "#C4693D", -- Vibrant blaze orange
+				-- orange_smolder = "#E49A44",
+				orange_glow = "#afc9e7",
+				orange_blaze = "#81d5ce",
+				orange_smolder = "#cce8e4",
+			},
+		},
+
+		config = function(_, opts)
+			-- Load the colorscheme here.
+			-- Like many other themes, this one has different styles, and you could load
+			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
+			require("ashen").setup(opts)
+			vim.cmd.colorscheme("ashen")
+		end,
+	},
+
 	-- Highlight todo, notes, etc in comments
 	{
 		"folke/todo-comments.nvim",

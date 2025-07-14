@@ -9,5 +9,8 @@ return {
 	},
 	opts = {
 		-- configuration goes here
+		theme = {
+			normal = { fg = "#dddddd" },
+		},
 	},
 }

@@ -17,32 +17,33 @@ return {
 		-- 	vim.cmd.colorscheme("mellow")
 		-- end,
 	},
-	{
-		"ficcdaf/ashen.nvim",
-		lazy = false,
-		priority = 1000,
-		opts = {
-			style_presets = {
-				bold_functions = true,
-				italic_comments = true,
-			},
-
-			colors = {
-				-- red variations
-				red_flame = "#BF65FF",
-				red_glowing = "#d7bafb",
-				red_ember = "#eab5ee",
-
-				-- orange variations
-				--  orange_glow = "#D87C4A", -- Bright, glowing orange
-				-- orange_blaze = "#C4693D", -- Vibrant blaze orange
-				-- orange_smolder = "#E49A44",
-				orange_glow = "#afc9e7",
-				orange_blaze = "#81d5ce",
-				orange_smolder = "#cce8e4",
-			},
-		},
-	},
+	-- current color
+	-- {
+	-- 	"ficcdaf/ashen.nvim",
+	-- 	lazy = false,
+	-- 	priority = 1000,
+	-- 	opts = {
+	-- 		style_presets = {
+	-- 			bold_functions = true,
+	-- 			italic_comments = true,
+	-- 		},
+	--
+	-- 		colors = {
+	-- 			-- red variations
+	-- 			red_flame = "#BF65FF",
+	-- 			red_glowing = "#d7bafb",
+	-- 			red_ember = "#eab5ee",
+	--
+	-- 			-- orange variations
+	-- 			--  orange_glow = "#D87C4A", -- Bright, glowing orange
+	-- 			-- orange_blaze = "#C4693D", -- Vibrant blaze orange
+	-- 			-- orange_smolder = "#E49A44",
+	-- 			orange_glow = "#afc9e7",
+	-- 			orange_blaze = "#81d5ce",
+	-- 			orange_smolder = "#cce8e4",
+	-- 		},
+	-- 	},
+	-- },
 	{
 		"jesseleite/nvim-noirbuddy",
 		-- NOTE: Non-main background
