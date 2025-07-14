@@ -76,6 +76,7 @@
   "hyprland/workspaces": {
     "on-scroll-up": "hyprctl dispatch workspace -1",
     "on-scroll-down": "hyprctl dispatch workspace +1",
+    "format": "{name}",
     "persistent-workspaces": {
       "1": [],
       "2": [],
@@ -173,7 +174,7 @@
     },
     "tooltip-format-activated": "Presentation Mode",
     "tooltip-format-deactivated": "Idle Mode",
-    "start-activated": false
+    "start-activated": true
   },
   "clock#time": {
     "format": "{:%H:%M}",

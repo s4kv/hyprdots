@@ -112,7 +112,7 @@ require("lazy").setup({
 					D = "<D-…> ",
 					S = "<S-…> ",
 					CR = "<CR> ",
-					Esc = "<Esc> ",
+					Esc = "<Es c> ",
 					ScrollWheelDown = "<ScrollWheelDown> ",
 					ScrollWheelUp = "<ScrollWheelUp> ",
 					NL = "<NL> ",
@@ -136,9 +136,18 @@ require("lazy").setup({
 
 			-- Document existing key chains
 			spec = {
-				{ "<leader>s", group = "[S]earch" },
-				{ "<leader>t", group = "[T]oggle" },
+				{ "<leader>s", group = "Search" },
+				{ "<leader>t", group = "Toggle" },
 				{ "<leader>h", group = "Git [H]unk", mode = { "n", "v" } },
+				{ "<leader>c", group = "Code" },
+				{ "<leader>a", group = "Ai" },
+				{ "<leader>b", group = "Buffer" },
+				{ "<leader>d", group = "Debug" },
+				{ "<leader>f", group = "Files" },
+				{ "<leader>g", group = "Git" },
+				{ "<leader>m", group = "Misc" },
+				{ "<leader>u", group = "Ui" },
+				{ "<leader>q", group = "Sessions" },
 			},
 		},
 	},
@@ -280,11 +289,18 @@ require("lazy").setup({
 			"mason-org/mason-lspconfig.nvim",
 			"WhoIsSethDaniel/mason-tool-installer.nvim",
 
-			-- JAVA
-			-- { "nvim-java/nvim-java" },
-
 			-- Useful status updates for LSP.
-			{ "j-hui/fidget.nvim", opts = {} },
+			{
+				"j-hui/fidget.nvim",
+				opts = {
+					-- make it trasnparen
+					notification = {
+						window = {
+							winblend = 0,
+						},
+					},
+				},
+			},
 
 			-- Allows extra capabilities provided by blink.cmp
 			"saghen/blink.cmp",
@@ -335,27 +351,27 @@ require("lazy").setup({
 
 					-- Rename the variable under your cursor.
 					--  Most Language Servers support renaming across files, etc.
-					map("<leader>cr", vim.lsp.buf.rename, "[R]e[n]ame")
+					map("<leader>cr", vim.lsp.buf.rename, "Re-name")
 
 					-- Execute a code action, usually your cursor needs to be on top of an error
 					-- or a suggestion from your LSP for this to activate.
-					map("<leader>cA", vim.lsp.buf.code_action, "[G]oto Code [A]ction", { "n", "x" })
+					map("<leader>cA", vim.lsp.buf.code_action, "Code Action", { "n", "x" })
 
 					-- Find references for the word under your cursor.
-					map("<leader>ce", require("telescope.builtin").lsp_references, "[G]oto [R]eferences")
+					map("<leader>ce", require("telescope.builtin").lsp_references, "References")
 
 					-- Jump to the implementation of the word under your cursor.
 					--  Useful when your language has ways of declaring types without an actual implementation.
-					map("<leader>ci", require("telescope.builtin").lsp_implementations, "[G]oto [I]mplementation")
+					map("<leader>ci", require("telescope.builtin").lsp_implementations, "Implementation")
 
 					-- Jump to the definition of the word under your cursor.
 					--  This is where a variable was first declared, or where a function is defined, etc.
 					--  To jump back, press <C-t>.
-					map("<leader>cd", require("telescope.builtin").lsp_definitions, "[G]oto [D]efinition")
+					map("<leader>cd", require("telescope.builtin").lsp_definitions, "Definition")
 
 					-- WARN: This is not Goto Definition, this is Goto Declaration.
 					--  For example, in C this would take you to the header.
-					map("<leader>cD", vim.lsp.buf.declaration, "[G]oto [D]eclaration")
+					map("gD", vim.lsp.buf.declaration, "Declaration")
 
 					-- Fuzzy find all the symbols in your current document.
 					--  Symbols are things like variables, functions, types, etc.
@@ -368,7 +384,7 @@ require("lazy").setup({
 					-- Jump to the type of the word under your cursor.
 					--  Useful when you're not sure what type a variable is and you want to see
 					--  the definition of its *type*, not where it was *defined*.
-					map("<leader>ct", require("telescope.builtin").lsp_type_definitions, "[G]oto [T]ype Definition")
+					map("<leader>ct", require("telescope.builtin").lsp_type_definitions, "Type Definition")
 
 					-- This function resolves a difference between neovim nightly (version 0.11) and stable (version 0.10)
 					---@param client vim.lsp.Client
@@ -568,7 +584,7 @@ require("lazy").setup({
 					require("conform").format({ async = true, lsp_format = "fallback" })
 				end,
 				mode = "",
-				desc = "[F]ormat buffer",
+				desc = "Format buffer",
 			},
 		},
 		opts = {
@@ -631,12 +647,12 @@ require("lazy").setup({
 					-- `friendly-snippets` contains a variety of premade snippets.
 					--    See the README about individual language/framework/plugin snippets:
 					--    https://github.com/rafamadriz/friendly-snippets
-					-- {
-					--   'rafamadriz/friendly-snippets',
-					--   config = function()
-					--     require('luasnip.loaders.from_vscode').lazy_load()
-					--   end,
-					-- },
+					{
+						"rafamadriz/friendly-snippets",
+						config = function()
+							require("luasnip.loaders.from_vscode").lazy_load()
+						end,
+					},
 				},
 				opts = {},
 			},
@@ -706,21 +722,6 @@ require("lazy").setup({
 			-- Shows a signature help window while you type arguments for a function
 			signature = { enabled = true },
 		},
-	},
-
-	{ -- You can easily change to a different colorscheme.
-		-- Change the name of the colorscheme plugin below, and then
-		-- change the command in the config to whatever the name of that colorscheme is.
-		--
-		-- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-		"mellow-theme/mellow.nvim",
-		priority = 1000, -- Make sure to load this before all the other start plugins.
-		config = function()
-			-- Load the colorscheme here.
-			-- Like many other themes, this one has different styles, and you could load
-			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-			vim.cmd.colorscheme("mellow")
-		end,
 	},
 
 	-- Highlight todo, notes, etc in comments

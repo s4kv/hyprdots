@@ -9,7 +9,17 @@
 --
 require("config.options") -- Load options
 require("config.keymaps") -- Load keymaps
+require("config.autocmds") -- Load autocmds
 require("config.lazy") -- Load lazy.nvim plugins
+
+-- Set colorscheme
+vim.g.mellow_italic_functions = true
+vim.g.mellow_bold_functions = true
+vim.cmd.colorscheme("ashen")
+
+-- wilder
+local wilder = require("wilder")
+wilder.setup({ modes = { ":", "/", "?" } })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

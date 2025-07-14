@@ -14,7 +14,7 @@ vim.keymap.set("n", "<S-l>", "<Cmd>bnext<CR>", { desc = "Buffer: next" })
 vim.keymap.set("n", "<Esc>", "<cmd>nohlsearch<CR>")
 
 -- Diagnostic keymaps
-vim.keymap.set("n", "<leader>q", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
+vim.keymap.set("n", "<leader>x", vim.diagnostic.setloclist, { desc = "Open diagnostic [Q]uickfix list" })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -62,24 +62,6 @@ end, { desc = "Load last session" })
 vim.keymap.set("n", "<leader>qd", function()
 	require("persistence").stop()
 end, { desc = "Stop Persistence" })
-
--- neoclip fzf
-vim.keymap.set("n", "<leader>p", "<cmd>Telescope neoclip<CR>", { desc = "Neoclip FZF" })
-
--- rustacean nvim
-local bufnr = vim.api.nvim_get_current_buf()
-vim.keymap.set("n", "<leader>A", function()
-	vim.cmd.RustLsp("codeAction") -- supports rust-analyzer's grouping
-	-- or vim.lsp.buf.codeAction() if you don't want grouping.
-end, { silent = true, buffer = bufnr })
-vim.keymap.set(
-	"n",
-	"K", -- Override Neovim's built-in hover keymap with rustaceanvim's hover actions
-	function()
-		vim.cmd.RustLsp({ "hover", "actions" })
-	end,
-	{ silent = true, buffer = bufnr }
-)
 
 -- wrap with leader u w toggle
 vim.keymap.set("n", "<leader>uw", "<cmd>ToggleWrapMode<CR>", { desc = "Toggle wrap" })
