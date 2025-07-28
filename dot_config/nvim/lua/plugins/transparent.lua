@@ -26,6 +26,7 @@ return {
 		require("transparent").clear_prefix("BufferLine")
 		require("transparent").clear_prefix("TabLine")
 		require("transparent").clear_prefix("WildMenu")
+		-- require("transparent").clear_prefix("Markview")
 
 		-- Optional: start Neovim with transparency off and let the user toggle.
 		-- Comment this line if you want transparency ON by default.

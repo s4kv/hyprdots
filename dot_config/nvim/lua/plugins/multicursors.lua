@@ -34,12 +34,13 @@ return {
 		vim.keymap.set({ "n", "v" }, "<leader>mx", mc.deleteCursor, { desc = "delete cursor" })
 		vim.keymap.set({ "n", "v" }, "<leader>mA", mc.alignCursors, { desc = "align cursors" })
 
-		vim.keymap.set({ "v" }, "I", function()
-			require("my-nvim-micro-plugins.multicursors").add_multicursors_at_line_starts()
-		end)
+		vim.keymap.set(
+			{ "v", "x" },
+			"I",
+			mc.insertVisual,
+			{ desc = "multicursor: insert at line start", silent = true }
+		)
 
-		vim.keymap.set({ "v" }, "A", function()
-			require("my-nvim-micro-plugins.multicursors").add_multicursors_at_line_ends()
-		end)
+		vim.keymap.set({ "v", "x" }, "A", mc.appendVisual, { desc = "multicursor: append at line end", silent = true })
 	end,
 }

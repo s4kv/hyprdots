@@ -2,7 +2,7 @@ return {
 	-- md preview
 	"toppair/peek.nvim",
 	lazy = true,
-	event = { "VeryLazy" },
+	ft = { "markdown" },
 	build = "deno task --quiet build:fast",
 	keys = {
 		{

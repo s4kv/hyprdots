@@ -1,6 +1,6 @@
 #!/bin/bash
 swww-daemon &
-sleep 0.1
+sleep 2
 file=$(find ~/Wallpaper/loop-wall/ -type f | shuf -n 1)
 
 if [[ -n "$file" ]]; then

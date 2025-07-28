@@ -627,12 +627,14 @@ require("lazy").setup({
 
 	{ -- Autocompletion
 		"saghen/blink.cmp",
-		event = "VimEnter",
+		-- NOTE: Changed to InsertEnter from VimEnter
+		event = "InsertEnter",
 		version = "1.*",
 		dependencies = {
 			-- Snippet Engine
 			{
 				"L3MON4D3/LuaSnip",
+				event = "InsertEnter",
 				version = "2.*",
 				build = (function()
 					-- Build Step is needed for regex support in snippets.
@@ -649,6 +651,7 @@ require("lazy").setup({
 					--    https://github.com/rafamadriz/friendly-snippets
 					{
 						"rafamadriz/friendly-snippets",
+						event = "InsertEnter",
 						config = function()
 							require("luasnip.loaders.from_vscode").lazy_load()
 						end,
@@ -735,9 +738,41 @@ require("lazy").setup({
 				italic_comments = true,
 			},
 
+			plugins = {
+				-- keep autoload on, but *skip* lualine
+				override = { "lualine" },
+				-- (or set autoload=false if you’d rather
+				--  enable integrations manually)
+			},
+
+			hl = {
+				-- completely overwrite the default for error underlines
+				force_override = {
+					-- ["@lsp.type.class.java"] = { "#eab5ee", nil, { bold = true } },
+					-- ["@lsp.type.interface.java"] = { "#eab5ee", nil, { bold = true } },
+					-- ["@lsp.modifier.static"] = { "#00dfff" },
+					-- link helpers (alternative):
+					-- ["@lsp.type.class.java"]   = { link = "@type.definition" },
+					--
+					--            fg  , bg  , style-table
+					DiagnosticUnderlineError = {
+						nil,
+						nil, -- keep the current fg / bg
+						{
+							underdouble = false, -- ⟵ double line
+							underline = true, -- ⟵ solid line
+							undercurl = false, -- turn the dots off
+							-- sp = "#BF65FF",
+							sp = "#8755E1",
+						}, -- underline colour
+					},
+				},
+			},
+
 			colors = {
 				-- red variations
-				red_flame = "#BF65FF",
+				-- red_flame = "#BF65FF",
+				red_flame = "#8755E1",
 				red_glowing = "#d7bafb",
 				red_ember = "#eab5ee",
 
@@ -751,13 +786,13 @@ require("lazy").setup({
 			},
 		},
 
-		config = function(_, opts)
-			-- Load the colorscheme here.
-			-- Like many other themes, this one has different styles, and you could load
-			-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
-			require("ashen").setup(opts)
-			vim.cmd.colorscheme("ashen")
-		end,
+		-- config = function(_, opts)
+		-- 	-- Load the colorscheme here.
+		-- 	-- Like many other themes, this one has different styles, and you could load
+		-- 	-- any other, such as 'tokyonight-storm', 'tokyonight-moon', or 'tokyonight-day'.
+		-- 	require("ashen").setup(opts)
+		-- 	vim.cmd.colorscheme("ashen")
+		-- end,
 	},
 
 	-- Highlight todo, notes, etc in comments
@@ -784,7 +819,17 @@ require("lazy").setup({
 			-- - saiw) - [S]urround [A]dd [I]nner [W]ord [)]Paren
 			-- - sd'   - [S]urround [D]elete [']quotes
 			-- - sr)'  - [S]urround [R]eplace [)] [']
-			require("mini.surround").setup()
+			require("mini.surround").setup({
+				mappings = {
+					add = "gsa",
+					delete = "gsd",
+					find = "gsf",
+					find_left = "gsF",
+					highlight = "gsh",
+					replace = "gsr",
+					update_n_lines = "gsn",
+				},
+			})
 
 			-- Simple and easy statusline.
 			--  You could remove this setup call if you don't like it,
@@ -812,6 +857,12 @@ require("lazy").setup({
 
 			require("mini.ai").setup({
 				n_lines = 500, -- Number of lines to consider for surrounding textobjects
+			})
+
+			require("mini.splitjoin").setup({
+				mappings = {
+					toggle = "<cr>",
+				},
 			})
 		end,
 	},
@@ -923,4 +974,5 @@ require("lazy").setup({
 	change_detection = {
 		notify = false,
 	},
+	install = { colorscheme = { "ashen" } }, -- Automatically install the colorscheme
 })

@@ -93,38 +93,38 @@ return {
 			require("ts-node-action").setup(opts)
 		end,
 	},
-	{
-		-- https://github.com/Wansmer/treesj
-		-- Neovim plugin for splitting/joining blocks of code
-
-		"Wansmer/treesj",
-		lazy = true,
-		event = "BufRead",
-		keys = {
-			{
-				"<enter>",
-				function()
-					local is_writeable = vim.api.nvim_buf_get_option(0, "modifiable")
-
-					-- work around some issues with the quickfix window
-					if is_writeable then
-						require("treesj").toggle()
-					else
-						vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<cr>", true, true, true), "n", true)
-					end
-				end,
-				{ noremap = true, silent = true },
-				desc = "Toggle treesj",
-			},
-		},
-		opts = {
-			use_default_keymaps = false,
-		},
-		cmd = {
-			"TSJToggle",
-			"TSJSplit",
-			"TSJJoin",
-		},
-		dependencies = { "nvim-treesitter/nvim-treesitter" },
-	},
+	-- {
+	-- 	-- https://github.com/Wansmer/treesj
+	-- 	-- Neovim plugin for splitting/joining blocks of code
+	--
+	-- 	"Wansmer/treesj",
+	-- 	lazy = true,
+	-- 	event = "BufRead",
+	-- 	keys = {
+	-- 		{
+	-- 			"<enter>",
+	-- 			function()
+	-- 				local is_writeable = vim.api.nvim_buf_get_option(0, "modifiable")
+	--
+	-- 				-- work around some issues with the quickfix window
+	-- 				if is_writeable then
+	-- 					require("treesj").toggle()
+	-- 				else
+	-- 					vim.api.nvim_feedkeys(vim.api.nvim_replace_termcodes("<cr>", true, true, true), "n", true)
+	-- 				end
+	-- 			end,
+	-- 			{ noremap = true, silent = true },
+	-- 			desc = "Toggle treesj",
+	-- 		},
+	-- 	},
+	-- 	opts = {
+	-- 		use_default_keymaps = false,
+	-- 	},
+	-- 	cmd = {
+	-- 		"TSJToggle",
+	-- 		"TSJSplit",
+	-- 		"TSJJoin",
+	-- 	},
+	-- 	dependencies = { "nvim-treesitter/nvim-treesitter" },
+	-- },
 }
