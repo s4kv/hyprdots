@@ -1,6 +1,5 @@
 7zip
 alsa-utils
-android-sdk
 ani-cli
 appmenu-gtk-module
 aquamarine
@@ -14,12 +13,15 @@ blackarch-officials
 blueman
 bluetui
 bluez-utils
+bottles
 bottom
 brightnessctl
 btop
+bun-bin
 calligraphy
 cargo-binstall
 cargo-generate
+cargo-tauri
 cava
 chaotic-keyring
 chaotic-mirrorlist
@@ -29,6 +31,7 @@ clipcat
 cliphist
 cmatrix
 code
+conan
 curseforge
 dart-sass
 deno
@@ -55,6 +58,7 @@ firefox-tridactyl-native
 flatpak
 fnm
 fzf
+gamescope-nvidia
 geckodriver
 ghostty
 git
@@ -97,6 +101,7 @@ imv
 inotify-tools
 java-lombok
 jdk-openjdk
+jdk17-openjdk
 jdk21-openjdk
 jupyter-lsp
 jupyter-notebook
@@ -117,7 +122,9 @@ libva-nvidia-driver
 linux
 linux-firmware
 linux-headers
+linuxdeploy-appimage
 lombok-common
+love
 luarocks
 lutris
 mako
@@ -138,14 +145,16 @@ network-manager-applet
 networkmanager
 ngrok
 nitch
+nix
 nodejs
 nodejs-nodemon
 noto-fonts-emoji
-nvidia-open-dkms
+nvidia-dkms
 nvidia-prime
 nvidia-prime-rtd3pm
 nvidia-settings
 nvidia-utils
+nwg-displays
 nwg-look
 obs-studio
 os-prober
@@ -228,6 +237,7 @@ steam
 stow
 stremio
 supergfxctl
+supertuxkart
 swayidle
 swww
 tesseract-data-eng
@@ -235,7 +245,6 @@ texlive-basic
 texlive-bibtexextra
 texlive-binextra
 texlive-context
-texlive-fontsextra
 texlive-fontsrecommended
 texlive-fontutils
 texlive-formatsextra
@@ -292,7 +301,6 @@ ttf-dejavu-nerd
 ttf-envycoder-nerd
 ttf-fantasque-nerd
 ttf-firacode-nerd
-ttf-font-awesome
 ttf-go-nerd
 ttf-gohu-nerd
 ttf-hack-nerd
@@ -340,11 +348,13 @@ update-grub
 uwsm
 vcvrack
 ventoy-bin
+vesktop-git
 vi
 vim
 vlc
 vtsls
 vulkan-radeon
+vulkan-tools
 vulkan-validation-layers
 w3m
 waybar
@@ -357,6 +367,7 @@ wl-clipboard
 wlrobs-hg
 wlroots0.18
 woeusbgui
+woff2-font-awesome
 wofi
 wofimoji
 wpa_supplicant
@@ -409,10 +420,12 @@ xorg-xwd
 xorg-xwininfo
 xorg-xwud
 xterm
-xwaylandvideobridge
+xwaylandvideobridge-git
 yazi-git
 ydotool
 youtube-music-bin
+zathura
+zathura-pdf-mupdf
 zen-browser-bin
 zf
 zoom

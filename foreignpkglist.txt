@@ -1,9 +1,11 @@
 asusctl-git
 calligraphy
+conan
 curseforge
 excalidraw-cli
 firebase-tools-bin
 firefox-tridactyl-native
+gamescope-nvidia
 glava
 google-chrome-dev
 gray-git
@@ -13,6 +15,7 @@ heroic-games-launcher-bin-wayland-hook
 hyprsome-git
 java-lombok
 liberica-jdk-21-full-bin
+linuxdeploy-appimage
 lombok-common
 matugen-bin
 mongodb-compass-beta-bin
@@ -38,5 +41,5 @@ vtsls
 wired-git
 woeusbgui
 wofimoji
-xwaylandvideobridge
+xwaylandvideobridge-git
 zf
