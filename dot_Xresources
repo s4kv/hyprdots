@@ -1,0 +1,36 @@
+! /*Xft.dpi: 192*/
+! Xft.dpi: 144
+! Xft.dpi: 112
+Xft.dpi: 112
+
+! These might also be useful depending on your monitor and personal preference:
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+
+
+*.background:           #110b0d
+*.foreground:           #feffd3
+*.cursor:               #ffffff
+*.selection_background: #7daea3
+*.color0:               #141414
+*.color8:               #262626
+*.color1:               #c06c43
+*.color9:               #dd7c4c
+*.color2:               #afb979
+*.color10:              #cbd88c
+*.color3:               #c2a86c
+*.color11:              #e1c47d
+*.color4:               #444649
+*.color12:              #5a5d61
+*.color5:               #b4be7b
+*.color13:              #d0db8e
+*.color6:               #778284
+*.color14:              #8a989a
+*.color7:               #feffd3
+*.color15:              #feffd3
+*.selection_foreground: #141414
