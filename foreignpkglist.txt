@@ -13,6 +13,8 @@ hererocks
 heroic-games-launcher-bin-wayland-hook
 hyprsome-git
 java-lombok
+kindd
+libayatana-appindicator-glib
 liberica-jdk-21-full-bin
 linuxdeploy-appimage
 lombok-common
@@ -35,6 +37,8 @@ r2modman-appimage
 rauthy-bin
 rofi-lbonn-wayland-git
 rogauracore-git
+udiskie-dmenu-git
+udisksvm
 vcvrack
 vtsls
 wired-git

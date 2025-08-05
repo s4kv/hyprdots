@@ -75,11 +75,13 @@ go
 google-chrome-dev
 google-cloud-cli
 gparted
+gptfdisk
 gray-git
 greetd-tuigreet
 grim
 grimblast-git
 grub
+gvfs
 hererocks
 heroic-games-launcher-bin-wayland-hook
 hypridle
@@ -108,12 +110,14 @@ jupyterlab
 jupyterlab-lsp
 kdesdk-thumbnailers
 kimageformats
+kindd
 kitty
 kompare
 lazydocker
 lazygit
 lib32-pipewire-jack
 libappimage
+libayatana-appindicator-glib
 liberica-jdk-21-full-bin
 libgme
 libreoffice-fresh
@@ -183,6 +187,7 @@ pipewire
 pipewire-pulse
 plymouth
 polybar
+popsicle
 postgresql
 postman-bin
 power-profiles-daemon
@@ -343,6 +348,9 @@ ttf-zed-mono-nerd
 typescript
 typos
 typst
+udiskie
+udiskie-dmenu-git
+udisksvm
 update-grub
 uwsm
 vcvrack
