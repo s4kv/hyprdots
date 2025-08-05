@@ -79,7 +79,6 @@ gray-git
 greetd-tuigreet
 grim
 grimblast-git
-grimshot-bin-sway
 grub
 hererocks
 heroic-games-launcher-bin-wayland-hook
@@ -359,7 +358,9 @@ vulkan-validation-layers
 w3m
 waybar
 waypaper-git
+wev
 wf-recorder
+wine-mono
 wired-git
 wireplumber
 wl-clip-persist

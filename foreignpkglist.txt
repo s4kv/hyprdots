@@ -9,7 +9,6 @@ gamescope-nvidia
 glava
 google-chrome-dev
 gray-git
-grimshot-bin-sway
 hererocks
 heroic-games-launcher-bin-wayland-hook
 hyprsome-git
