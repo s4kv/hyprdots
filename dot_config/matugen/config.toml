@@ -51,3 +51,7 @@ post_hook = 'makoctl reload'
 input_path = '~/.config/matugen/templates/zathura-colors'
 output_path = '~/.config/zathura/zathurarc'
 
+[templates.wallpaper]
+input_path = '~/.config/matugen/templates/boot-wall.sh'
+output_path = '~/.config/hypr/boot-wall.sh'
+post_hook = 'chmod +x ~/.config/hypr/boot-wall.sh'

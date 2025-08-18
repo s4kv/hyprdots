@@ -174,7 +174,7 @@
     },
     "tooltip-format-activated": "Presentation Mode",
     "tooltip-format-deactivated": "Idle Mode",
-    "start-activated": true
+    "start-activated": false
   },
   "clock#time": {
     "format": "{:%H:%M}",

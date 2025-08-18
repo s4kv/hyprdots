@@ -8,13 +8,13 @@ sort=-time
 output=DP-2
 layer=overlay
 anchor=top-right
-background-color=#3f4178
+background-color=#533b72
 width=300
 height=110
 margin=5
 padding=0,5,10
 border-size=2
-border-color=#c0c1ff
+border-color=#d7bafb
 border-radius=15
 icons=1
 max-icon-size=64
@@ -23,18 +23,18 @@ ignore-timeout=1
 
 [urgency=normal]
 border-color=#ffb4ab
-background-color=#2e2f42
+background-color=#352d40
 
 [urgency=high]
 border-color=#ffb4ab
-background-color=#46263b
+background-color=#4b252d
 default-timeout=0
 
 [app-name=lightcord]
-border-color=#c5c4dd
+border-color=#cfc2da
 
 [summary~="log-.*"]
-border-color=#e8b9d4
+border-color=#f2b7c1
 
 [app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
 invisible=1
