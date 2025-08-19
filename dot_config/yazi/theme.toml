@@ -5,7 +5,7 @@ cwd = { fg = "#e7e0e8" }
 
 # Tab
 tab_active = { fg = "#3c255a", bg = "#d7bafb", bold = true }
-tab_inactive = { fg = "#eddcff", bg = "#260e44" }
+tab_inactive = { fg = "#eedcff", bg = "#260d44" }
 tab_width = 1
 
 # Find
@@ -19,8 +19,8 @@ marker_marked = { fg = "#ffb4ab", bg = "#ffb4ab" }
 marker_selected = { fg = "#f2b7c1", bg = "#f2b7c1" }
 
 # Count
-count_copied = { fg = "#321019", bg = "#ffd9de" }
-count_cut = { fg = "#321019", bg = "#ffd9de" }
+count_copied = { fg = "#321018", bg = "#ffd9de" }
+count_cut = { fg = "#321018", bg = "#ffd9de" }
 count_selected = { fg = "#3c255a", bg = "#f2b7c1" }
 
 # Border
@@ -60,7 +60,7 @@ permissions_t = { fg = "#8463a0" }
 permissions_w = { fg = "#db3551" }
 permissions_x = { fg = "#ff2b12" }
 permissions_r = { fg = "#ff4059" }
-permissions_s = { fg = "#9e43ff" }
+permissions_s = { fg = "#a443ff" }
 
 # : ]]]
 
