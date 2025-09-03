@@ -5,10 +5,7 @@ curseforge
 excalidraw-cli
 firebase-tools-bin
 firefox-tridactyl-native
-gamescope-nvidia
 glava
-google-chrome-dev
-gray-git
 hererocks
 heroic-games-launcher-bin-wayland-hook
 hyprsome-git
@@ -37,10 +34,12 @@ r2modman-appimage
 rauthy-bin
 rofi-lbonn-wayland-git
 rogauracore-git
+ttf-font-awesome-5
 udiskie-dmenu-git
 udisksvm
 vcvrack
 vtsls
+walker-bin
 wired-git
 woeusbgui
 wofimoji

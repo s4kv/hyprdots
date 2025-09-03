@@ -58,7 +58,7 @@ firefox-tridactyl-native
 flatpak
 fnm
 fzf
-gamescope-nvidia
+gamescope
 geckodriver
 ghostty
 git
@@ -72,11 +72,10 @@ gnome-bluetooth
 gnome-bluetooth-3.0
 gnome-multi-writer
 go
-google-chrome-dev
+google-chrome
 google-cloud-cli
 gparted
 gptfdisk
-gray-git
 greetd-tuigreet
 grim
 grimblast-git
@@ -115,6 +114,9 @@ kitty
 kompare
 lazydocker
 lazygit
+lib32-gamemode
+lib32-mangohud
+lib32-nvidia-utils
 lib32-pipewire-jack
 libappimage
 libayatana-appindicator-glib
@@ -131,6 +133,8 @@ love
 luarocks
 lutris
 mako
+mangohud
+mangojuice
 matrix-synapse
 matugen-bin
 maven
@@ -186,6 +190,7 @@ pipes.sh
 pipewire
 pipewire-pulse
 plymouth
+pokemon-colorscripts-git
 polybar
 popsicle
 postgresql
@@ -194,6 +199,8 @@ power-profiles-daemon
 presenterm
 prettierd
 prismlauncher
+proton-ge-custom-bin
+protonplus
 pyright
 python-aiohttp
 python-debugpy
@@ -249,6 +256,7 @@ texlive-basic
 texlive-bibtexextra
 texlive-binextra
 texlive-context
+texlive-fontsextra
 texlive-fontsrecommended
 texlive-fontutils
 texlive-formatsextra
@@ -305,6 +313,8 @@ ttf-dejavu-nerd
 ttf-envycoder-nerd
 ttf-fantasque-nerd
 ttf-firacode-nerd
+ttf-font-awesome-4
+ttf-font-awesome-5
 ttf-go-nerd
 ttf-gohu-nerd
 ttf-hack-nerd
@@ -364,11 +374,13 @@ vulkan-radeon
 vulkan-tools
 vulkan-validation-layers
 w3m
+walker-bin
 waybar
 waypaper-git
 wev
 wf-recorder
 wine-mono
+winetricks
 wired-git
 wireplumber
 wl-clip-persist

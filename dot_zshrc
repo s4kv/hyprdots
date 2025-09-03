@@ -65,6 +65,7 @@ alias zenb='zen-browser'
 alias vim='nvim'
 alias hs='pkill hyprsunset ; nohup hyprsunset -g 50 -t 4000 | tee &'
 alias hsk='pkill hyprsunset'
+alias op='xdg-open'
 
 # xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
