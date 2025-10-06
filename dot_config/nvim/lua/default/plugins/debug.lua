@@ -100,9 +100,9 @@ return {
 				-- Update this to ensure that you have the debuggers for the langs you want
 				"delve",
 				"dap-python",
-				"java-debug-adapter",
-				"java-test",
-				"java",
+				-- "java-debug-adapter",
+				-- "java-test",
+				-- "java",
 			},
 		})
 

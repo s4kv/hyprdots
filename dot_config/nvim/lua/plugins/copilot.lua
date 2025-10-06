@@ -6,7 +6,8 @@ return {
 		-- ../../../../../.local/share/nvim/lazy/copilot.lua/lua/copilot/config.lua
 		cmd = "Copilot",
 		build = ":Copilot auth",
-		event = "InsertEnter",
+		-- -- with this off, copilot will only start when using copilot enable
+		-- event = "InsertEnter",
 		opts = {
 			-- https://github.com/zbirenbaum/copilot.lua?tab=readme-ov-file#setup-and-configuration
 			suggestion = {

@@ -278,6 +278,24 @@ require("lazy").setup({
 		},
 	},
 	{
+		"nvim-java/nvim-java",
+		ft = "java",
+		opts = {
+			spring_boot_tools = { enable = false },
+			java_test = { enable = false },
+			java_debug_adapter = { enable = false },
+		},
+
+		config = function(_, opts)
+			require("java").setup(opts)
+
+			-- Choose ONE of the following:
+
+			-- (B) Legacy (if you rely on nvim-java’s lspconfig wiring/bundles)
+			require("lspconfig").jdtls.setup({})
+		end,
+	},
+	{
 		-- Main LSP Configuration
 		"neovim/nvim-lspconfig",
 		event = { "BufReadPre", "BufNewFile" },
@@ -288,7 +306,6 @@ require("lazy").setup({
 			{ "mason-org/mason.nvim", opts = {} },
 			"mason-org/mason-lspconfig.nvim",
 			"WhoIsSethDaniel/mason-tool-installer.nvim",
-
 			-- Useful status updates for LSP.
 			{
 				"j-hui/fidget.nvim",
@@ -526,6 +543,29 @@ require("lazy").setup({
 				},
 			}
 
+			-- require("java").setup({
+			-- 	-- Your custom nvim-java settings goes here
+			-- })
+			--
+			-- require("lspconfig").jdtls.setup({})
+
+			-- vim.lsp.config("jdtls", {
+			-- 	-- Your custom jdtls configuration goes here
+			-- })
+
+			-- vim.lsp.enable("jdtls") -- starts it (filetype-aware)
+
+			-- The following loop will configure each server with the capabilities we defined above.
+			-- This will ensure that all servers have the same base configuration, but also
+			-- allow for server-specific overrides.
+			for server_name, server_config in pairs(servers) do
+				server_config.capabilities =
+					vim.tbl_deep_extend("force", {}, capabilities, server_config.capabilities or {})
+				vim.lsp.config(server_name, server_config)
+			end
+
+			vim.lsp.enable(vim.tbl_keys(servers))
+
 			-- Ensure the servers and tools above are installed
 			--
 			-- To check the current status of installed tools and/or manually install
@@ -556,18 +596,18 @@ require("lazy").setup({
 						-- by the server configuration above. Useful when disabling
 						-- certain features of an LSP (for example, turning off formatting for ts_ls)
 						server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
-						require("lspconfig")[server_name].setup(server)
+						vim.lsp.config(server_name, server)
 					end,
 
-					jdtls = function()
-						require("java").setup({
-							-- Your custom jdtls settings goes here
-						})
-
-						require("lspconfig").jdtls.setup({
-							-- Your custom nvim-java configuration goes here
-						})
-					end,
+					-- jdtls = function()
+					-- 	require("java").setup({
+					-- 		-- Your custom jdtls settings goes here
+					-- 	})
+					--
+					-- 	require("lspconfig").jdtls.setup({
+					-- 		-- Your custom nvim-java configuration goes here
+					-- 	})
+					-- end,
 				},
 			})
 		end,
@@ -807,7 +847,7 @@ require("lazy").setup({
 	},
 
 	{ -- Collection of various small independent plugins/modules
-		"echasnovski/mini.nvim",
+		"nvim-mini/mini.nvim",
 		config = function()
 			-- Better Around/Inside textobjects
 			--
