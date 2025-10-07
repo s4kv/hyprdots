@@ -4,7 +4,6 @@ conan
 curseforge
 excalidraw-cli
 firebase-tools-bin
-firefox-tridactyl-native
 glava
 hererocks
 heroic-games-launcher-bin-wayland-hook

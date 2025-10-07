@@ -26,7 +26,6 @@ cava
 chaotic-keyring
 chaotic-mirrorlist
 chezmoi
-citron-git
 clipcat
 cliphist
 cmatrix
@@ -61,6 +60,7 @@ fzf
 gamescope
 geckodriver
 ghostty
+gimp
 git
 git-filter-repo
 git-lfs
@@ -145,6 +145,7 @@ mongodb
 mongodb-compass-beta-bin
 mongosh-bin
 mpvpaper
+mullvad-vpn
 nano
 ncdu
 neofetch
