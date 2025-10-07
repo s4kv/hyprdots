@@ -25,7 +25,6 @@ nvidia-prime-rtd3pm
 pipes.sh
 prettierd
 python-fabric-git
-python-google-genai
 python-googlemaps
 python-jupyterlab-vim
 python-pygobject-stubs

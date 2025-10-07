@@ -95,6 +95,7 @@ hyprshade
 hyprshot
 hyprsome-git
 hyprsunset
+hyprutils
 icoutils
 imagemagick
 imv
@@ -156,6 +157,7 @@ nix
 nodejs
 nodejs-nodemon
 noto-fonts-emoji
+npm
 nvidia-dkms
 nvidia-prime
 nvidia-prime-rtd3pm
@@ -208,7 +210,6 @@ python-django
 python-dotenv
 python-fabric-git
 python-fuzzyfinder
-python-google-genai
 python-googlemaps
 python-ipykernel
 python-jupyterlab-vim
