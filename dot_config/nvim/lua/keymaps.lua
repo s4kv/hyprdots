@@ -1,0 +1,138 @@
+-- [[ Basic Keymaps ]]
+--  See `:help vim.keymap.set()`
+
+-- Save file with <C-s>
+vim.keymap.set({ 'n', 'v' }, '<C-s>', '<Cmd>w<CR>', { desc = 'Save file' })
+vim.keymap.set('i', '<C-s>', '<Esc><Cmd>w<CR>', { desc = 'Save file' })
+
+-- Move through buffers with <S-h> and <S-l>
+vim.keymap.set('n', '<S-h>', '<Cmd>bprevious<CR>', { desc = 'Buffer: previous' })
+vim.keymap.set('n', '<S-l>', '<Cmd>bnext<CR>', { desc = 'Buffer: next' })
+
+-- Clear highlights on search when pressing <Esc> in normal mode
+--  See `:help hlsearch`
+vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
+
+-- Diagnostic keymaps
+vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+
+-- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
+-- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
+-- is not what someone will guess without a bit more experience.
+--
+-- NOTE: This won't work in all terminal emulators/tmux/etc. Try your own mapping
+-- or just use <C-\><C-n> to exit terminal mode
+vim.keymap.set('t', '<Esc><Esc>', '<C-\\><C-n>', { desc = 'Exit terminal mode' })
+
+-- TIP: Disable arrow keys in normal mode
+-- vim.keymap.set('n', '<left>', '<cmd>echo "Use h to move!!"<CR>')
+-- vim.keymap.set('n', '<right>', '<cmd>echo "Use l to move!!"<CR>')
+-- vim.keymap.set('n', '<up>', '<cmd>echo "Use k to move!!"<CR>')
+-- vim.keymap.set('n', '<down>', '<cmd>echo "Use j to move!!"<CR>')
+
+-- Keybinds to make split navigation easier.
+--  Use CTRL+<hjkl> to switch between windows
+--
+--  See `:help wincmd` for a list of all window commands
+vim.keymap.set('n', '<C-h>', '<C-w><C-h>', { desc = 'Move focus to the left window' })
+vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right window' })
+vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
+vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
+
+vim.keymap.set({ 'n', 'i', 'v' }, '<leader>|', '<cmd>vsplit<CR>', { desc = 'Split window vertically' })
+vim.keymap.set({ 'n', 'i', 'v' }, '<leader>-', '<cmd>split<CR>', { desc = 'Split window horizontally' })
+
+-- NOTE: Some terminals have colliding keymaps or are not able to send distinct keycodes
+-- vim.keymap.set("n", "<C-S-h>", "<C-w>H", { desc = "Move window to the left" })
+-- vim.keymap.set("n", "<C-S-l>", "<C-w>L", { desc = "Move window to the right" })
+-- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
+-- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
+
+vim.keymap.set('n', '<leader>qs', function()
+  require('persistence').load()
+end, { desc = 'load session for current directory' })
+
+-- select a session to load
+vim.keymap.set('n', '<leader>qs', function()
+  require('persistence').select()
+end, { desc = 'select a session to load' })
+
+-- load the last session
+vim.keymap.set('n', '<leader>ql', function()
+  require('persistence').load { last = true }
+end, { desc = 'load last session' })
+
+-- stop persistence => session won't be saved on exit
+vim.keymap.set('n', '<leader>qd', function()
+  require('persistence').stop()
+end, { desc = 'stop persistence' })
+
+-- wrap with leader u w toggle
+vim.keymap.set('n', '<leader>uw', '<cmd>togglewrapmode<cr>', { desc = 'toggle wrap' })
+
+-- toggle vim.diagnostic.config({ virtual_lines = true })
+vim.keymap.set('n', '<leader>ul', function()
+  local config = vim.diagnostic.config()
+  if not config then
+    vim.notify('diagnostic config not found', vim.log.levels.error)
+    return
+  end
+  local current = config.virtual_lines
+  local enabled = (current ~= nil) and current or false
+  vim.diagnostic.config { virtual_lines = not enabled }
+end, { desc = 'toggle virtual lines' })
+
+-- autoformat
+vim.api.nvim_create_user_command('FormatDisable', function(args)
+  if args.bang then
+    -- formatdisable! will disable formatting just for this buffer
+    vim.b.disable_autoformat = true
+  else
+    vim.g.disable_autoformat = true
+  end
+end, {
+  desc = 'disable autoformat-on-save',
+  bang = true,
+})
+vim.api.nvim_create_user_command('FormatEnable', function()
+  vim.b.disable_autoformat = false
+  vim.g.disable_autoformat = false
+end, {
+  desc = 're-enable autoformat-on-save',
+})
+
+-- <leader>uf for toggle autoformat
+vim.keymap.set('n', '<leader>uf', function()
+  local current = vim.g.disable_autoformat
+  vim.g.disable_autoformat = not current
+  if current then
+    vim.notify('autoformat enabled', vim.log.levels.info)
+  else
+    vim.notify('autoformat disabled', vim.log.levels.info)
+  end
+end, { desc = 'toggle autoformat' })
+
+-- [[ Basic Autocommands ]]
+--  See `:help lua-guide-autocommands`
+
+-- Highlight when yanking (copying) text
+--  Try it with `yap` in normal mode
+--  See `:help vim.hl.on_yank()`
+vim.api.nvim_create_autocmd('TextYankPost', {
+  desc = 'Highlight when yanking (copying) text',
+  group = vim.api.nvim_create_augroup('kickstart-highlight-yank', { clear = true }),
+  callback = function()
+    vim.hl.on_yank()
+  end,
+})
+
+-- do not let jdtls send semantic‑token requests (change the colorscheme)
+-- vim.api.nvim_create_autocmd('LspAttach', {
+--   callback = function(args)
+--     local client = vim.lsp.get_client_by_id(args.data.client_id)
+--     if client and client.name == 'jdtls' then
+--       -- stop sending semantic‑token requests
+--       client.server_capabilities.semanticTokensProvider = nil
+--     end
+--   end,
+-- })
