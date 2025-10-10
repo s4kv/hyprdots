@@ -48,57 +48,59 @@ vim.keymap.set({ 'n', 'i', 'v' }, '<leader>-', '<cmd>split<CR>', { desc = 'Split
 -- vim.keymap.set("n", "<C-S-j>", "<C-w>J", { desc = "Move window to the lower" })
 -- vim.keymap.set("n", "<C-S-k>", "<C-w>K", { desc = "Move window to the upper" })
 
+-- Session management keymaps
+---- load the session for the current directory
 vim.keymap.set('n', '<leader>qs', function()
   require('persistence').load()
-end, { desc = 'load session for current directory' })
+end, { desc = 'Load session for current directory' })
 
 -- select a session to load
-vim.keymap.set('n', '<leader>qs', function()
+vim.keymap.set('n', '<leader>qS', function()
   require('persistence').select()
-end, { desc = 'select a session to load' })
+end, { desc = 'Select a session to load' })
 
 -- load the last session
 vim.keymap.set('n', '<leader>ql', function()
   require('persistence').load { last = true }
-end, { desc = 'load last session' })
+end, { desc = 'Load last session' })
 
--- stop persistence => session won't be saved on exit
+-- stop Persistence => session won't be saved on exit
 vim.keymap.set('n', '<leader>qd', function()
   require('persistence').stop()
-end, { desc = 'stop persistence' })
+end, { desc = 'Stop Persistence' })
 
 -- wrap with leader u w toggle
-vim.keymap.set('n', '<leader>uw', '<cmd>togglewrapmode<cr>', { desc = 'toggle wrap' })
+vim.keymap.set('n', '<leader>uw', '<cmd>ToggleWrapMode<CR>', { desc = 'Toggle wrap' })
 
 -- toggle vim.diagnostic.config({ virtual_lines = true })
 vim.keymap.set('n', '<leader>ul', function()
   local config = vim.diagnostic.config()
   if not config then
-    vim.notify('diagnostic config not found', vim.log.levels.error)
+    vim.notify('Diagnostic config not found', vim.log.levels.ERROR)
     return
   end
   local current = config.virtual_lines
   local enabled = (current ~= nil) and current or false
   vim.diagnostic.config { virtual_lines = not enabled }
-end, { desc = 'toggle virtual lines' })
+end, { desc = 'Toggle virtual lines' })
 
--- autoformat
+-- Autoformat
 vim.api.nvim_create_user_command('FormatDisable', function(args)
   if args.bang then
-    -- formatdisable! will disable formatting just for this buffer
+    -- FormatDisable! will disable formatting just for this buffer
     vim.b.disable_autoformat = true
   else
     vim.g.disable_autoformat = true
   end
 end, {
-  desc = 'disable autoformat-on-save',
+  desc = 'Disable autoformat-on-save',
   bang = true,
 })
 vim.api.nvim_create_user_command('FormatEnable', function()
   vim.b.disable_autoformat = false
   vim.g.disable_autoformat = false
 end, {
-  desc = 're-enable autoformat-on-save',
+  desc = 'Re-enable autoformat-on-save',
 })
 
 -- <leader>uf for toggle autoformat
@@ -106,11 +108,11 @@ vim.keymap.set('n', '<leader>uf', function()
   local current = vim.g.disable_autoformat
   vim.g.disable_autoformat = not current
   if current then
-    vim.notify('autoformat enabled', vim.log.levels.info)
+    vim.notify('Autoformat enabled', vim.log.levels.INFO)
   else
-    vim.notify('autoformat disabled', vim.log.levels.info)
+    vim.notify('Autoformat disabled', vim.log.levels.INFO)
   end
-end, { desc = 'toggle autoformat' })
+end, { desc = 'Toggle autoformat' })
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
