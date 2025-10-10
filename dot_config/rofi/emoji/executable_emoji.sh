@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-rofimoji --selector-args="-theme ~/.config/rofi/emoji/style.rasi" --prompt "󰢚  Emojis"
+rofimoji --action copy --selector-args="-theme ~/.config/rofi/emoji/style.rasi" --prompt "󰢚  Emojis"

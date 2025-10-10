@@ -277,24 +277,33 @@ require("lazy").setup({
 			},
 		},
 	},
+
 	{
 		"nvim-java/nvim-java",
 		ft = "java",
 		opts = {
 			spring_boot_tools = { enable = false },
-			java_test = { enable = false },
-			java_debug_adapter = { enable = false },
+			java_test = { enable = true },
+			java_debug_adapter = { enable = true },
 		},
-
 		config = function(_, opts)
-			require("java").setup(opts)
+			-- 1) nvim-java first (required)
+			require("java").setup(opts) -- must come before jdtls setup :contentReference[oaicite:3]{index=3}
 
-			-- Choose ONE of the following:
+			-- 2) Register a jdtls config so :LspInfo stops warning (Neovim 0.11 style)
+			local capabilities = require("blink.cmp").get_lsp_capabilities()
+			vim.lsp.config("jdtls", {
+				capabilities = capabilities,
+				-- optional: add jdk runtime mapping if you want
+				-- settings = { java = { configuration = { runtimes = { { name = "JavaSE-21", path="/path/to/jdk-21", default=true } } } } }
+			}) -- defines the config :contentReference[oaicite:4]{index=4}
 
-			-- (B) Legacy (if you rely on nvim-java’s lspconfig wiring/bundles)
-			require("lspconfig").jdtls.setup({})
+			-- 3) Let nvim-java’s recommended path start the server
+			require("lspconfig").jdtls.setup({}) -- their documented order :contentReference[oaicite:5]{index=5}
+			-- NOTE: Do NOT call vim.lsp.enable('jdtls') here; nvim-java/lspconfig will start it.
 		end,
 	},
+
 	{
 		-- Main LSP Configuration
 		"neovim/nvim-lspconfig",
@@ -543,29 +552,6 @@ require("lazy").setup({
 				},
 			}
 
-			-- require("java").setup({
-			-- 	-- Your custom nvim-java settings goes here
-			-- })
-			--
-			-- require("lspconfig").jdtls.setup({})
-
-			-- vim.lsp.config("jdtls", {
-			-- 	-- Your custom jdtls configuration goes here
-			-- })
-
-			-- vim.lsp.enable("jdtls") -- starts it (filetype-aware)
-
-			-- The following loop will configure each server with the capabilities we defined above.
-			-- This will ensure that all servers have the same base configuration, but also
-			-- allow for server-specific overrides.
-			for server_name, server_config in pairs(servers) do
-				server_config.capabilities =
-					vim.tbl_deep_extend("force", {}, capabilities, server_config.capabilities or {})
-				vim.lsp.config(server_name, server_config)
-			end
-
-			vim.lsp.enable(vim.tbl_keys(servers))
-
 			-- Ensure the servers and tools above are installed
 			--
 			-- To check the current status of installed tools and/or manually install
@@ -598,16 +584,6 @@ require("lazy").setup({
 						server.capabilities = vim.tbl_deep_extend("force", {}, capabilities, server.capabilities or {})
 						vim.lsp.config(server_name, server)
 					end,
-
-					-- jdtls = function()
-					-- 	require("java").setup({
-					-- 		-- Your custom jdtls settings goes here
-					-- 	})
-					--
-					-- 	require("lspconfig").jdtls.setup({
-					-- 		-- Your custom nvim-java configuration goes here
-					-- 	})
-					-- end,
 				},
 			})
 		end,
