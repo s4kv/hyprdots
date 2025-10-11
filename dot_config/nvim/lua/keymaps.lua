@@ -14,7 +14,7 @@ vim.keymap.set('n', '<S-l>', '<Cmd>bnext<CR>', { desc = 'Buffer: next' })
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 
 -- Diagnostic keymaps
-vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
+vim.keymap.set('n', '<leader>x', vim.diagnostic.setloclist, { desc = 'Open diagnostic Quickfix list' })
 
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
@@ -138,3 +138,14 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 --     end
 --   end,
 -- })
+
+-- do not let jdtls send semantic‑token requests (change the colorscheme)
+vim.api.nvim_create_autocmd('LspAttach', {
+  callback = function(args)
+    local client = vim.lsp.get_client_by_id(args.data.client_id)
+    if client and client.name == 'jdtls' then
+      -- stop sending semantic‑token requests
+      client.server_capabilities.semanticTokensProvider = nil
+    end
+  end,
+})

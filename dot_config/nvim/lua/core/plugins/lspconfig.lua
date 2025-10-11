@@ -15,6 +15,46 @@ return {
   {
     -- Main LSP Configuration
     'neovim/nvim-lspconfig',
+
+    lazy = true, -- don't load at startup
+
+    -- custom LazyFile event
+    init = function()
+      local grp = vim.api.nvim_create_augroup('my_plugin_lazyfile_once', { clear = true })
+      vim.api.nvim_create_autocmd({ 'BufReadPost', 'BufNewFile', 'BufWritePost' }, {
+        group = grp,
+        once = true, -- run only the first time a file-ish event happens
+        callback = function(ev)
+          local function load_and_retrigger(buf)
+            -- 1) load just this plugin
+            require('lazy').load { plugins = { 'nvim-lspconfig' } } -- use the plugin's lazy.nvim _name_
+            -- 2) re-trigger the file events so the plugin sees them
+            local Event = require 'lazy.core.handler.event'
+            for _, e in ipairs { 'BufReadPost', 'BufNewFile', 'BufWritePost' } do
+              Event.trigger { event = e, buf = buf }
+            end
+          end
+
+          -- If we opened "nvim file", BufReadPost can happen before UI shows.
+          -- Defer until UI is ready, then schedule.
+          if vim.v.vim_did_enter == 1 then
+            vim.schedule(function()
+              load_and_retrigger(ev.buf)
+            end)
+          else
+            vim.api.nvim_create_autocmd('UIEnter', {
+              once = true,
+              callback = function()
+                vim.schedule(function()
+                  load_and_retrigger(ev.buf)
+                end)
+              end,
+            })
+          end
+        end,
+      })
+    end,
+
     dependencies = {
       -- Automatically install LSPs and related tools to stdpath for Neovim
       -- Mason must be loaded before its dependents so we need to set it up here.
