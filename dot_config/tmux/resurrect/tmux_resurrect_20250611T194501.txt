@@ -1,0 +1,15 @@
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	nutricast	1	1	:*	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	nutricast	1	1	:*	2	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	nutricast	2	0	:-	1	backend: ./mvnw spring-boot:run	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java -classpath /home/sakvi/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/boot/plexus-classworlds-2.8.0.jar -Dclassworlds.conf=/home/sakvi/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/bin/m2.conf -Dmaven.home=/home/sakvi/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1 -Dlibrary.jansi.path=/home/sakvi/.m2/wrapper/dists/apache-maven-3.9.9/3477a4f1/lib/jansi-native -Dmaven.multiModuleProjectDirectory=/home/sakvi/projects/gt_projects/nutriCast/backend org.codehaus.plexus.classworlds.launcher.Launcher spring-boot:run
+pane	nutricast	2	0	:-	2	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+window	29	1	:zsh	1	:*	5f87,52x27,0,0,37	:
+window	30	1	:zsh	1	:*	62b8,105x27,0,0,38	:
+window	31	1	:zsh	1	:*	62b9,105x27,0,0,39	:
+window	32	1	:zsh	1	:*	e2b0,105x27,0,0,40	:
+window	nutricast	1	:zsh	1	:*	e6f0,213x56,0,0{106x56,0,0,22,106x56,107,0,35}	:
+window	nutricast	2	:zsh	0	:-	a6ef,213x56,0,0{106x56,0,0,41,106x56,107,0,42}	:
+state	nutricast	

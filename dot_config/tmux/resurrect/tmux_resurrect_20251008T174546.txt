@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	sakvi: google-chrome-stable --ozone-platform=x11	:/home/sakvi	1	chrome	:/opt/google/chrome/chrome --ozone-platform=x11
+pane	1	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+window	0	1	:chrome	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:yazi	1	:*	b05e,84x42,0,0,1	:
+state	1	

@@ -1,0 +1,16 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/.config/matugen	:/home/sakvi/.config/matugen	1	zsh	:
+pane	16	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~/.config/matugen	:/home/sakvi/.config/matugen	1	zsh	:
+pane	3	1	1	:*	2	~/.config/matugen	:/home/sakvi/.config/matugen	0	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c2fd,105x55,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	11	1	:zsh	1	:*	6361,213x56,0,0,12	:
+window	16	1	:yazi	1	:*	6366,213x56,0,0,17	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:zsh	1	:*	5452,213x56,0,0[213x28,0,0,3,213x27,0,29,4]	:
+window	4	1	:zsh	1	:*	c302,105x55,0,0,5	:
+state	16	

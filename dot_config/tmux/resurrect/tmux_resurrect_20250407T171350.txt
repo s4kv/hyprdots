@@ -1,0 +1,40 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	0	:-Z	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	11	1	0	:-Z	2	~	:/home/sakvi	1	zsh	:
+pane	11	2	1	:*	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	16	1	1	:*	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	sakvi: nvim notes.txt	:/home/sakvi	1	nvim	:nvim notes.txt
+pane	5	1	1	:*	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*Z	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*Z	2	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*Z	3	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	1	zsh	:
+window	10	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	11	1	:zsh	0	:-Z	96c0,170x42,0,0{85x42,0,0,2,84x42,86,0,3}	:
+window	11	2	:zsh	1	:*	b441,170x42,0,0,4	:
+window	12	1	:zsh	1	:*	b442,170x42,0,0,5	:
+window	13	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	14	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	15	1	:zsh	1	:*	b445,170x42,0,0,8	:
+window	16	1	:zsh	1	:*	b446,170x42,0,0,9	:
+window	17	1	:zsh	1	:*	5a4f,170x42,0,0,10	:
+window	18	1	:nvim	1	:*	5a50,170x42,0,0,11	:
+window	5	1	:zsh	1	:*	5a51,170x42,0,0,12	:
+window	6	1	:zsh	1	:*	5a52,170x42,0,0,13	:
+window	7	1	:zsh	1	:*	5a53,170x42,0,0,14	:
+window	8	1	:zsh	1	:*	5a54,170x42,0,0,15	:
+window	9	1	:zsh	1	:*	5a55,170x42,0,0,16	:
+window	amparo	1	:zsh	1	:*	5a56,170x42,0,0,17	:
+window	gba	1	:nvim main	1	:*Z	b750,82x40,0,0{42x40,0,0,18,39x40,43,0[39x16,43,0,19,39x23,43,17,20]}	off
+window	gba	2	:run / test 	0	:-	da50,170x42,0,0,21	off
+state	gba	18

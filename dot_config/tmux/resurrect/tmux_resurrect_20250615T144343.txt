@@ -1,0 +1,45 @@
+pane	10	1	1	:*	1	~/Documents	:/home/sakvi/Documents	1	zsh	:
+pane	11	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	12	1	0	:-	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	12	2	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	17	1	1	:*	1	(tabs): nvim	:/home/sakvi/projects/gt_projects/nutriCast/frontend/app/(tabs)	1	nvim	:nvim
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	3	2	0	:-	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	nutricast	1	0	:-	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	nutricast	2	1	:*	1	backend: mvn spring-boot:run	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java -classpath /usr/share/java/maven/boot/plexus-classworlds-2.8.0.jar -Dclassworlds.conf=/usr/share/java/maven/bin/m2.conf -Dmaven.home=/usr/share/java/maven -Dlibrary.jansi.path=/usr/share/java/maven/lib/jansi-native -Dmaven.multiModuleProjectDirectory=/home/sakvi/projects/gt_projects/nutriCast/backend org.codehaus.plexus.classworlds.launcher.Launcher spring-boot:run
+pane	nutricast	2	1	:*	2	backend: ngrok http http://localhost:8080	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	ngrok	:ngrok http http://localhost:8080
+pane	nutricast	2	1	:*	3	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+window	10	1	:zsh	1	:*	c65e,213x56,0,0,1	:
+window	11	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	12	1	:zsh	0	:-	c660,213x56,0,0,3	:
+window	12	2	:zsh	1	:*	c661,213x56,0,0,4	:
+window	13	1	:zsh	1	:*	c662,213x56,0,0,5	:
+window	14	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	15	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	16	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	17	1	:nvim	1	:*	e361,213x56,0,0,22	:
+window	18	1	:zsh	1	:*	e2b2,105x27,0,0,23	:
+window	3	1	:zsh	1	:*	c666,213x56,0,0,9	:
+window	3	2	:zsh	0	:-	635f,213x56,0,0,10	:
+window	35	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	4	1	:zsh	1	:*	6361,213x56,0,0,12	:
+window	5	1	:zsh	1	:*	6362,213x56,0,0,13	:
+window	6	1	:zsh	1	:*	6363,213x56,0,0,14	:
+window	7	1	:zsh	1	:*	6364,213x56,0,0,15	:
+window	8	1	:zsh	1	:*	6365,213x56,0,0,16	:
+window	9	1	:zsh	1	:*	6366,213x56,0,0,17	:
+window	nutricast	1	:zsh	0	:-	6367,213x56,0,0,18	:
+window	nutricast	2	:npm	1	:*	e90f,105x27,0,0{52x27,0,0[52x14,0,0,19,52x12,0,15,21],52x27,53,0,20}	:
+state	17	

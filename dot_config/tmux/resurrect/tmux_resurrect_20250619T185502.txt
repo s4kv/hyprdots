@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	backend: nvim Dockerfile	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	nvim	:zsh
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:nvim	1	:*	c2fe,105x55,0,0,1	:
+window	2	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+state	1	

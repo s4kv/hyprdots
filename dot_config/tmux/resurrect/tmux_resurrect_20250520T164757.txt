@@ -1,0 +1,17 @@
+pane	16	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	16	2	1	:*	1	~/projects/gt_projects	:/home/sakvi/projects/gt_projects	1	zsh	:
+pane	18	1	1	:*	1	~/.zen	:/home/sakvi/.zen	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	sakvi: pipes.sh	:/home/sakvi	1	bash	:bash /usr/bin/pipes.sh
+pane	7	1	1	:*	1	.zen: nvim .	:/home/sakvi/.zen	1	nvim	:nvim .
+window	16	1	:zsh	0	:-	b05e,84x42,0,0,1	:
+window	16	2	:zsh	1	:*	b05f,84x42,0,0,2	:
+window	18	1	:zsh	1	:*	b060,84x42,0,0,3	:
+window	3	1	:zsh	1	:*	a461,84x20,0,0,4	:
+window	4	1	:zsh	1	:*	a462,84x20,0,0,5	:
+window	5	1	:zsh	1	:*	a463,84x20,0,0,6	:
+window	6	1	:bash	1	:*	b444,170x42,0,0,7	:
+window	7	1	:nvim	1	:*	b445,170x42,0,0,8	:
+state	7	

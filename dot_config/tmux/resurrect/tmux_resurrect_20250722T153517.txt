@@ -1,0 +1,6 @@
+pane	0	1	1	:*	1	nutriCast: docker compose up	:/home/sakvi/projects/gt_projects/nutriCast	0	docker	:docker compose up
+pane	0	1	1	:*	2	~/scripts	:/home/sakvi	1	script	:script
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:script	1	:*	16b8,170x42,0,0{85x42,0,0,0,84x42,86,0,2}	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+state	0	

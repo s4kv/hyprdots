@@ -1,0 +1,33 @@
+pane	10	1	0	:	1	neuralcanvas: nvim	:/home/sakvi/projects/my-projects/neuralcanvas\ (deleted)	1	nvim	:nvim
+pane	10	2	0	:	1	neuralcanvas-dx: dx serve --platform web	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	dx	:dx serve --platform web
+pane	10	3	0	:-	1	neuralcanvas-dx: nvim .	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	nvim	:nvim .
+pane	10	4	1	:*	1	neuralcanvas: cargo leptos watch	:/home/sakvi/projects/my-projects/neuralcanvas	1	cargo-leptos	:/home/sakvi/.cargo/bin/cargo-leptos leptos watch
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	37	2	0	:-	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	1	zsh	:
+pane	4	1	1	:*	1	CS3001: nvim deontology_kantianism_and_social_contract.typ	:/home/sakvi/gatech/CS3001	1	nvim	:nvim deontology_kantianism_and_social_contract.typ
+pane	6	1	1	:*	1	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	hyprsunset	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~/gatech/CS3001/cs3001_homework_3	:/home/sakvi/gatech/CS3001/cs3001_homework_3	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas\ (deleted)	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas\ (deleted)	0	zsh	:
+window	10	1	:nvim	0	:	6363,213x56,0,0,14	:
+window	10	2	:dx	0	:	6364,213x56,0,0,15	:
+window	10	3	:nvim	0	:-	6365,213x56,0,0,16	:
+window	10	4	:cargo-leptos	1	:*	6367,213x56,0,0,18	:
+window	11	1	:zsh	1	:*	61b6,105x55,0,0,17	:
+window	37	1	:zsh	1	:*Z	1e82,213x56,0,0{107x56,0,0,2,105x56,108,0,3}	:
+window	37	2	:zsh	0	:-	c661,213x56,0,0,4	:
+window	4	1	:nvim	1	:*	c662,213x56,0,0,5	:
+window	6	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	7	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	8	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	9	1	:zsh	1	:*	c666,213x56,0,0,9	:
+window	hyprsunset	1	:zsh	1	:*	635f,213x56,0,0,10	:
+window	main	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	neuralcanvas	1	:zsh	1	:*Z	22d7,213x56,0,0{105x56,0,0,12,107x56,106,0,13}	:
+state	10	main

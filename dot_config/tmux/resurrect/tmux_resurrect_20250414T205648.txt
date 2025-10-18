@@ -1,0 +1,27 @@
+pane	10	1	1	:*	1	~/gatech/cs3510	:/home/sakvi/gatech/cs3510	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	10	1	:zsh	1	:*	5f71,104x54,0,0,12	:
+window	11	1	:zsh	1	:*	5f72,104x54,0,0,13	:
+window	12	1	:zsh	1	:*	6073,104x26,0,0,14	:
+window	16	1	:zsh	1	:*	c65e,213x56,0,0,1	:
+window	17	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	18	1	:zsh	1	:*	c660,213x56,0,0,3	:
+window	19	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	20	1	:zsh	1	:*	c662,213x56,0,0,5	:
+window	21	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	22	1	:zsh	1	:*	be84,104x54,0,0,7	:
+window	9	1	:zsh	1	:*	5620,83x41,0,0,11	:
+window	amparo	1	:zsh	1	:*Z	80a7,213x56,0,0{108x56,0,0[108x25,0,0,8,108x30,0,26,9],104x56,109,0,10}	:
+state	11	

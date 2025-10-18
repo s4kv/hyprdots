@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~/.local/share/Steam	:/home/sakvi/.local/share/Steam	1	zsh	:
+pane	1	1	1	:*	1	~/.local/share/applications	:/home/sakvi/.local/share/applications	1	zsh	:
+pane	2	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/common/Balatro	:/home/sakvi/.local/share/Steam/steamapps/common/Balatro	1	yazi	:yazi --cwd-file=/tmp/yazi-cwd.G7mKPW
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	c4fe,105x27,0,0,1	:
+window	2	1	:yazi	1	:*	a45f,84x20,0,0,2	:
+state	1	

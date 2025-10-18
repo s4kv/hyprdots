@@ -1,0 +1,9 @@
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*Z	1	hw06_linux: nvim main.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim main.c
+pane	gba	1	1	:*Z	2	hw06_linux: nvim gba.h	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.h
+pane	gba	1	1	:*Z	3	hw06_linux: ./mGBA	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	./mGBA	:./mGBA
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+window	amparo	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	gba	1	:nvim main	1	:*Z	ec87,85x20,0,0{42x20,0,0,4,42x20,43,0[42x9,43,0,5,42x10,43,10,6]}	off
+window	gba	2	:run / test 	0	:-	b444,170x42,0,0,7	off
+state	gba	amparo

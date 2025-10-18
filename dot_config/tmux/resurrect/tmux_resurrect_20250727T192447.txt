@@ -1,0 +1,21 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	:/home/sakvi/.config/vesktop/themes	1	yazi	2359866	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~/.config/vesktop/themes	:/home/sakvi/.config/vesktop/themes	1	zsh	:
+pane	6	1	1	:*	1	~/.config/vesktop/themes	:/home/sakvi/.config/vesktop/themes	1	zsh	:
+pane	7	1	1	:*	1	~/.config/vesktop/themes	:/home/sakvi/.config/vesktop/themes	1	zsh	:
+pane	8	1	1	:*	1	~/.config/matugen	:/home/sakvi/.config/matugen	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	b2fe,105x51,0,0,1	:
+window	10	1	:yazi	1	:*	567f,52x51,0,0,10	:
+window	11	1	:zsh	1	:*	5cb0,105x24,0,0,11	:
+window	2	1	:zsh	1	:*	b7df,212x24,0,0,2	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	6	1	:zsh	1	:*	b903,105x24,0,0,6	:
+window	7	1	:zsh	1	:*	b904,105x24,0,0,7	:
+window	8	1	:zsh	1	:*	b265,213x51,0,0,8	:
+window	9	1	:zsh	1	:*	b906,105x24,0,0,9	:
+state	11	

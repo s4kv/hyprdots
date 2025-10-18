@@ -1,0 +1,3 @@
+pane	14	1	1	:*	1	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+window	14	1	:npm	1	:*	61b5,105x55,0,0,16	:
+state	14	

@@ -1,0 +1,12 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:yazi
+pane	1	1	1	:*	1	projects: man cmake | nvim -	:/home/sakvi	0	zsh	:yazi --cwd-file=/tmp/yazi-cwd.uVsOco
+pane	1	1	1	:*	2	~/projects/test	:/home/sakvi/projects/test	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.OGO4Vv
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	WhiteBoxTesting: nvim	:/home/sakvi/projects/demo/whiteboxtesting/WhiteBoxTesting/src/main/java/com/example	1	nvim	:nvim
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:[tmux]	1	:*	ecda,140x75,0,0{70x75,0,0,4,69x75,71,0,5}	:
+window	2	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	3	1	:zsh	1	:*	b445,170x42,0,0,8	:
+window	4	1	:nvim	1	:*	b446,170x42,0,0,9	:
+state	4	

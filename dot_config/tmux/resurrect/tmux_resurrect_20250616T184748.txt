@@ -1,0 +1,61 @@
+pane	10	1	1	:*	1	~/Documents	:/home/sakvi/Documents	1	zsh	:
+pane	11	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	12	1	0	:-	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	12	2	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	17	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend/app/(tabs)	:/home/sakvi/projects/gt_projects/nutriCast/frontend/app/(tabs)	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	21	1	1	:*Z	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	21	1	1	:*Z	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	springboot-gcp: nvim	:/home/sakvi/projects/demo/springboot-gcp	1	nvim	:nvim
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~/projects/demo/springboot-gcp	:/home/sakvi/projects/demo/springboot-gcp	1	zsh	:
+pane	3	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	3	2	0	:-	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	nutricast	1	1	:*Z	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	1	1	:*Z	2	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	0	zsh	:
+pane	nutricast	2	0	:-	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	2	0	:-	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	nutricast	2	0	:-	3	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	zsh	:
+window	10	1	:zsh	1	:*	c65e,213x56,0,0,1	:
+window	11	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	12	1	:zsh	0	:-	c660,213x56,0,0,3	:
+window	12	2	:zsh	1	:*	c661,213x56,0,0,4	:
+window	13	1	:zsh	1	:*	c662,213x56,0,0,5	:
+window	14	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	15	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	16	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	17	1	:zsh	1	:*	c666,213x56,0,0,9	:
+window	18	1	:zsh	1	:*	635f,213x56,0,0,10	:
+window	19	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	20	1	:zsh	1	:*	6361,213x56,0,0,12	:
+window	21	1	:zsh	1	:*Z	26f0,213x56,0,0{106x56,0,0,13,106x56,107,0,14}	:
+window	22	1	:zsh	1	:*	6364,213x56,0,0,15	:
+window	23	1	:nvim	1	:*	57e5,82x42,0,0,16	:
+window	24	1	:zsh	1	:*	6366,213x56,0,0,17	:
+window	25	1	:zsh	1	:*	60d2,111x55,0,0,32	:
+window	3	1	:zsh	1	:*	6367,213x56,0,0,18	:
+window	3	2	:zsh	0	:-	6368,213x56,0,0,19	:
+window	35	1	:zsh	1	:*	e35f,213x56,0,0,20	:
+window	4	1	:zsh	1	:*	e360,213x56,0,0,21	:
+window	5	1	:zsh	1	:*	e361,213x56,0,0,22	:
+window	6	1	:zsh	1	:*	e362,213x56,0,0,23	:
+window	7	1	:zsh	1	:*	e363,213x56,0,0,24	:
+window	8	1	:zsh	1	:*	e364,213x56,0,0,25	:
+window	9	1	:zsh	1	:*	e365,213x56,0,0,26	:
+window	nutricast	1	:zsh	1	:*Z	9024,213x56,0,0{110x56,0,0,27,102x56,111,0,28}	:
+window	nutricast	2	:zsh	0	:-	65dd,213x56,0,0{105x56,0,0[105x30,0,0,29,105x25,0,31,30],107x56,106,0,31}	:
+state	25	

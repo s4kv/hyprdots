@@ -1,0 +1,21 @@
+pane	0	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	project_2: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200a.sim	:/home/sakvi/gatech/CS2200/Projects/project_2	1	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java -Xmx250M -jar /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200a.sim
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	sakvi: pipes.sh	:/home/sakvi	1	bash	:bash /usr/bin/pipes.sh
+pane	7	1	1	:*	1	~/gatech/CS2200/Projects/project_2	:/home/sakvi/gatech/CS2200/Projects/project_2	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~/gatech/CS2200/Projects/project_2	:/home/sakvi/gatech/CS2200/Projects/project_2	1	zsh	:
+window	0	1	:[tmux]	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	b1de,212x51,0,0,1	:
+window	10	1	:java	1	:*	591f,212x51,0,0,10	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	4	1	:zsh	1	:*	b2a1,52x24,0,0,4	:
+window	6	1	:bash	1	:*	b303,105x51,0,0,6	:
+window	7	1	:zsh	1	:*	b1e4,212x51,0,0,7	:
+window	8	1	:zsh	1	:*	b2a5,52x24,0,0,8	:
+window	9	1	:zsh	1	:*	b306,105x51,0,0,9	:
+state	10	

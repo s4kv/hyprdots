@@ -1,0 +1,29 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	109	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/Pictures	:/home/sakvi/Pictures	1	zsh	:
+pane	110	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	sakvi: nvim therac25.md	:/home/sakvi	1	nvim	:nvim therac25.md
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	81	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	82	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	109	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	11	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	110	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	12	1	:nvim	1	:*	5861,84x42,0,0,12	:
+window	13	1	:zsh	1	:*	5262,84x20,0,0,13	:
+window	14	1	:zsh	1	:*	5263,84x20,0,0,14	:
+window	5	1	:zsh	1	:*	b442,170x42,0,0,5	:
+window	6	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	7	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	8	1	:zsh	1	:*	b445,170x42,0,0,8	:
+window	81	1	:zsh	1	:*	b446,170x42,0,0,9	:
+window	82	1	:zsh	1	:*	5a4f,170x42,0,0,10	:
+window	9	1	:zsh	1	:*	5a50,170x42,0,0,11	:
+state	12	

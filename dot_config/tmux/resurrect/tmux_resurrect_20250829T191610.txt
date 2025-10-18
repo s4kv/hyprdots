@@ -1,0 +1,13 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	5	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	b29e,52x24,0,0,1	:
+window	2	1	:zsh	1	:*	b8ff,105x24,0,0,2	:
+window	3	1	:zsh	1	:*	b1e0,212x51,0,0,3	:
+window	4	1	:zsh	1	:*	b301,105x51,0,0,4	:
+window	5	1	:zsh	1	:*	b902,105x24,0,0,5	:
+state	5	

@@ -1,0 +1,77 @@
+pane	10	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/projects	:/home/sakvi/projects	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*Z	1	springboot-gcp: nvim	:/home/sakvi/projects/demo/springboot-gcp	0	nvim	:nvim
+pane	16	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~/.config	:/home/sakvi/.config	1	zsh	:
+pane	24	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+pane	25	1	1	:*	1	~/projects/my-projects/high-five	:/home/sakvi/projects/my-projects/high-five	1	zsh	:
+pane	26	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	27	1	1	:*Z	1	~/projects/my-projects	:/home/sakvi/projects/my-projects	1	zsh	:
+pane	27	1	1	:*Z	2	test-gemini: nvim .	:/home/sakvi/projects/my-projects/test-gemini	0	nvim	:nvim .
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	33	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	hot_dog: nvim	:/home/sakvi/projects/my-projects/hot_dog	1	nvim	:nvim
+pane	37	2	0	:-	1	hot_dog: dx serve	:/home/sakvi/projects/my-projects/hot_dog	1	dx	:dx serve
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era	1	zsh	:
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	0	zsh	:
+window	10	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	11	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	12	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	13	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	14	1	:zsh	1	:*	b442,170x42,0,0,5	:
+window	15	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	16	1	:zsh	1	:*Z	16d7,170x42,0,0{85x42,0,0,7,84x42,86,0,8}	:
+window	17	1	:zsh	1	:*	b446,170x42,0,0,9	:
+window	18	1	:zsh	1	:*	5a4f,170x42,0,0,10	:
+window	19	1	:zsh	1	:*	5a50,170x42,0,0,11	:
+window	20	1	:zsh	1	:*	5a51,170x42,0,0,12	:
+window	20	2	:zsh	0	:-	5a52,170x42,0,0,13	:
+window	21	1	:zsh	1	:*	5a53,170x42,0,0,14	:
+window	22	1	:zsh	1	:*	5a54,170x42,0,0,15	:
+window	23	1	:zsh	1	:*	5a55,170x42,0,0,16	:
+window	24	1	:zsh	1	:*	5a56,170x42,0,0,17	:
+window	25	1	:zsh	1	:*	5a57,170x42,0,0,18	:
+window	26	1	:zsh	1	:*	5a58,170x42,0,0,19	:
+window	27	1	:zsh	1	:*Z	3f19,84x42,0,0{42x42,0,0,20,41x42,43,0,21}	:
+window	28	1	:zsh	1	:*	da51,170x42,0,0,22	:
+window	29	1	:zsh	1	:*	da52,170x42,0,0,23	:
+window	30	1	:zsh	1	:*	da53,170x42,0,0,24	:
+window	31	1	:zsh	1	:*	da54,170x42,0,0,25	:
+window	32	1	:zsh	1	:*	da55,170x42,0,0,26	:
+window	33	1	:zsh	1	:*	5267,84x20,0,0,37	:
+window	34	1	:zsh	1	:*	da56,170x42,0,0,27	:
+window	35	1	:zsh	1	:*	da57,170x42,0,0,28	:
+window	36	1	:zsh	1	:*	da58,170x42,0,0,29	:
+window	37	1	:nvim	1	:*Z	7f2e,84x42,0,0{42x42,0,0,38,41x42,43,0,39}	:
+window	37	2	:dx	0	:-	d861,84x42,0,0,41	:
+window	6	1	:zsh	1	:*	5a50,170x42,0,0,30	:
+window	7	1	:zsh	1	:*	5a51,170x42,0,0,31	:
+window	8	1	:zsh	1	:*	5a52,170x42,0,0,32	:
+window	9	1	:zsh	1	:*	5a53,170x42,0,0,33	:
+window	main	1	:zsh	1	:*	5a54,170x42,0,0,34	:
+window	neuralcanvas	1	:zsh	1	:*Z	0988,170x42,0,0{84x42,0,0,35,85x42,85,0,36}	:
+state	37	

@@ -1,0 +1,8 @@
+pane	0	1	1	:*	1	sakvi: nvim hello.java	:/home/sakvi	1	nvim	:hyprsunset -g 50 -t 4000
+tee
+nvim hello.java
+pane	0	1	1	:*	2	~	:/home/sakvi	0	zsh	:
+pane	1	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*	ef7c,212x51,0,0{106x51,0,0,0,105x51,107,0,2}	:
+window	1	1	:zsh	1	:*	b2fe,105x51,0,0,1	:
+state	0	1

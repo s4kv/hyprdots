@@ -1,0 +1,11 @@
+pane	0	1	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.P2srUV
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~/temp/homework_2	:/home/sakvi/temp/homework_2	1	zsh	:zsh
+pane	5	1	1	:*	1	~/Downloads	:/home/sakvi/Downloads	1	zsh	:zsh
+pane	6	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	3	1	:zsh	1	:*	b2a0,52x24,0,0,3	:
+window	4	1	:zsh	1	:*	b261,213x51,0,0,4	:
+window	5	1	:zsh	1	:*	b262,213x51,0,0,5	:
+window	6	1	:zsh	1	:*	b303,105x51,0,0,6	:
+state	6	

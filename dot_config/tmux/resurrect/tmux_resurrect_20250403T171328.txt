@@ -1,0 +1,13 @@
+pane	3	1	1	:*	1	cs2110: nvim lecturepractice	:/home/sakvi/gatech/cs2110	1	nvim	:nvim lecturepractice
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*	1	hw06_linux: nvim main.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	nvim	:nvim main.c
+pane	gba	1	1	:*	2	hw06_linux: nvim gba.h	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.h
+pane	gba	1	1	:*	3	hw06_linux: nvim gba.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.c
+pane	gba	2	0	:	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+window	3	1	:nvim	1	:*	b443,170x42,0,0,6	:
+window	4	1	:zsh	1	:*	c564,82x19,0,0,7	:
+window	amparo	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	gba	1	:nvim main	1	:*	5db8,170x42,0,0{84x42,0,0,2,85x42,85,0[85x20,85,0,3,85x21,85,21,4]}	off
+window	gba	2	:run / test 	0	:	b442,170x42,0,0,5	off
+state	3	gba

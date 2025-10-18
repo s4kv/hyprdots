@@ -1,0 +1,7 @@
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	4	1	:zsh	1	:*	b301,105x51,0,0,4	:
+window	5	1	:yazi	1	:*	b302,105x51,0,0,5	:
+state	5	

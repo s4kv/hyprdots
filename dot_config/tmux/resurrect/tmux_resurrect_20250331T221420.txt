@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	hw06_linux: nvim gba.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	nvim	:nvim gba.c
+pane	1	1	1	:*	1	hw06_linux: ./mGBA	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	./mGBA	:./mGBA
+window	0	1	:nvim	1	:*	b9fd,103x53,0,0,0	:
+window	1	1	:./mGBA	1	:*	bbfe,103x25,0,0,1	:
+state	0	

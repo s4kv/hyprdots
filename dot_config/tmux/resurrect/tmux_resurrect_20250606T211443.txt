@@ -1,0 +1,17 @@
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	37	2	0	:-	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	1	zsh	:
+pane	4	1	1	:*	1	CS3001: nvim deontology_kantianism_and_social_contract.typ	:/home/sakvi/gatech/CS3001	1	nvim	:nvim deontology_kantianism_and_social_contract.typ
+pane	5	1	1	:*	1	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	6	1	1	:*	1	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	main	1	1	:*	1	cs3001_homework_3: nvim ethical_frameworks.typ	:/home/sakvi/gatech/CS3001/cs3001_homework_3	1	nvim	:nvim ethical_frameworks.typ
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	0	zsh	:
+window	37	1	:zsh	1	:*Z	eeba,105x55,0,0{53x55,0,0,1,51x55,54,0,2}	:
+window	37	2	:zsh	0	:-	c300,105x55,0,0,3	:
+window	4	1	:nvim	1	:*	b064,84x42,0,0,7	:
+window	5	1	:zsh	1	:*	c505,105x27,0,0,8	:
+window	6	1	:zsh	1	:*	c506,105x27,0,0,9	:
+window	main	1	:nvim	1	:*	c301,105x55,0,0,4	:
+window	neuralcanvas	1	:zsh	1	:*Z	db0c,105x55,0,0{51x55,0,0,5,53x55,52,0,6}	:
+state	main	37

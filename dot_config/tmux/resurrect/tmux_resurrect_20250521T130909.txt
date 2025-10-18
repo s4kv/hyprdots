@@ -1,0 +1,27 @@
+pane	10	1	1	:*	1	CS3001: nvim how_to_argue_1.md	:/home/sakvi/gatech/CS3001	1	nvim	:nvim how_to_argue_1.md
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~/.config/hypr/conf	:/home/sakvi/.config/hypr/conf	1	zsh	:
+pane	16	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	16	2	1	:*	1	~/projects/gt_projects	:/home/sakvi/projects/gt_projects	1	zsh	:
+pane	18	1	1	:*	1	~/.zen	:/home/sakvi/.zen	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:nvim	1	:*	5860,84x42,0,0,11	:
+window	11	1	:zsh	1	:*	5861,84x42,0,0,12	:
+window	12	1	:zsh	1	:*	5262,84x20,0,0,13	:
+window	16	1	:zsh	0	:-	b43e,170x42,0,0,1	:
+window	16	2	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	18	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	3	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	4	1	:zsh	1	:*	b442,170x42,0,0,5	:
+window	5	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	6	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	7	1	:zsh	1	:*	b445,170x42,0,0,8	:
+window	8	1	:zsh	1	:*	b066,84x42,0,0,9	:
+window	9	1	:zsh	1	:*	5a4f,170x42,0,0,10	:
+state	10	11

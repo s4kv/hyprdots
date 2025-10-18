@@ -1,0 +1,13 @@
+pane	0	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	sakvi: pipes.sh	:/home/sakvi	1	bash	:bash /usr/bin/pipes.sh
+window	0	1	:[tmux]	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	b2fe,105x51,0,0,1	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	4	1	:zsh	1	:*	b2a1,52x24,0,0,4	:
+window	6	1	:bash	1	:*	b303,105x51,0,0,6	:
+state	6	

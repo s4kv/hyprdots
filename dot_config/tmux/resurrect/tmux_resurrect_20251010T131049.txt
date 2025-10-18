@@ -1,0 +1,4 @@
+pane	0	1	1	:*Z	1	nvim: nvim lua/core/plugins/lspconfig.lua	:/home/sakvi/.config/nvim	1	nvim	:nvim lua/core/plugins/lspconfig.lua
+pane	0	1	1	:*Z	2	~/.config/nvim	:/home/sakvi/.config/nvim	0	zsh	:
+window	0	1	:nvim	1	:*Z	20c6,105x51,0,0{52x51,0,0,0,52x51,53,0,1}	:
+state	0	

@@ -1,0 +1,5 @@
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	sakvi: paru	:/home/sakvi	1	paru	:paru
+window	13	1	:zsh	1	:*	5263,84x20,0,0,14	:
+window	main	1	:paru	1	:*	b43e,170x42,0,0,1	:
+state	main	

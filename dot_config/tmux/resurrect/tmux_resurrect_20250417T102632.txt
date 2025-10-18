@@ -1,0 +1,19 @@
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	40	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	41	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	42	1	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	37	1	:zsh	1	:*	5a51,170x42,0,0,31	:
+window	38	1	:zsh	1	:*	5a56,170x42,0,0,36	:
+window	39	1	:zsh	1	:*	5a57,170x42,0,0,37	:
+window	40	1	:zsh	1	:*	5628,83x41,0,0,38	:
+window	41	1	:zsh	1	:*	5a59,170x42,0,0,39	:
+window	42	1	:zsh	1	:*	da50,170x42,0,0,40	:
+window	9	1	:zsh	1	:*	5a52,170x42,0,0,32	:
+window	amparo	1	:zsh	1	:*Z	42bc,170x42,0,0{86x42,0,0[86x18,0,0,33,86x23,0,19,34],83x42,87,0,35}	:
+state	41	

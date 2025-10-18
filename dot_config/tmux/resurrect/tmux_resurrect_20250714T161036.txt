@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	nvim: nvim	:/home/sakvi/.config/nvim	1	nvim	:nvim
+pane	1	1	1	:*	1	~/.config/waybar	:/home/sakvi/.config/waybar	1	zsh	:
+window	0	1	:nvim	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c4fe,105x27,0,0,1	:
+state	0	

@@ -1,0 +1,5 @@
+pane	13	1	1	:*	1	sakvi: pipes.sh	:/home/sakvi	1	bash	:bash /usr/bin/pipes.sh
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	13	1	:bash	1	:*	5263,84x20,0,0,14	:
+window	main	1	:zsh	1	:*	b05e,84x42,0,0,1	:
+state	13	

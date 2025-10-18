@@ -1,0 +1,33 @@
+pane	10	1	1	:*	1	~/gatech/MATH3012/homework04	:/home/sakvi/gatech/MATH3012/homework04	1	zsh	:
+pane	10	2	0	:-	1	~/projects/my-projects/neuralcanvas-dx	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	zsh	:
+pane	10	3	0	:	1	neuralcanvas-dx: nvim .	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	nvim	:nvim .
+pane	10	4	0	:	1	neuralcanvas: nvim .	:/home/sakvi/projects/my-projects/neuralcanvas	1	nvim	:nvim .
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	37	2	0	:-	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	1	zsh	:
+pane	4	1	1	:*	1	CS3001: nvim deontology_kantianism_and_social_contract.typ	:/home/sakvi/gatech/CS3001	1	nvim	:nvim deontology_kantianism_and_social_contract.typ
+pane	6	1	1	:*	1	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	hyprsunset	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~/gatech/CS3001/cs3001_homework_3	:/home/sakvi/gatech/CS3001/cs3001_homework_3	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~	:/home/sakvi	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~	:/home/sakvi	0	zsh	:
+window	10	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	2	:zsh	0	:-	c2ff,105x55,0,0,2	:
+window	10	3	:nvim	0	:	c300,105x55,0,0,3	:
+window	10	4	:nvim	0	:	c301,105x55,0,0,4	:
+window	11	1	:zsh	1	:*	c302,105x55,0,0,5	:
+window	37	1	:zsh	1	:*Z	6ed1,105x55,0,0{53x55,0,0,6,51x55,54,0,7}	:
+window	37	2	:zsh	0	:-	c305,105x55,0,0,8	:
+window	4	1	:nvim	1	:*	c306,105x55,0,0,9	:
+window	6	1	:zsh	1	:*	61af,105x55,0,0,10	:
+window	7	1	:zsh	1	:*	61b0,105x55,0,0,11	:
+window	8	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	9	1	:zsh	1	:*	61b2,105x55,0,0,13	:
+window	hyprsunset	1	:zsh	1	:*	61b3,105x55,0,0,14	:
+window	main	1	:zsh	1	:*	61b4,105x55,0,0,15	:
+window	neuralcanvas	1	:zsh	1	:*Z	b4d3,105x55,0,0{51x55,0,0,16,53x55,52,0,17}	:
+state	10	main

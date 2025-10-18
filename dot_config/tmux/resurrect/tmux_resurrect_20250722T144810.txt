@@ -1,0 +1,5 @@
+pane	5	1	1	:*	1	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+pane	6	1	1	:*	1	scripts: nvim setIsPro.js	:/home/sakvi/scripts	1	nvim	:nvim setIsPro.js
+window	5	1	:npm	1	:*	c303,105x55,0,0,6	:
+window	6	1	:nvim	1	:*	c304,105x55,0,0,7	:
+state	6	

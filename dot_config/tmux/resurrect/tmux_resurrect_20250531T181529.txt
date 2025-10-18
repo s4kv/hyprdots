@@ -1,0 +1,16 @@
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	0	zsh	:
+window	34	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	35	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	36	1	:zsh	1	:*	c660,213x56,0,0,3	:
+window	6	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	7	1	:zsh	1	:*	c662,213x56,0,0,5	:
+window	main	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	neuralcanvas	1	:zsh	1	:*Z	9619,213x56,0,0{106x56,0,0,7,106x56,107,0,8}	:
+state	34	neuralcanvas

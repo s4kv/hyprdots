@@ -1,0 +1,23 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	40	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	41	1	1	:*	1	Amparo: python manage.py runserver	:/home/sakvi/projects/gt_projects/Amparo	1	python	:python manage.py runserver
+pane	42	1	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	10	1	:zsh	1	:*	5a50,170x42,0,0,11	:
+window	11	1	:zsh	1	:*	6321,83x19,0,0,12	:
+window	37	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	38	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	39	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	40	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	41	1	:python	1	:*	b442,170x42,0,0,5	:
+window	42	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	9	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	amparo	1	:zsh	1	:*Z	4f5b,170x42,0,0{86x42,0,0[86x18,0,0,8,86x23,0,19,9],83x42,87,0,10}	:
+state	41	9

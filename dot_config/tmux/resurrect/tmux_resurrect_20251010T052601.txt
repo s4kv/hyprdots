@@ -1,0 +1,16 @@
+pane	0	1	1	:*	1	plugins: nvim java.lua	:/home/sakvi/.config/nvim/lua/custom/plugins	1	nvim	:nvim java.lua
+pane	1	1	1	:*	1	~/.config/next_nvim	:/home/sakvi/.config/nvim	0	zsh	:
+pane	1	1	1	:*	2	~/.config/next_nvim	:/home/sakvi/.config/nvim	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	4cc2,169x42,0,0{84x42,0,0,1,84x42,85,0,6}	:
+window	2	1	:zsh	1	:*	a460,84x20,0,0,3	:
+window	3	1	:zsh	1	:*	ade1,41x42,0,0,4	:
+window	4	1	:zsh	1	:*	a462,84x20,0,0,5	:
+window	5	1	:zsh	1	:*	a464,84x20,0,0,7	:
+window	6	1	:zsh	1	:*	a466,84x20,0,0,9	:
+state	0	

@@ -1,0 +1,73 @@
+pane	10	1	1	:*	1	~/Documents	:/home/sakvi/Documents	1	zsh	:
+pane	11	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	12	1	0	:-	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	12	2	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~/projects/my-projects/test/test	:/home/sakvi/projects/my-projects/test/test	1	zsh	:
+pane	17	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend/app/(tabs)	:/home/sakvi/projects/gt_projects/nutriCast/frontend/app/(tabs)	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	21	1	1	:*Z	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	21	1	1	:*Z	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~/projects/demo/springboot-gcp	:/home/sakvi/projects/demo/springboot-gcp	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~/projects/demo	:/home/sakvi/projects/demo	1	zsh	:
+pane	26	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	27	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+pane	3	2	0	:-	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	nutricast	1	1	:*Z	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	1	1	:*Z	2	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	0	zsh	:
+pane	nutricast	2	0	:-	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	2	0	:-	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	nutricast	2	0	:-	3	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	zsh	:
+window	10	1	:zsh	1	:*	b87e,169x42,0,0,1	:
+window	11	1	:zsh	1	:*	b87f,169x42,0,0,2	:
+window	12	1	:zsh	0	:-	b880,169x42,0,0,3	:
+window	12	2	:zsh	1	:*	b881,169x42,0,0,4	:
+window	13	1	:zsh	1	:*	b882,169x42,0,0,5	:
+window	14	1	:zsh	1	:*	b883,169x42,0,0,6	:
+window	15	1	:zsh	1	:*	b884,169x42,0,0,7	:
+window	16	1	:zsh	1	:*	b885,169x42,0,0,8	:
+window	17	1	:zsh	1	:*	b886,169x42,0,0,9	:
+window	18	1	:zsh	1	:*	5c6f,169x42,0,0,10	:
+window	19	1	:zsh	1	:*	5c70,169x42,0,0,11	:
+window	20	1	:zsh	1	:*	5c71,169x42,0,0,12	:
+window	21	1	:zsh	1	:*Z	9971,169x42,0,0{84x42,0,0,13,84x42,85,0,14}	:
+window	22	1	:zsh	1	:*	5c74,169x42,0,0,15	:
+window	23	1	:zsh	1	:*	5c75,169x42,0,0,16	:
+window	24	1	:zsh	1	:*	5c76,169x42,0,0,17	:
+window	25	1	:zsh	1	:*	5c77,169x42,0,0,18	:
+window	26	1	:zsh	1	:*	5268,84x20,0,0,19	:
+window	27	1	:zsh	1	:*	5a54,170x42,0,0,34	:
+window	28	1	:zsh	1	:*	5865,84x42,0,0,35	:
+window	29	1	:zsh	1	:*	5266,84x20,0,0,36	:
+window	3	1	:zsh	1	:*	dc6f,169x42,0,0,20	:
+window	3	2	:zsh	0	:-	dc70,169x42,0,0,21	:
+window	30	1	:zsh	1	:*	5267,84x20,0,0,37	:
+window	31	1	:zsh	1	:*	5268,84x20,0,0,38	:
+window	35	1	:zsh	1	:*	dc71,169x42,0,0,22	:
+window	4	1	:zsh	1	:*	dc72,169x42,0,0,23	:
+window	5	1	:zsh	1	:*	dc73,169x42,0,0,24	:
+window	6	1	:zsh	1	:*	dc74,169x42,0,0,25	:
+window	7	1	:zsh	1	:*	dc75,169x42,0,0,26	:
+window	8	1	:zsh	1	:*	dc76,169x42,0,0,27	:
+window	9	1	:zsh	1	:*	dc77,169x42,0,0,28	:
+window	nutricast	1	:zsh	1	:*Z	2b3d,169x42,0,0{88x42,0,0,29,80x42,89,0,30}	:
+window	nutricast	2	:zsh	0	:-	c477,169x42,0,0{83x42,0,0[83x23,0,0,31,83x18,0,24,32],85x42,84,0,33}	:
+state	26	31

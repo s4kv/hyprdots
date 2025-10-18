@@ -1,0 +1,37 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/gatech/CS3001/0_term_paper	:/home/sakvi/gatech/CS3001/0_term_paper	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	sakvi: nvim hello.md	:/home/sakvi	1	nvim	:nvim hello.md
+pane	17	1	1	:*	1	~/Downloads	:/home/sakvi/Downloads	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	:/home/sakvi/.local/share/neonvim/lazy/easyjump.yazi	1	yazi	2604373	:
+pane	20	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	11	1	:zsh	1	:*	5960,213x51,0,0,11	:
+window	14	1	:zsh	1	:*	5cb3,105x24,0,0,14	:
+window	16	1	:nvim	1	:*	5925,212x51,0,0,16	:
+window	17	1	:zsh	1	:*	56c6,72x51,0,0,17	:
+window	18	1	:zsh	1	:*	5987,52x24,0,0,18	:
+window	19	1	:yazi	1	:*	59c8,72x24,0,0,19	:
+window	20	1	:yazi	1	:*	d27f,52x11,0,0,20	:
+window	21	1	:zsh	1	:*	d920,212x51,0,0,21	:
+window	22	1	:zsh	1	:*	da51,170x42,0,0,22	:
+window	3	1	:zsh	1	:*	b060,84x42,0,0,3	:
+window	4	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	5	1	:zsh	1	:*	a1e2,41x20,0,0,5	:
+window	6	1	:zsh	1	:*	b903,105x24,0,0,6	:
+window	7	1	:zsh	1	:*	b264,213x51,0,0,7	:
+window	8	1	:zsh	1	:*	b305,105x51,0,0,8	:
+window	9	1	:zsh	1	:*	b906,105x24,0,0,9	:
+state	22	

@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	project_1: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200.sim	:/home/sakvi/gatech/CS2200/Projects/project_1	1	java	:yazi --cwd-file=/tmp/yazi-cwd.P2srUV
+pane	2	1	1	:*	1	:/home/sakvi/gatech/CS2200/Homeworks/homework_2/src	1	yazi	1516115	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:java	1	:*	b8fd,105x24,0,0,0	:
+window	2	1	:yazi	1	:*	b25f,213x51,0,0,2	:
+window	3	1	:zsh	1	:*	b2a0,52x24,0,0,3	:
+state	2	

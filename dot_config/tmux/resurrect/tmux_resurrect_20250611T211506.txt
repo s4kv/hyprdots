@@ -1,0 +1,14 @@
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	32	1	1	:*	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	1	1	:*	1	backend: nvim	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	nvim	:nvim
+pane	nutricast	2	0	:-	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	zsh	:
+pane	nutricast	2	0	:-	2	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+window	29	1	:zsh	1	:*	5f87,52x27,0,0,37	:
+window	30	1	:zsh	1	:*	62b8,105x27,0,0,38	:
+window	31	1	:zsh	1	:*	6369,213x56,0,0,39	:
+window	32	1	:zsh	1	:*	e1b0,105x55,0,0,40	:
+window	nutricast	1	:nvim	1	:*	e361,213x56,0,0,22	:
+window	nutricast	2	:npm	0	:-	a6ef,213x56,0,0{106x56,0,0,41,106x56,107,0,42}	:
+state	nutricast	

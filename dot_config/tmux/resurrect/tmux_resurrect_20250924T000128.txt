@@ -1,0 +1,10 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	homework_4: nvim	:/home/sakvi/gatech/CS2200/Homeworks/homework_4	0	nvim	:hyprsunset -g 50 -t 4000
+tee
+nvim
+pane	1	1	1	:*	2	src: gdb a.out	:/home/sakvi/gatech/CS2200/Homeworks/homework_4/src	1	gdb	:gdb a.out
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b43d,170x42,0,0,0	:
+window	1	1	:gdb	1	:*	7f8e,213x51,0,0{106x51,0,0,1,106x51,107,0,3}	:
+window	2	1	:zsh	1	:*	b8ff,105x24,0,0,2	:
+state	1	

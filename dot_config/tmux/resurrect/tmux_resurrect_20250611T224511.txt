@@ -1,0 +1,7 @@
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	0	:-	1	backend: nvim src	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	nvim	:nvim src
+pane	36	2	1	:*	1	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+window	35	1	:zsh	1	:*	e1b7,105x55,0,0,47	:
+window	36	1	:nvim	0	:-	e368,213x56,0,0,48	:
+window	36	2	:npm	1	:*	e569,213x57,0,0,49	:
+state	36	

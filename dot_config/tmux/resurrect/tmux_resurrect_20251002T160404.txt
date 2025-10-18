@@ -1,0 +1,6 @@
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:hyprsunset -g 50 -t 4000
+tee
+pane	4	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:/usr/bin/python /usr/bin/thefuck --alias
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	4	1	:zsh	1	:*	b301,105x51,0,0,4	:
+state	4	

@@ -1,0 +1,19 @@
+pane	0	1	1	:*	1	conf: nvim monitors.conf	:/home/sakvi/.config/hypr/conf	1	nvim	:nvim monitors.conf
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	nvim: nvim jafas.java	:/home/sakvi/.config/nvim	1	nvim	:nvim jafas.java
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	sakvi: nvim jasdfasj.java	:/home/sakvi	1	nvim	:nvim jasdfasj.java
+pane	6	1	1	:*	1	lua: nvim config/lazy.lua	:/home/sakvi/.config/nvim/lua	1	nvim	:nvim config/lazy.lua
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*	b8fd,105x24,0,0,0	:
+window	1	1	:zsh	1	:*	b2fe,105x51,0,0,1	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	3	1	:nvim	1	:*	b880,169x42,0,0,3	:
+window	4	1	:zsh	1	:*	a461,84x20,0,0,4	:
+window	5	1	:nvim	1	:*	b062,84x42,0,0,5	:
+window	6	1	:nvim	1	:*	b303,105x51,0,0,6	:
+window	7	1	:zsh	1	:*	a464,84x20,0,0,7	:
+window	8	1	:zsh	1	:*	a465,84x20,0,0,8	:
+state	3	

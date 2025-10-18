@@ -1,0 +1,3 @@
+pane	0	1	1	:*	1	src: nvim fib.s	:/home/sakvi/gatech/CS2200/Homeworks/homework_2/src	1	nvim	:yazi --cwd-file=/tmp/yazi-cwd.MELkem
+window	0	1	:nvim	1	:*	b2fd,105x51,0,0,0	:
+state	0	

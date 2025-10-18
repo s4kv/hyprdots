@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	sakvi: hyprsunset -t 5000 -g 50	:/home/sakvi	1	hyprsunset	:hyprsunset -t 5000 -g 50
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:hyprsunset	1	:*	b0dd,85x42,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+state	0	

@@ -1,0 +1,49 @@
+pane	10	1	1	:*	1	~/gatech/cs3510	:/home/sakvi/gatech/cs3510	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/.config/hypr/conf	:/home/sakvi/.config/hypr/conf	1	zsh	:
+pane	15	1	1	:*Z	1	demo: nvim demo.asm	:/home/sakvi/gatech/cs2110/demo	0	nvim	:nvim demo.asm
+pane	15	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	26	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	27	1	1	:*	1	~/.config/rofi/tmux	:/home/sakvi/.config/rofi/tmux	1	zsh	:
+pane	28	1	1	:*	1	~	:/home/sakvi	0	zsh	:
+pane	28	1	1	:*	2	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	sakvi: libreoffice 	:/home/sakvi	1	oosplash	:/usr/lib/libreoffice/program/oosplash Control structures in assembly - By Salvador Ibarguren Matto.odp
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	10	1	:zsh	1	:*	c77e,106x56,0,0,1	:
+window	11	1	:zsh	1	:*	c77f,106x56,0,0,2	:
+window	12	1	:zsh	1	:*	c780,106x56,0,0,3	:
+window	13	1	:zsh	1	:*	c781,106x56,0,0,4	:
+window	14	1	:zsh	1	:*	c782,106x56,0,0,5	:
+window	15	1	:zsh	1	:*Z	fff5,106x56,0,0{53x56,0,0,6,52x56,54,0,7}	:
+window	16	1	:zsh	1	:*	c785,106x56,0,0,8	:
+window	17	1	:zsh	1	:*	c786,106x56,0,0,9	:
+window	18	1	:zsh	1	:*	63ef,106x56,0,0,10	:
+window	19	1	:zsh	1	:*	63f0,106x56,0,0,11	:
+window	20	1	:zsh	1	:*	63f1,106x56,0,0,12	:
+window	21	1	:zsh	1	:*	63f2,106x56,0,0,13	:
+window	22	1	:zsh	1	:*	63f3,106x56,0,0,14	:
+window	23	1	:zsh	1	:*	63f4,106x56,0,0,15	:
+window	24	1	:zsh	1	:*	63f5,106x56,0,0,16	:
+window	25	1	:zsh	1	:*	63f6,106x56,0,0,17	:
+window	26	1	:zsh	1	:*	63f7,106x56,0,0,18	:
+window	27	1	:zsh	1	:*	63f8,106x56,0,0,19	:
+window	28	1	:zsh	1	:*	cbc4,104x54,0,0{50x54,0,0,20,53x54,51,0,21}	:
+window	29	1	:oosplash	1	:*	e075,104x26,0,0,26	:
+window	9	1	:zsh	1	:*	e3f1,106x56,0,0,22	:
+window	amparo	1	:zsh	1	:*Z	2ec1,106x56,0,0{54x56,0,0[54x25,0,0,23,54x30,0,26,24],51x56,55,0,25}	:
+state	29	

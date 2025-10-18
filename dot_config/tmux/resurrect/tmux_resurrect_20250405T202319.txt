@@ -1,0 +1,11 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*	2	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	gba	1	1	:*	3	hw06_linux: ./cs2110docker-gba.sh	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	bash	:/bin/bash ./cs2110docker-gba.sh
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	1	zsh	:
+window	10	1	:zsh	1	:*	5e52,136x53,0,0,13	:
+window	amparo	1	:zsh	1	:*	bc45,136x53,0,0,8	:
+window	gba	1	:nvim main	1	:*	a6d1,213x55,0,0{108x55,0,0,9,104x55,109,0[104x24,109,0,10,104x30,109,25,11]}	off
+window	gba	2	:run / test 	0	:-	6161,213x55,0,0,12	off
+state	gba	amparo

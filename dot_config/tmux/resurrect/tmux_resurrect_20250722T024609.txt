@@ -1,0 +1,7 @@
+pane	14	1	1	:*	1	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+pane	15	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	16	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	14	1	:[tmux]	1	:*	61b5,105x55,0,0,16	:
+window	15	1	:zsh	1	:*	5e86,52x55,0,0,17	:
+window	16	1	:zsh	1	:*	6367,213x56,0,0,18	:
+state	16	

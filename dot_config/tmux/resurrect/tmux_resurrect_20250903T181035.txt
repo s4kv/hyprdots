@@ -1,0 +1,8 @@
+pane	0	1	1	:*	1	~/gatech/CS2200/Homeworks/homework_2	:/home/sakvi/gatech/CS2200/Homeworks/homework_2	0	zsh	:
+pane	0	1	1	:*	2	homework_2: xdg-open Homework 2.pdf	:/home/sakvi/gatech/CS2200/Homeworks/homework_2	1	sh	:/bin/sh /usr/bin/xdg-open Homework 2.pdf
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	Books: xdg-open 	:/home/sakvi/gatech/CS2200/Books	1	sh	:/bin/sh /usr/bin/xdg-open Computer Systems An Integrated Approach to Architecture and Operating Systems (Umakishore Ramachandran William D. Leahy Jr) (Z-Library)_1_1.pdf
+window	0	1	:sh	1	:*	5107,84x20,0,0{42x20,0,0,0,41x20,43,0,1}	:
+window	1	1	:zsh	1	:*	a45f,84x20,0,0,2	:
+window	2	1	:sh	1	:*	a461,84x20,0,0,4	:
+state	0	

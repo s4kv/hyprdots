@@ -1,0 +1,32 @@
+pane	0	1	1	:*Z	1	~	:/home/sakvi	0	zsh	:
+pane	0	1	1	:*Z	2	~/Wallpaper/loop-wall	:/home/sakvi/Wallpaper/loop-wall	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	cmake_learning: nvim CMakeLists.txt	:/home/sakvi/projects/learning/cmake_learning	1	nvim	:nvim CMakeLists.txt
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*Z	b193,84x42,0,0[84x21,0,0,0,84x20,0,22,1]	:
+window	1	1	:zsh	1	:*	b05f,84x42,0,0,2	:
+window	10	1	:zsh	1	:*	5a50,170x42,0,0,11	:
+window	11	1	:zsh	1	:*	5861,84x42,0,0,12	:
+window	12	1	:zsh	1	:*	5a52,170x42,0,0,13	:
+window	13	1	:zsh	1	:*	5673,169x20,0,0,14	:
+window	14	1	:zsh	1	:*	5a54,170x42,0,0,15	:
+window	15	1	:nvim	1	:*	5865,84x42,0,0,16	:
+window	2	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	3	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	4	1	:zsh	1	:*	b062,84x42,0,0,5	:
+window	5	1	:zsh	1	:*	a463,84x20,0,0,6	:
+window	6	1	:zsh	1	:*	a1e4,41x20,0,0,7	:
+window	7	1	:zsh	1	:*	ff65,41x9,0,0,8	:
+window	8	1	:zsh	1	:*	fd66,20x9,0,0,9	:
+state	15	

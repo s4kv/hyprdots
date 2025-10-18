@@ -1,0 +1,27 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	CS3001: nvim therac25.md	:/home/sakvi/gatech/CS3001	1	nvim	:nvim therac25.md
+pane	6	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	6	2	1	:*	1	~/gatech/CS3300/mvn_activity01/cs3300	:/home/sakvi/gatech/CS3300/mvn_activity01/cs3300	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	c65e,213x56,0,0,1	:
+window	11	1	:zsh	1	:*	62b1,105x27,0,0,12	:
+window	12	1	:zsh	1	:*	6122,212x55,0,0,13	:
+window	13	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:zsh	1	:*	c660,213x56,0,0,3	:
+window	4	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	5	1	:nvim	1	:*	c662,213x56,0,0,5	:
+window	6	1	:zsh	0	:-	c663,213x56,0,0,6	:
+window	6	2	:zsh	1	:*	6360,213x56,0,0,11	:
+window	7	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	8	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	9	1	:zsh	1	:*	c666,213x56,0,0,9	:
+window	main	1	:zsh	1	:*	62af,105x27,0,0,10	:
+state	6	main

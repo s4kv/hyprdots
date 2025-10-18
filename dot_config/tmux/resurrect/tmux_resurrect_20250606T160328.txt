@@ -1,0 +1,11 @@
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	37	2	0	:-	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	1	zsh	:
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	0	zsh	:
+window	37	1	:zsh	1	:*Z	ff1c,84x42,0,0{42x42,0,0,31,41x42,43,0,32}	:
+window	37	2	:zsh	0	:-	5a53,170x42,0,0,33	:
+window	main	1	:zsh	1	:*	5a58,170x42,0,0,38	:
+window	neuralcanvas	1	:zsh	1	:*Z	498d,170x42,0,0{84x42,0,0,39,85x42,85,0,40}	:
+state	37	main

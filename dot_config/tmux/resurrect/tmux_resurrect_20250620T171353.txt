@@ -1,0 +1,38 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:zsh
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~/projects/demo/springboot-gcp	:/home/sakvi/projects/demo/springboot-gcp	1	zsh	:zsh
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*Z	1	~/.config/Ryujinx/system	:/home/sakvi/.config/Ryujinx/system\ (deleted)	1	zsh	:
+pane	25	1	1	:*Z	2	~/.config/Ryujinx	:/home/sakvi/.config/Ryujinx\ (deleted)	0	zsh	:
+pane	26	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	27	1	1	:*	1	~/.local/share/citron	:/home/sakvi/.local/share/citron	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:chezmoi cd
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:yazi
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:zsh
+pane	hyprsunset	1	1	:*	1	sakvi: hyprsunset -t 4000 -g 80	:/home/sakvi	1	hyprsunset	:hyprsunset -t 4000 -g 80
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	1	:zsh	1	:*	5861,84x42,0,0,12	:
+window	15	1	:zsh	1	:*	61b7,105x55,0,0,18	:
+window	2	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+window	20	1	:zsh	1	:*	e1b3,105x55,0,0,24	:
+window	21	1	:zsh	1	:*	da54,170x42,0,0,25	:
+window	22	1	:zsh	1	:*	e2b5,105x27,0,0,26	:
+window	23	1	:zsh	1	:*	df86,52x27,0,0,27	:
+window	24	1	:zsh	1	:*	e1b7,105x55,0,0,28	:
+window	25	1	:zsh	1	:*Z	da86,105x55,0,0[105x27,0,0,29,105x27,0,28,30]	:
+window	26	1	:zsh	1	:*	5a51,170x42,0,0,31	:
+window	27	1	:zsh	1	:*	6222,212x27,0,0,32	:
+window	3	1	:zsh	1	:*	c302,105x55,0,0,5	:
+window	4	1	:zsh	1	:*	c1e3,212x55,0,0,6	:
+window	5	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	8	1	:zsh	1	:*	635f,213x56,0,0,10	:
+window	hyprsunset	1	:hyprsunset	1	:*	e1af,105x55,0,0,20	:
+state	26	

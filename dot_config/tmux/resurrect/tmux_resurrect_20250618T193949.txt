@@ -1,0 +1,19 @@
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	44	1	1	:*	1	:/home/sakvi	1	yazi	92927	:
+pane	sakvi	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	sakvi	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+window	34	1	:zsh	1	:*	54e3,25x12,0,0,33	:
+window	35	1	:zsh	1	:*	54e4,25x12,0,0,34	:
+window	37	1	:zsh	1	:*	77a6,12x5,0,0,36	:
+window	38	1	:zsh	1	:*	6367,213x56,0,0,37	:
+window	38	2	:zsh	0	:-	6368,213x56,0,0,38	:
+window	39	1	:zsh	1	:*	e1b0,105x55,0,0,40	:
+window	44	1	:yazi	1	:*	d485,52x12,0,0,45	:
+window	sakvi	1	:zsh	1	:*	6365,213x56,0,0,35	:
+window	sakvi	2	:zsh	0	:-	6369,213x56,0,0,39	:
+state	44	

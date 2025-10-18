@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	latex-resume: nvim Salvador Ibarguren Resume.tex	:/home/sakvi/gatech/resumes/latex-resume	1	nvim	:nvim Salvador Ibarguren Resume.tex
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:nvim	1	:*	b05e,84x42,0,0,1	:
+window	2	1	:zsh	1	:*	a45f,84x20,0,0,2	:
+state	1	

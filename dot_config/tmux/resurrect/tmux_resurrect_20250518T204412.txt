@@ -1,0 +1,23 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	109	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/Pictures	:/home/sakvi/Pictures	1	zsh	:
+pane	110	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	81	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	82	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	515f,42x20,0,0,10	:
+window	109	1	:zsh	1	:*	a25e,42x20,0,0,1	:
+window	11	1	:zsh	1	:*	5860,84x42,0,0,11	:
+window	110	1	:zsh	1	:*	a25f,42x20,0,0,2	:
+window	5	1	:zsh	1	:*	b062,84x42,0,0,5	:
+window	6	1	:zsh	1	:*	a463,84x20,0,0,6	:
+window	7	1	:zsh	1	:*	a1e4,41x20,0,0,7	:
+window	8	1	:zsh	1	:*	b065,84x42,0,0,8	:
+window	81	1	:zsh	1	:*	a260,42x20,0,0,3	:
+window	82	1	:zsh	1	:*	b061,84x42,0,0,4	:
+window	9	1	:zsh	1	:*	a466,84x20,0,0,9	:
+state	11	

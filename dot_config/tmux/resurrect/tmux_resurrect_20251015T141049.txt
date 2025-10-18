@@ -1,0 +1,11 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~/.config/waybar	:/home/sakvi/.config/waybar	1	zsh	:
+pane	3	1	1	:*	1	~/gatech/archive/fall24/cs1332/homeworks1332/hmw10_1332	:/home/sakvi/gatech/archive/fall24/cs1332/homeworks1332/hmw10_1332	1	zsh	:
+pane	4	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+window	0	1	:zsh	1	:*	b43d,170x42,0,0,0	:
+window	1	1	:zsh	1	:*	b25e,213x51,0,0,1	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	3	1	:zsh	1	:*	b1e0,212x51,0,0,3	:
+window	4	1	:zsh	1	:*	b061,84x42,0,0,4	:
+state	4	

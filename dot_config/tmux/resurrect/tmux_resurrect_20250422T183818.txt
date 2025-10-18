@@ -1,0 +1,7 @@
+pane	61	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*	2	~	:/home/sakvi	0	zsh	:
+pane	amparo	1	1	:*	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	1	zsh	:
+window	61	1	:zsh	1	:*	df75,104x54,0,0,64	:
+window	amparo	1	:zsh	1	:*	51fc,104x54,0,0[104x1,0,0,61,104x1,0,2,62,104x50,0,4,63]	:
+state	61	

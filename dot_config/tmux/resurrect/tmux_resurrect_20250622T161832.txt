@@ -1,0 +1,45 @@
+pane	0	1	1	:*Z	1	conf: nvim look.conf	:/home/sakvi/.config/hypr/conf	1	nvim	:glava
+nvim look.conf
+pane	0	1	1	:*Z	2	~/.config/hypr/conf	:/home/sakvi/.config/hypr/conf	0	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	hypr: nvim conf	:/home/sakvi/.config/hypr	1	nvim	:nvim conf
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*Z	e4d6,105x55,0,0{52x55,0,0,0,52x55,53,0,2}	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	10	1	:zsh	1	:*	62b0,105x27,0,0,11	:
+window	11	1	:zsh	1	:*	50a1,20x20,0,0,12	:
+window	12	1	:zsh	1	:*	4ca2,9x20,0,0,13	:
+window	13	1	:zsh	1	:*	76e3,9x9,0,0,14	:
+window	14	1	:zsh	1	:*	6a64,4x4,0,0,15	:
+window	15	1	:zsh	1	:*	72e5,1x9,0,0,16	:
+window	16	1	:zsh	1	:*	6a66,4x4,0,0,17	:
+window	17	1	:zsh	1	:*	62b7,105x27,0,0,18	:
+window	18	1	:zsh	1	:*	7468,4x9,0,0,19	:
+window	19	1	:zsh	1	:*	e4af,166x18,0,0,20	:
+window	2	1	:zsh	1	:*	c300,105x55,0,0,3	:
+window	20	1	:nvim	1	:*	e1b0,105x55,0,0,21	:
+window	3	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	4	1	:zsh	1	:*	c662,213x56,0,0,5	:
+window	5	1	:zsh	1	:*	ff63,41x9,0,0,6	:
+window	6	1	:zsh	1	:*	b064,84x42,0,0,7	:
+window	7	1	:zsh	1	:*	a465,84x20,0,0,8	:
+window	8	1	:zsh	1	:*	a1e6,41x20,0,0,9	:
+window	9	1	:zsh	1	:*	7edf,20x9,0,0,10	:
+state	20	

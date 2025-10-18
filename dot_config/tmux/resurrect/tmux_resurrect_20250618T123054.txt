@@ -1,0 +1,10 @@
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	nutricast	1	1	:*Z	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	1	1	:*Z	2	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	0	zsh	:
+pane	nutricast	2	0	:-	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	2	0	:-	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	nutricast	2	0	:-	3	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	zsh	:
+window	main	1	:zsh	1	:*	da57,170x42,0,0,28	:
+window	nutricast	1	:zsh	1	:*Z	f9bc,170x42,0,0{89x42,0,0,37,80x42,90,0,38}	:
+window	nutricast	2	:zsh	0	:-	c92d,170x42,0,0{84x42,0,0[84x23,0,0,39,84x18,0,24,40],85x42,85,0,41}	:
+state	main	

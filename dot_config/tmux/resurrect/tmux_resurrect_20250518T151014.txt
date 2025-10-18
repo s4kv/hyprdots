@@ -1,0 +1,9 @@
+pane	109	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	110	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	81	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	82	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	109	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	110	1	:zsh	1	:*	6361,213x56,0,0,12	:
+window	81	1	:zsh	1	:*	e364,213x56,0,0,82	:
+window	82	1	:zsh	1	:*	e1b5,105x55,0,0,83	:
+state	82	

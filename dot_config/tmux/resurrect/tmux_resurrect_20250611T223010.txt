@@ -1,0 +1,7 @@
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	backend: nvim src	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	nvim	:nvim src
+pane	36	2	0	:-	1	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	zsh	:
+window	35	1	:zsh	1	:*	e1b7,105x55,0,0,47	:
+window	36	1	:nvim	1	:*	e368,213x56,0,0,48	:
+window	36	2	:zsh	0	:-	e369,213x56,0,0,49	:
+state	36	

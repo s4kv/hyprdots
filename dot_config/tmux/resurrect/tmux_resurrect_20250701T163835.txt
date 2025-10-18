@@ -1,0 +1,14 @@
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~/projects/demo/cs3300-payment-demo	:/home/sakvi/projects/demo/cs3300-payment-demo	1	zsh	:
+pane	10	1	1	:*	2	cs3300-payment-demo: nvim README.md	:/home/sakvi/projects/demo/cs3300-payment-demo	0	nvim	:nvim README.md
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	conf: nvim input.conf	:/home/sakvi/.config/hypr/conf	1	nvim	:nvim input.conf
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	1	1	:zsh	1	:*	b063,84x42,0,0,6	:
+window	10	1	:zsh	1	:*	8deb,170x42,0,0{85x42,0,0,11,84x42,86,0,12}	:
+window	6	1	:zsh	1	:*	a464,84x20,0,0,7	:
+window	7	1	:zsh	1	:*	b065,84x42,0,0,8	:
+window	8	1	:nvim	1	:*	a466,84x20,0,0,9	:
+window	9	1	:zsh	1	:*	525f,84x20,0,0,10	:
+state	10	

@@ -1,0 +1,47 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c4fd,105x27,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	1	:zsh	1	:*	635f,213x56,0,0,10	:
+window	11	1	:zsh	1	:*	61b0,105x55,0,0,11	:
+window	12	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	13	1	:zsh	1	:*	62b2,105x27,0,0,13	:
+window	14	1	:zsh	1	:*	5f83,52x27,0,0,14	:
+window	15	1	:zsh	1	:*	5484,52x12,0,0,15	:
+window	16	1	:zsh	1	:*	54e5,25x12,0,0,16	:
+window	17	1	:zsh	1	:*	7966,25x5,0,0,17	:
+window	18	1	:zsh	1	:*	77a7,12x5,0,0,18	:
+window	19	1	:zsh	1	:*	71a8,12x2,0,0,19	:
+window	2	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	20	1	:zsh	1	:*	e1af,105x55,0,0,20	:
+window	21	1	:zsh	1	:*	e2b0,105x27,0,0,21	:
+window	22	1	:zsh	1	:*	e361,213x56,0,0,22	:
+window	3	1	:zsh	1	:*	c500,105x27,0,0,3	:
+window	4	1	:zsh	1	:*	bea1,52x27,0,0,4	:
+window	5	1	:zsh	1	:*	c502,105x27,0,0,5	:
+window	6	1	:zsh	1	:*	c783,106x56,0,0,6	:
+window	7	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	8	1	:zsh	1	:*	c385,106x55,0,0,8	:
+window	9	1	:zsh	1	:*	c666,213x56,0,0,9	:
+state	22	

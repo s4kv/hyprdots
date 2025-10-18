@@ -1,0 +1,53 @@
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	33	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	40	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	41	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	42	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	43	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	44	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	45	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	46	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	47	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	48	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	49	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	50	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	51	1	1	:*	1	incident_response: nvim	:/home/sakvi/gatech/test_courses/incident_response	1	nvim	:nvim
+pane	52	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	53	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	class	1	1	:*	1	~/gatech/test_courses/incident_response	:/home/sakvi/gatech/test_courses/incident_response	1	zsh	:
+window	29	1	:zsh	1	:*	5861,84x42,0,0,31	:
+window	30	1	:zsh	1	:*	5262,84x20,0,0,32	:
+window	31	1	:zsh	1	:*	5123,41x20,0,0,33	:
+window	32	1	:zsh	1	:*	7fe4,41x9,0,0,34	:
+window	33	1	:zsh	1	:*	7ee5,20x9,0,0,35	:
+window	34	1	:zsh	1	:*	74e6,20x4,0,0,36	:
+window	35	1	:zsh	1	:*	5a57,170x42,0,0,37	:
+window	36	1	:zsh	1	:*	5868,84x42,0,0,38	:
+window	37	1	:zsh	1	:*	5269,84x20,0,0,39	:
+window	38	1	:zsh	1	:*	d120,41x20,0,0,40	:
+window	39	1	:zsh	1	:*	ffe1,41x9,0,0,41	:
+window	40	1	:zsh	1	:*	fee2,20x9,0,0,42	:
+window	41	1	:zsh	1	:*	f4e3,20x4,0,0,43	:
+window	42	1	:zsh	1	:*	ece4,9x4,0,0,44	:
+window	43	1	:zsh	1	:*	e6e5,9x1,0,0,45	:
+window	44	1	:zsh	1	:*	e466,4x1,0,0,46	:
+window	45	1	:zsh	1	:*	e2e7,1x1,0,0,47	:
+window	46	1	:zsh	1	:*	e2e8,1x1,0,0,48	:
+window	47	1	:zsh	1	:*	e2e9,1x1,0,0,49	:
+window	48	1	:zsh	1	:*	5861,84x42,0,0,50	:
+window	49	1	:zsh	1	:*	5a52,170x42,0,0,51	:
+window	50	1	:zsh	1	:*	5a53,170x42,0,0,52	:
+window	51	1	:nvim	1	:*	5a54,170x42,0,0,53	:
+window	52	1	:zsh	1	:*	5265,84x20,0,0,54	:
+window	53	1	:zsh	1	:*	5a56,170x42,0,0,55	:
+window	class	1	:zsh	1	:*	da4f,170x42,0,0,20	:
+state	51	53

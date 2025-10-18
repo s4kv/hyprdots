@@ -1,0 +1,18 @@
+pane	0	1	1	:*	1	~/gatech/CS2200/Projects/project_2	:/home/sakvi/gatech/CS2200/Projects/project_2	1	zsh	:
+pane	15	1	1	:*	1	~/gatech/CS2200/Projects/project_2	:/home/sakvi/gatech/CS2200/Projects/project_2	1	zsh	:
+pane	2	1	1	:*	1	~/gatech/CS2200/Projects/project_2	:/home/sakvi/gatech/CS2200/Projects/project_2	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.aWgOk8
+-zsh
+pane	20	1	1	:*	1	project_2: nvim prj2.hex	:/home/sakvi/gatech/CS2200/Projects/project_2	1	nvim	:zsh
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	project_2: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200a.sim	:/home/sakvi/gatech/CS2200/Projects/project_2	1	java	:zsh
+pane	6	1	1	:*	1	~/gatech/CS2200/Projects/project_1	:/home/sakvi/gatech/CS2200/Projects/project_1	1	zsh	:
+pane	9	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	15	1	:zsh	1	:*	5cb4,105x24,0,0,15	:
+window	2	1	:zsh	1	:*	b2ff,105x51,0,0,2	:
+window	20	1	:nvim	1	:*	d67f,52x51,0,0,20	:
+window	23	1	:zsh	1	:*	d682,52x51,0,0,23	:
+window	5	1	:java	1	:*	b902,105x24,0,0,5	:
+window	6	1	:zsh	1	:*	b063,84x42,0,0,6	:
+window	9	1	:yazi	1	:*	b906,105x24,0,0,9	:
+state	6	

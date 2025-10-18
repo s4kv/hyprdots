@@ -1,0 +1,11 @@
+pane	13	1	1	:*	1	cs3001_homework_1: nvim works.bib	:/home/sakvi/gatech/CS3001/cs3001_homework_1	1	nvim	:nvim works.bib
+pane	3	1	1	:*	1	sakvi: hyprsunset	:/home/sakvi	1	hyprsunset	:hyprsunset
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	CS3001: nvim therac25.md	:/home/sakvi/gatech/CS3001	1	nvim	:nvim therac25.md
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	13	1	:nvim	1	:*	c2fe,105x55,0,0,1	:
+window	3	1	:hyprsunset	1	:*	a461,84x20,0,0,4	:
+window	4	1	:zsh	1	:*	c502,105x27,0,0,5	:
+window	5	1	:nvim	1	:*	a463,84x20,0,0,6	:
+window	main	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+state	13	main

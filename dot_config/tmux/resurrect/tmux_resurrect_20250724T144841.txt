@@ -1,0 +1,39 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	9	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+window	0	1	:zsh	1	:*	b25d,213x51,0,0,0	:
+window	1	1	:zsh	1	:*	aefe,105x50,0,0,1	:
+window	10	1	:zsh	1	:*	59ef,106x51,0,0,10	:
+window	11	1	:zsh	1	:*	5d80,90x45,0,0,11	:
+window	12	1	:zsh	1	:*	5381,90x21,0,0,12	:
+window	13	1	:zsh	1	:*	5a52,170x42,0,0,13	:
+window	14	1	:zsh	1	:*	5863,84x42,0,0,14	:
+window	15	1	:zsh	1	:*	5864,84x42,0,0,15	:
+window	16	1	:zsh	1	:*	5865,84x42,0,0,16	:
+window	17	1	:zsh	1	:*	5966,213x51,0,0,17	:
+window	18	1	:zsh	1	:*	5ef7,106x25,0,0,18	:
+window	2	1	:zsh	1	:*	b8ff,105x24,0,0,2	:
+window	3	1	:zsh	1	:*	c180,182x45,0,0,3	:
+window	4	1	:zsh	1	:*	af01,105x50,0,0,4	:
+window	5	1	:zsh	1	:*	b902,105x24,0,0,5	:
+window	6	1	:zsh	1	:*	b2a3,52x24,0,0,6	:
+window	7	1	:zsh	1	:*	a4a4,52x11,0,0,7	:
+window	8	1	:zsh	1	:*	af05,105x50,0,0,8	:
+window	9	1	:zsh	1	:*	b266,213x51,0,0,9	:
+state	15	

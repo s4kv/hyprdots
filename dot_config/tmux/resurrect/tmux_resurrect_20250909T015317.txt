@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	project_1: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200.sim	:/home/sakvi/gatech/CS2200/Projects/project_1	1	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java -Xmx250M -jar /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200.sim
+pane	1	1	1	:*	1	Yazi: ~/gatech/CS2200/Projects/project_1	:/home/sakvi/gatech/CS2200/Projects/project_1	1	yazi	:
+window	0	1	:java	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:yazi	1	:*	b0de,47x23,0,0,1	:
+state	1	

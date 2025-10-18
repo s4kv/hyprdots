@@ -1,0 +1,27 @@
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:zsh
+pane	19	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	21	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	45	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	sakvi	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	sakvi	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+window	14	1	:[tmux]	1	:*	6365,213x56,0,0,16	:
+window	16	1	:zsh	1	:*	61b7,105x55,0,0,18	:
+window	19	1	:yazi	1	:*	e2b0,105x27,0,0,21	:
+window	21	1	:yazi	1	:*	e1b2,105x55,0,0,23	:
+window	34	1	:zsh	1	:*	c4fe,105x27,0,0,1	:
+window	35	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	37	1	:zsh	1	:*	c660,213x56,0,0,3	:
+window	38	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	38	2	:zsh	0	:-	c662,213x56,0,0,5	:
+window	39	1	:zsh	1	:*	c663,213x56,0,0,6	:
+window	45	1	:zsh	1	:*	c664,213x56,0,0,7	:
+window	sakvi	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	sakvi	2	:zsh	0	:-	c666,213x56,0,0,9	:
+state	21	

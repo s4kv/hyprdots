@@ -1,0 +1,62 @@
+pane	10	1	1	:*	1	~/gatech/MATH3012/homework04	:/home/sakvi/gatech/MATH3012/homework04	1	zsh	:
+pane	10	2	0	:-	1	~/projects/my-projects/neuralcanvas-dx	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	zsh	:
+pane	10	3	0	:	1	neuralcanvas-dx: nvim .	:/home/sakvi/projects/my-projects/neuralcanvas-dx	1	nvim	:nvim .
+pane	10	4	0	:	1	neuralcanvas: nvim .	:/home/sakvi/projects/my-projects/neuralcanvas	1	nvim	:nvim .
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	Downloads: nvim electronic_items-1.csv	:/home/sakvi/Downloads	1	nvim	:nvim electronic_items-1.csv
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*Z	1	~/gatech/CS3300	:/home/sakvi/gatech/CS3300	1	zsh	:
+pane	18	1	1	:*Z	2	~	:/home/sakvi	0	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*Z	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	0	zsh	:
+pane	37	1	1	:*Z	2	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	37	2	0	:-	1	~/projects/my-projects/hot_dog	:/home/sakvi/projects/my-projects/hot_dog	1	zsh	:
+pane	4	1	1	:*	1	CS3001: nvim deontology_kantianism_and_social_contract.typ	:/home/sakvi/gatech/CS3001	1	nvim	:nvim deontology_kantianism_and_social_contract.typ
+pane	6	1	1	:*	1	~/.config/nvim/lua/plugins	:/home/sakvi/.config/nvim/lua/plugins	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	hyprsunset	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~/gatech/CS3001/cs3001_homework_3	:/home/sakvi/gatech/CS3001/cs3001_homework_3	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~	:/home/sakvi	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~	:/home/sakvi	0	zsh	:
+window	10	1	:zsh	1	:*	c77e,106x56,0,0,1	:
+window	10	2	:zsh	0	:-	c77f,106x56,0,0,2	:
+window	10	3	:nvim	0	:	c780,106x56,0,0,3	:
+window	10	4	:nvim	0	:	c781,106x56,0,0,4	:
+window	11	1	:zsh	1	:*	c782,106x56,0,0,5	:
+window	12	1	:zsh	1	:*	c783,106x56,0,0,6	:
+window	13	1	:zsh	1	:*	c784,106x56,0,0,7	:
+window	14	1	:nvim	1	:*	c785,106x56,0,0,8	:
+window	15	1	:zsh	1	:*	c786,106x56,0,0,9	:
+window	16	1	:zsh	1	:*	63ef,106x56,0,0,10	:
+window	17	1	:zsh	1	:*	63f0,106x56,0,0,11	:
+window	18	1	:zsh	1	:*Z	b939,105x55,0,0{52x55,0,0,12,52x55,53,0,13}	:
+window	19	1	:zsh	1	:*	63f3,106x56,0,0,14	:
+window	20	1	:zsh	1	:*	df86,52x27,0,0,27	:
+window	21	1	:zsh	1	:*	e1b7,105x55,0,0,28	:
+window	22	1	:zsh	1	:*	e228,212x27,0,0,29	:
+window	23	1	:zsh	1	:*	6360,213x56,0,0,30	:
+window	24	1	:zsh	1	:*	62b1,105x27,0,0,31	:
+window	25	1	:zsh	1	:*	61b2,105x55,0,0,32	:
+window	37	1	:zsh	1	:*Z	6242,106x56,0,0{53x56,0,0,15,52x56,54,0,16}	:
+window	37	2	:zsh	0	:-	63f6,106x56,0,0,17	:
+window	4	1	:nvim	1	:*	63f7,106x56,0,0,18	:
+window	6	1	:zsh	1	:*	63f8,106x56,0,0,19	:
+window	7	1	:zsh	1	:*	e3ef,106x56,0,0,20	:
+window	8	1	:zsh	1	:*	e3f0,106x56,0,0,21	:
+window	9	1	:zsh	1	:*	e3f1,106x56,0,0,22	:
+window	hyprsunset	1	:zsh	1	:*	e3f2,106x56,0,0,23	:
+window	main	1	:zsh	1	:*	e3f3,106x56,0,0,24	:
+window	neuralcanvas	1	:zsh	1	:*Z	9963,106x56,0,0{51x56,0,0,25,54x56,52,0,26}	:
+state	25	

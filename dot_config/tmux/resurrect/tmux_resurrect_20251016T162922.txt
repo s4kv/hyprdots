@@ -1,0 +1,9 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	a1de,41x20,0,0,1	:
+window	2	1	:zsh	1	:*	b05f,84x42,0,0,2	:
+window	3	1	:yazi	1	:*	b300,105x51,0,0,3	:
+state	2	

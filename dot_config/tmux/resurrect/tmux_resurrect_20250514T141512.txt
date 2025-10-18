@@ -1,0 +1,64 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era/minecraft/mods	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era/minecraft/mods	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	26	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	27	1	1	:*	1	sakvi: nvim todo.txt	:/home/sakvi	1	nvim	:nvim todo.txt
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	sakvi: zen-browser welcome.jsp.pdf	:/home/sakvi	1	zen-bin	:/opt/zen-browser-bin/zen-bin welcome.jsp.pdf
+pane	4	1	1	:*	1	~/.config/kitty	:/home/sakvi/.config/kitty	0	zsh	:
+pane	4	1	1	:*	2	~/.config/kitty	:/home/sakvi/.config/kitty	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	c07e,104x26,0,0,1	:
+window	11	1	:zsh	1	:*	c07f,104x26,0,0,2	:
+window	12	1	:zsh	1	:*	c080,104x26,0,0,3	:
+window	13	1	:zsh	1	:*	c081,104x26,0,0,4	:
+window	14	1	:zsh	1	:*	c082,104x26,0,0,5	:
+window	15	1	:zsh	1	:*	c083,104x26,0,0,6	:
+window	16	1	:zsh	1	:*	c084,104x26,0,0,7	:
+window	17	1	:zsh	1	:*	c085,104x26,0,0,8	:
+window	18	1	:zsh	1	:*	c086,104x26,0,0,9	:
+window	19	1	:zsh	1	:*	606f,104x26,0,0,10	:
+window	2	1	:zsh	1	:*	6070,104x26,0,0,11	:
+window	20	1	:zsh	1	:*	6071,104x26,0,0,12	:
+window	21	1	:zsh	1	:*	6072,104x26,0,0,13	:
+window	22	1	:zsh	1	:*	6073,104x26,0,0,14	:
+window	23	1	:zsh	1	:*	6074,104x26,0,0,15	:
+window	24	1	:zsh	1	:*	6075,104x26,0,0,16	:
+window	25	1	:zsh	1	:*	6076,104x26,0,0,17	:
+window	26	1	:zsh	1	:*	6077,104x26,0,0,18	:
+window	27	1	:nvim	1	:*	6078,104x26,0,0,19	:
+window	28	1	:zsh	1	:*	e06f,104x26,0,0,20	:
+window	29	1	:zsh	1	:*	e070,104x26,0,0,21	:
+window	3	1	:zsh	1	:*	e071,104x26,0,0,22	:
+window	30	1	:zsh	1	:*	df72,104x54,0,0,23	:
+window	31	1	:zsh	1	:*	6361,213x56,0,0,31	:
+window	32	1	:zen-bin	1	:*	5f72,104x54,0,0,32	:
+window	4	1	:zsh	1	:*	9e73,104x26,0,0[104x13,0,0,24,104x12,0,14,25]	:
+window	5	1	:zsh	1	:*	e075,104x26,0,0,26	:
+window	6	1	:zsh	1	:*	e076,104x26,0,0,27	:
+window	7	1	:zsh	1	:*	e077,104x26,0,0,28	:
+window	8	1	:zsh	1	:*	e078,104x26,0,0,29	:
+window	9	1	:zsh	1	:*	6070,104x26,0,0,30	:
+state	32	

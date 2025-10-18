@@ -1,0 +1,43 @@
+pane	10	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	neuralcanvas: nvim style	:/home/sakvi/projects/my-projects/neuralcanvas	1	nvim	:nvim style
+pane	15	1	1	:*	2	neuralcanvas: cargo leptos watch	:/home/sakvi/projects/my-projects/neuralcanvas	0	cargo-leptos	:/home/sakvi/.cargo/bin/cargo-leptos leptos watch
+pane	15	1	1	:*	3	prev_neorocanvas: nvim .env	:/home/sakvi/projects/my-projects/prev_neorocanvas	0	nvim	:nvim .env
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	CS3001: nvim therac25.md	:/home/sakvi/gatech/CS3001	1	nvim	:nvim therac25.md
+pane	6	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	6	2	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:[tmux]	1	:*	c65e,213x56,0,0,1	:
+window	11	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+window	12	1	:zsh	1	:*	c300,105x55,0,0,3	:
+window	13	1	:zsh	1	:*	c301,105x55,0,0,4	:
+window	14	1	:zsh	1	:*	c302,105x55,0,0,5	:
+window	15	1	:nvim	1	:*	3722,213x56,0,0{106x56,0,0,6,106x56,107,0[106x28,107,0,18,106x27,107,29,19]}	:
+window	16	1	:zsh	1	:*	62b5,105x27,0,0,16	:
+window	17	1	:zsh	1	:*	62b6,105x27,0,0,17	:
+window	18	1	:zsh	1	:*	e1af,105x55,0,0,20	:
+window	19	1	:zsh	1	:*	e360,213x56,0,0,21	:
+window	20	1	:zsh	1	:*	e361,213x56,0,0,22	:
+window	3	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	4	1	:zsh	1	:*	c305,105x55,0,0,8	:
+window	5	1	:nvim	1	:*	c306,105x55,0,0,9	:
+window	6	1	:zsh	0	:-	61af,105x55,0,0,10	:
+window	6	2	:zsh	1	:*	6360,213x56,0,0,11	:
+window	7	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	8	1	:zsh	1	:*	61b2,105x55,0,0,13	:
+window	9	1	:zsh	1	:*	61b3,105x55,0,0,14	:
+window	main	1	:zsh	1	:*	61b4,105x55,0,0,15	:
+state	15	6

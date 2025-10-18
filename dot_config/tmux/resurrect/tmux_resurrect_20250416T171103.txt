@@ -1,0 +1,64 @@
+pane	10	1	1	:*	1	~/gatech/cs3510	:/home/sakvi/gatech/cs3510	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/.config/hypr/conf	:/home/sakvi/.config/hypr/conf	1	zsh	:
+pane	15	1	1	:*Z	1	demo: nvim demo.asm	:/home/sakvi/gatech/cs2110/demo	0	nvim	:nvim demo.asm
+pane	15	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	25	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	26	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	27	1	1	:*	1	~/.config/rofi/tmux	:/home/sakvi/.config/rofi/tmux	1	zsh	:
+pane	28	1	1	:*	1	~	:/home/sakvi	0	zsh	:
+pane	28	1	1	:*	2	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	33	1	1	:*	1	sakvi: nvim timed_lab.txt	:/home/sakvi	1	nvim	:nvim timed_lab.txt
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*Z	1	student_v2: nvim main.c	:/home/sakvi/temp/student_v2-1/student_v2	1	nvim	:nvim main.c
+pane	36	1	1	:*Z	2	~/temp/student_v2-1/student_v2	:/home/sakvi/temp/student_v2-1/student_v2	0	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	10	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	11	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	12	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	13	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	14	1	:zsh	1	:*	b442,170x42,0,0,5	:
+window	15	1	:zsh	1	:*Z	96d2,170x42,0,0{85x42,0,0,6,84x42,86,0,7}	:
+window	16	1	:zsh	1	:*	b445,170x42,0,0,8	:
+window	17	1	:zsh	1	:*	b446,170x42,0,0,9	:
+window	18	1	:zsh	1	:*	5a4f,170x42,0,0,10	:
+window	19	1	:zsh	1	:*	5a50,170x42,0,0,11	:
+window	20	1	:zsh	1	:*	5a51,170x42,0,0,12	:
+window	21	1	:zsh	1	:*	5a52,170x42,0,0,13	:
+window	22	1	:zsh	1	:*	5a53,170x42,0,0,14	:
+window	23	1	:zsh	1	:*	5a54,170x42,0,0,15	:
+window	24	1	:zsh	1	:*	5a55,170x42,0,0,16	:
+window	25	1	:zsh	1	:*	5a56,170x42,0,0,17	:
+window	26	1	:zsh	1	:*	5a57,170x42,0,0,18	:
+window	27	1	:zsh	1	:*	5a58,170x42,0,0,19	:
+window	28	1	:zsh	1	:*	450a,170x42,0,0{83x42,0,0,20,86x42,84,0,21}	:
+window	29	1	:zsh	1	:*	da51,170x42,0,0,22	:
+window	30	1	:zsh	1	:*	da52,170x42,0,0,23	:
+window	31	1	:zsh	1	:*	e223,41x19,0,0,24	:
+window	32	1	:zsh	1	:*	da54,170x42,0,0,25	:
+window	33	1	:nvim	1	:*	da55,170x42,0,0,26	:
+window	34	1	:zsh	1	:*	da56,170x42,0,0,27	:
+window	35	1	:zsh	1	:*	da57,170x42,0,0,28	:
+window	36	1	:nvim	1	:*Z	0df3,170x42,0,0{85x42,0,0,33,84x42,86,0,34}	:
+window	9	1	:zsh	1	:*	da58,170x42,0,0,29	:
+window	amparo	1	:zsh	1	:*Z	c2ab,170x42,0,0{86x42,0,0[86x18,0,0,30,86x23,0,19,31],83x42,87,0,32}	:
+state	36	

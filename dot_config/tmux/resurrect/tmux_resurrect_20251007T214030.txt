@@ -1,0 +1,31 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	sakvi: nvim days_i_could.typ	:/home/sakvi	1	nvim	:nvim days_i_could.typ
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	:/home/sakvi/gatech/archive/fall24/cs1332/homeworks1332/hmw10_1332	1	yazi	2336937	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~/.local/share/nvim/mason/share/mason-schemas/lsp	:/home/sakvi/.local/share/nvim/mason/share/mason-schemas/lsp	1	zsh	:
+pane	6	1	1	:*	1	~/.config/rofi	:/home/sakvi/.config/rofi	1	zsh	:
+pane	7	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	8	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b25d,213x51,0,0,0	:
+window	1	1	:nvim	1	:*	b8fe,105x24,0,0,1	:
+window	10	1	:zsh	1	:*	591f,212x51,0,0,10	:
+window	11	1	:zsh	1	:*	5960,213x51,0,0,11	:
+window	12	1	:yazi	1	:*	59b1,105x51,0,0,12	:
+window	13	1	:zsh	1	:*	5962,213x51,0,0,13	:
+window	14	1	:zsh	1	:*	59b3,105x51,0,0,14	:
+window	2	1	:zsh	1	:*	b29f,52x24,0,0,2	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	4	1	:zsh	1	:*	b901,105x24,0,0,4	:
+window	5	1	:zsh	1	:*	b902,105x24,0,0,5	:
+window	6	1	:zsh	1	:*	b303,105x51,0,0,6	:
+window	7	1	:yazi	1	:*	b904,105x24,0,0,7	:
+window	8	1	:yazi	1	:*	b905,105x24,0,0,8	:
+window	9	1	:zsh	1	:*	b306,105x51,0,0,9	:
+state	14	

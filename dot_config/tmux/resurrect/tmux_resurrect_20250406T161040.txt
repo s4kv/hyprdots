@@ -1,0 +1,17 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*M	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*Z	1	~/gatech/cs2110/homeworks_2110/hw06/temp/submission	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/temp/submission	1	zsh	:
+pane	gba	1	1	:*Z	2	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*Z	3	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	1	zsh	:
+window	10	1	:zsh	1	:*	c25e,213x55,0,0,1	:
+window	13	1	:zsh	1	:*	c25f,213x55,0,0,2	:
+window	5	1	:zsh	1	:*M	c265,213x55,0,0,8	:
+window	6	1	:zsh	1	:*	c266,213x55,0,0,9	:
+window	amparo	1	:zsh	1	:*	c260,213x55,0,0,3	:
+window	gba	1	:nvim main	1	:*Z	2241,256x64,0,0{130x64,0,0,4,125x64,131,0[125x29,131,0,5,125x34,131,30,6]}	off
+window	gba	2	:run / test 	0	:-	c264,213x55,0,0,7	off
+state	5	

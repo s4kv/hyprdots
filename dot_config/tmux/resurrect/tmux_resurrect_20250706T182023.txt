@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	controllers: NVIM_APPNAME=foo nvim NutriMealController.java	:/home/sakvi/projects/gt_projects/nutriCast/backend/src/main/java/com/cs3300g1/backend/controllers	1	nvim	:nvim NutriMealController.java
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c2fd,105x55,0,0,0	:
+window	1	1	:nvim	1	:*	c65f,213x56,0,0,2	:
+window	2	1	:zsh	1	:*	c500,105x27,0,0,3	:
+state	1	

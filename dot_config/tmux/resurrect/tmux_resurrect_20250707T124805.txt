@@ -1,0 +1,3 @@
+pane	0	1	1	:*	1	sakvi: nvim hello.md	:/home/sakvi	1	nvim	:nvim hello.md
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+state	0	

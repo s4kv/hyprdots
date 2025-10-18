@@ -1,0 +1,7 @@
+pane	16	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	16	2	1	:*	1	~/projects/gt_projects	:/home/sakvi/projects/gt_projects	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	16	1	:zsh	0	:-	5865,84x42,0,0,16	:
+window	16	2	:zsh	1	:*	5867,84x42,0,0,18	:
+window	18	1	:zsh	1	:*	5268,84x20,0,0,19	:
+state	18	

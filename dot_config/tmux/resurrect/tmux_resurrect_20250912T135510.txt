@@ -1,0 +1,5 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~/temporary/JID-4341_Candid_Capture-31a915c105967b40ac93e42a4218a3dfc1f67621	:/home/sakvi/temporary/JID-4341_Candid_Capture-31a915c105967b40ac93e42a4218a3dfc1f67621	1	zsh	:zsh
+window	0	1	:zsh	1	:*	b2fd,105x51,0,0,0	:
+window	1	1	:zsh	1	:*	b1de,212x51,0,0,1	:
+state	1	

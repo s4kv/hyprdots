@@ -1,0 +1,8 @@
+pane	0	1	1	:*Z	1	sakvi: nvim hi.sh	:/home/sakvi	1	nvim	:chezmoi cd
+pane	0	1	1	:*Z	2	plugins: nvim blink.lua	:/home/sakvi/.config/nvim.bak/lua/plugins	0	nvim	:nvim blink.lua
+pane	0	2	0	:-	1	~/.local/share/nvim/lazy	:/home/sakvi/.local/share/nvim.bak/lazy	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*Z	bf5d,208x53,0,0{104x53,0,0,0,103x53,105,0,1}	:
+window	0	2	:zsh	0	:-	bc9f,208x53,0,0,2	:
+window	1	1	:zsh	1	:*	ba00,103x53,0,0,3	:
+state	0	1

@@ -1,0 +1,53 @@
+pane	0	1	1	:*	1	~/.config/r2modmanPlus-local/Balatro/profiles/Default	:/home/sakvi/.config/r2modmanPlus-local/Balatro/profiles/Default\ (deleted)	1	zsh	:
+pane	1	1	1	:*	1	Yazi: ~/.config/r2modmanPlus-local/Balatro/profiles/Default	:/home/sakvi/.config/r2modmanPlus-local/Balatro/profiles/Default	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.UzAQeD
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	Yazi: ~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.9scu0R
+pane	18	1	1	:*	1	~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	1	zsh	:
+pane	19	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.dSY17B
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	1	r2modman	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~/.local/share/Steam/steamapps/common/Balatro	:/home/sakvi/.local/share/Steam/steamapps/common/Balatro	1	zsh	:
+pane	23	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.xbIaGd
+pane	24	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.HCSMZz
+pane	25	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	1	r2modman	:
+pane	26	1	1	:*	1	Yazi: ~/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	:/home/sakvi/.local/share/Steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/Mods	1	r2modman	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~/.config/r2modmanPlus-local	:/home/sakvi/.config/r2modmanPlus-local	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b8fd,105x24,0,0,0	:
+window	1	1	:r2modman	1	:*	b8fe,105x24,0,0,1	:
+window	10	1	:zsh	1	:*	5caf,105x24,0,0,10	:
+window	11	1	:zsh	1	:*	5980,52x24,0,0,11	:
+window	12	1	:zsh	1	:*	5961,213x51,0,0,12	:
+window	13	1	:zsh	1	:*	59b2,105x51,0,0,13	:
+window	14	1	:zsh	1	:*	5e83,52x17,0,0,14	:
+window	15	1	:zsh	1	:*	59b4,105x51,0,0,15	:
+window	16	1	:zsh	1	:*	5cb5,105x24,0,0,16	:
+window	17	1	:r2modman	1	:*	5cb6,105x24,0,0,17	:
+window	18	1	:zsh	1	:*	5cb7,105x24,0,0,18	:
+window	19	1	:r2modman	1	:*	5cb8,105x24,0,0,19	:
+window	2	1	:zsh	1	:*	b25f,213x51,0,0,2	:
+window	20	1	:r2modman	1	:*	dcaf,105x24,0,0,20	:
+window	21	1	:[tmux]	1	:*	d9f0,106x51,0,0,21	:
+window	22	1	:zsh	1	:*	dcb1,105x24,0,0,22	:
+window	23	1	:r2modman	1	:*	dcb2,105x24,0,0,23	:
+window	24	1	:r2modman	1	:*	dcb3,105x24,0,0,24	:
+window	25	1	:r2modman	1	:*	dcb4,105x24,0,0,25	:
+window	26	1	:r2modman	1	:*	dcb5,105x24,0,0,26	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	4	1	:zsh	1	:*	b901,105x24,0,0,4	:
+window	5	1	:zsh	1	:*	aca2,52x51,0,0,5	:
+window	6	1	:zsh	1	:*	b263,213x51,0,0,6	:
+window	7	1	:zsh	1	:*	b904,105x24,0,0,7	:
+window	9	1	:zsh	1	:*	b906,105x24,0,0,9	:
+state	26	

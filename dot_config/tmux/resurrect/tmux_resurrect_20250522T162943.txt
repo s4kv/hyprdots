@@ -1,0 +1,3 @@
+pane	main	1	1	:*	1	sakvi: paru	:/home/sakvi	1	paru	:paru
+window	main	1	:paru	1	:*	b05e,84x42,0,0,1	:
+state	main	

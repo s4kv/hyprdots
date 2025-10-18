@@ -1,0 +1,9 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c2fd,105x55,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:zsh	1	:*	c300,105x55,0,0,3	:
+state	3	

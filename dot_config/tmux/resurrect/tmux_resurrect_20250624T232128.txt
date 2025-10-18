@@ -1,0 +1,11 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+pane	2	1	1	:*	1	lab1: nvim lab1.ju.py	:/home/sakvi/gatech/math3512/lab1	1	nvim	:nvim lab1.ju.py
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~/.config/nvim	:/home/sakvi/.config/nvim	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.drOoDT
+window	0	1	:zsh	1	:*	be9d,52x27,0,0,0	:
+window	1	1	:yazi	1	:*	c4fe,105x27,0,0,1	:
+window	2	1	:nvim	1	:*	c2ff,105x55,0,0,2	:
+window	3	1	:zsh	1	:*	c300,105x55,0,0,3	:
+window	4	1	:zsh	1	:*	c301,105x55,0,0,4	:
+state	4	

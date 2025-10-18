@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	sakvi: NVIM_APPNAME=foo nvim jaja.java	:/home/sakvi	1	nvim	:nvim jaja.java
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c2fd,105x55,0,0,0	:
+window	1	1	:nvim	1	:*	c2ff,105x55,0,0,2	:
+window	2	1	:zsh	1	:*	c500,105x27,0,0,3	:
+state	1	

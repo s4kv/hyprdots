@@ -1,0 +1,7 @@
+pane	15	1	1	:*	1	JID-4341_Candid_Capture: nvim	:/home/sakvi/projects/gt_projects/JID-4341_Candid_Capture	1	nvim	:nvim
+pane	16	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	17	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	15	1	:nvim	1	:*	59b7,105x51,0,0,18	:
+window	16	1	:zsh	1	:*	5968,213x51,0,0,19	:
+window	17	1	:zsh	1	:*	d9ef,106x51,0,0,20	:
+state	17	

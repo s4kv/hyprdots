@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	Yazi: ~/Pictures	:/home/sakvi/Pictures	1	yazi	:yazi --cwd-file=/tmp/yazi-cwd.GpfH8b
+pane	1	1	1	:*	1	~/gatech/CS2200/Projects/project_1	:/home/sakvi/gatech/CS2200/Projects/project_1	1	zsh	:
+pane	2	1	1	:*	1	~/gatech/CS2200/Projects/project_1	:/home/sakvi/gatech/CS2200/Projects/project_1	1	zsh	:
+window	0	1	:yazi	1	:*	ac9d,52x51,0,0,0	:
+window	1	1	:zsh	1	:*	b29e,52x24,0,0,1	:
+window	2	1	:zsh	1	:*	ac9f,52x51,0,0,2	:
+state	2	

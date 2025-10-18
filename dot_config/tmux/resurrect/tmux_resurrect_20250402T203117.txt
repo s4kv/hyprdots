@@ -1,0 +1,9 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	problem_set_7: nvim PS7.tex	:/home/sakvi/gatech/cs3510/problem_set_7	1	nvim	:nvim PS7.tex
+window	0	1	:zsh	1	:*	c25d,213x55,0,0,0	:
+window	1	1	:zsh	1	:*	bbfe,103x25,0,0,1	:
+window	2	1	:zsh	1	:*	b9ff,103x53,0,0,2	:
+window	3	1	:nvim	1	:*	c260,213x55,0,0,3	:
+state	3	

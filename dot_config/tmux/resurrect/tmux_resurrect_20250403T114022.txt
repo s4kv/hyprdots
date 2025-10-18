@@ -1,0 +1,19 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	Amparo: nvim .	:/home/sakvi/projects/gt_projects/Amparo	1	nvim	:nvim .
+pane	7	1	1	:*	1	Amparo: nvim .	:/home/sakvi/projects/gt_projects/Amparo	1	nvim	:nvim .
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	sakvi: paru	:/home/sakvi	1	paru	:paru
+window	0	1	:zsh	1	:*	a75d,82x40,0,0,0	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	10	1	:zsh	1	:*	53df,82x40,0,0,10	:
+window	2	1	:zsh	1	:*	c79f,39x19,0,0,2	:
+window	3	1	:zsh	1	:*	b440,170x42,0,0,3	:
+window	6	1	:nvim	1	:*	a763,82x40,0,0,6	:
+window	7	1	:nvim	1	:*	a764,82x40,0,0,7	:
+window	8	1	:zsh	1	:*	a765,82x40,0,0,8	:
+window	9	1	:paru	1	:*	c566,82x19,0,0,9	:
+state	9	

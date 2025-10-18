@@ -1,0 +1,30 @@
+pane	0	1	1	:*	1	~/.local/share/Steam	:/home/sakvi/.local/share/Steam	1	zsh	:
+pane	1	1	1	:*	1	~/.local/share/applications	:/home/sakvi/.local/share/applications	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.7VRdDP
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:yazi --cwd-file=/tmp/yazi-cwd.Q5hX7f
+pane	14	1	1	:*Z	1	frontend: nvim	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	nvim	:nvim
+pane	14	1	1	:*Z	2	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	npm	:npm exec expo start
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~/.local/share/Steam/steamapps/common/Balatro	:/home/sakvi/.local/share/Steam/steamapps/common/Balatro	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~/.local/share/applications	:/home/sakvi/.local/share/applications	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	a45d,84x20,0,0,0	:
+window	1	1	:zsh	1	:*	c4fe,105x27,0,0,1	:
+window	11	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	12	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	13	1	:zsh	1	:*	61b2,105x55,0,0,13	:
+window	14	1	:nvim	1	:*Z	a21f,213x56,0,0[213x28,0,0,14,213x27,0,29,15]	:
+window	15	1	:zsh	1	:*	62b5,105x27,0,0,16	:
+window	2	1	:zsh	1	:*	a45f,84x20,0,0,2	:
+window	3	1	:zsh	1	:*	ad60,40x42,0,0,3	:
+window	4	1	:zsh	1	:*	c501,105x27,0,0,4	:
+window	5	1	:zsh	1	:*	c502,105x27,0,0,5	:
+window	7	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	8	1	:zsh	1	:*	c305,105x55,0,0,8	:
+window	9	1	:zsh	1	:*	c506,105x27,0,0,9	:
+state	14	

@@ -1,0 +1,7 @@
+pane	1	1	1	:*	1	hw03: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC3.sim	:/home/sakvi/gatech/archive/spring25/cs2110/homeworks_2110/homework03/hw03	1	java	:yazi --cwd-file=/tmp/yazi-cwd.zKja47
+pane	cs2200	1	0	:-	1	project_1: xdg-open Project 1.pdf	:/home/sakvi/gatech/CS2200/Projects/project_1	1	sh	:yazi --cwd-file=/tmp/yazi-cwd.ax7rLF
+pane	cs2200	2	1	:*	1	project_1: /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200.sim	:/home/sakvi/gatech/CS2200/Projects/project_1	1	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java -Xmx250M -jar /home/sakvi/gatech/CS2200/Software/CircuitSim1.11.0 LC-4200.sim
+window	1	1	:java	1	:*	b0df,85x42,0,0,2	:
+window	cs2200	1	:sh	0	:-	b1dd,212x51,0,0,0	:
+window	cs2200	2	:java	1	:*	b2fe,105x51,0,0,1	:
+state	1	

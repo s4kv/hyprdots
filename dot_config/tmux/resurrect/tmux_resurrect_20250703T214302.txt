@@ -1,0 +1,40 @@
+pane	0	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/Backgrounds	:/home/sakvi/Backgrounds	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	hypr: nvim hyprland.conf	:/home/sakvi/.config/hypr	1	nvim	:nvim hyprland.conf
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	hypr: nvim hyprpaper.conf	:/home/sakvi/.config/hypr	1	nvim	:nvim hyprpaper.conf
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	:/home/sakvi/.config/hypr	0	yazi	659032	:
+pane	5	1	1	:*	2	waybar: nvim theme.css	:/home/sakvi/.config/waybar	1	nvim	:nvim theme.css
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~/Backgrounds	:/home/sakvi/Backgrounds	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	1	:zsh	1	:*	6360,213x56,0,0,11	:
+window	11	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	12	1	:zsh	1	:*	62b2,105x27,0,0,13	:
+window	13	1	:zsh	1	:*	62b3,105x27,0,0,14	:
+window	14	1	:zsh	1	:*	60d4,119x35,0,0,15	:
+window	15	1	:yazi	1	:*	62b5,105x27,0,0,16	:
+window	16	1	:zsh	1	:*	58a6,85x42,0,0,17	:
+window	17	1	:nvim	1	:*	6007,54x46,0,0,18	:
+window	18	1	:zsh	1	:*	6368,213x56,0,0,19	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:nvim	1	:*	c660,213x56,0,0,3	:
+window	4	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	5	1	:nvim	1	:*	9616,213x56,0,0{106x56,0,0,5,106x56,107,0,6}	:
+window	6	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	7	1	:zsh	1	:*	c665,213x56,0,0,8	:
+window	8	1	:zsh	1	:*	ae06,122x31,0,0,9	:
+window	9	1	:yazi	1	:*	61af,105x55,0,0,10	:
+state	17	

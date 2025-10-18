@@ -1,0 +1,11 @@
+pane	0	1	1	:*	1	~/gatech/CS6140/Homeworks	:/home/sakvi/gatech/CS6140/Homeworks	1	zsh	:
+pane	1	1	1	:*	1	~/gatech/CS6140/Homeworks	:/home/sakvi/gatech/CS6140/Homeworks	1	zsh	:
+pane	2	1	1	:*	1	~/gatech/CS6140/Homeworks	:/home/sakvi/gatech/CS6140/Homeworks	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b43d,170x42,0,0,0	:
+window	1	1	:zsh	1	:*	a45e,84x20,0,0,1	:
+window	2	1	:zsh	1	:*	b43f,170x42,0,0,2	:
+window	3	1	:zsh	1	:*	b060,84x42,0,0,3	:
+window	4	1	:zsh	1	:*	b061,84x42,0,0,4	:
+state	4	

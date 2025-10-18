@@ -1,0 +1,5 @@
+pane	0	1	1	:*Z	1	hw06_linux: nvim gba.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.c
+pane	0	1	1	:*Z	2	hw06_linux: nvim gba.h	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.h
+pane	0	1	1	:*Z	3	Downloads: nvim main.c	:/home/sakvi/Downloads	1	nvim	:nvim main.c
+window	0	1	:nvim	1	:*Z	1700,213x55,0,0{106x55,0,0,0,106x55,107,0[106x27,107,0,1,106x27,107,28,2]}	:
+state	0	

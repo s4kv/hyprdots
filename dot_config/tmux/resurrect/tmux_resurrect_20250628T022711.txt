@@ -1,0 +1,11 @@
+pane	0	1	1	:*	1	sakvi: hyprsunset -t 5000 -g 50	:/home/sakvi	1	hyprsunset	:hyprsunset -t 5000 -g 50
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	btop: btop	:/home/sakvi/Repos/Dotfiles/dots/.config/btop	1	btop	:zsh
+pane	3	1	1	:*	1	sakvi: btm	:/home/sakvi	1	btm	:btm
+pane	4	1	1	:*	1	~/.config/hypr/conf	:/home/sakvi/.config/hypr/conf	1	zsh	:
+window	0	1	:hyprsunset	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	2	1	:btop	1	:*	c37f,106x55,0,0,2	:
+window	3	1	:btm	1	:*	c580,106x27,0,0,3	:
+window	4	1	:[tmux]	1	:*	d061,213x49,0,0,4	:
+state	4	

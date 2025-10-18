@@ -1,0 +1,5 @@
+pane	13	1	1	:*	1	charged-ieee: nvim refs.bib	:/home/sakvi/gatech/CS3001/cs3001_homework_1/charged-ieee	1	nvim	:nvim refs.bib
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	13	1	:nvim	1	:*	c2fe,105x55,0,0,1	:
+window	main	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+state	13	main

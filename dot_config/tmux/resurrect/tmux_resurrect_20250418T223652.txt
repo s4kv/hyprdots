@@ -1,0 +1,30 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*Z	1	~/gatech/cs2110/homeworks_2110/hw07	:/home/sakvi/gatech/cs2110/homeworks_2110/hw07	1	zsh	:
+pane	14	1	1	:*Z	2	hw07: nvim Makefile	:/home/sakvi/gatech/cs2110/homeworks_2110/hw07	0	nvim	:nvim Makefile
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	40	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	41	1	1	:*	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	1	zsh	:
+pane	42	1	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	10	1	:zsh	1	:*	c77e,106x56,0,0,1	:
+window	11	1	:zsh	1	:*	c77f,106x56,0,0,2	:
+window	12	1	:zsh	1	:*	be80,104x54,0,0,3	:
+window	13	1	:zsh	1	:*	5d63,65x54,0,0,14	:
+window	14	1	:zsh	1	:*Z	5dd2,106x56,0,0{52x56,0,0,15,53x56,53,0,16}	:
+window	37	1	:zsh	1	:*	c781,106x56,0,0,4	:
+window	38	1	:zsh	1	:*	c782,106x56,0,0,5	:
+window	39	1	:zsh	1	:*	c783,106x56,0,0,6	:
+window	40	1	:zsh	1	:*	c784,106x56,0,0,7	:
+window	41	1	:zsh	1	:*	c785,106x56,0,0,8	:
+window	42	1	:zsh	1	:*	c786,106x56,0,0,9	:
+window	9	1	:zsh	1	:*	63ef,106x56,0,0,10	:
+window	amparo	1	:zsh	1	:*Z	6eb3,106x56,0,0{54x56,0,0[54x25,0,0,11,54x30,0,26,12],51x56,55,0,13}	:
+state	14	

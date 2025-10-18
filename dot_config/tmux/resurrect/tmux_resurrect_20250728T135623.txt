@@ -1,0 +1,26 @@
+pane	0	1	1	:*	1	~/.config/r2modmanPlus-local/Balatro/profiles/Default	:/home/sakvi/.config/r2modmanPlus-local/Balatro/profiles/Default\ (deleted)	1	zsh	:
+pane	1	1	1	:*	1	Yazi: ~/.config/r2modmanPlus-local/Balatro/profiles/Default	:/home/sakvi/.config/r2modmanPlus-local/Balatro/profiles/Default	1	r2modman	:/usr/bin/r2modman --cwd-file=/tmp/yazi-cwd.UzAQeD
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~/.config/r2modmanPlus-local	:/home/sakvi/.config/r2modmanPlus-local	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b8fd,105x24,0,0,0	:
+window	1	1	:r2modman	1	:*	b8fe,105x24,0,0,1	:
+window	10	1	:zsh	1	:*	5caf,105x24,0,0,10	:
+window	11	1	:zsh	1	:*	5980,52x24,0,0,11	:
+window	12	1	:zsh	1	:*	59b1,105x51,0,0,12	:
+window	13	1	:zsh	1	:*	59b2,105x51,0,0,13	:
+window	2	1	:zsh	1	:*	b25f,213x51,0,0,2	:
+window	3	1	:zsh	1	:*	b900,105x24,0,0,3	:
+window	4	1	:zsh	1	:*	b901,105x24,0,0,4	:
+window	5	1	:zsh	1	:*	aca2,52x51,0,0,5	:
+window	6	1	:zsh	1	:*	b263,213x51,0,0,6	:
+window	7	1	:zsh	1	:*	b904,105x24,0,0,7	:
+window	9	1	:zsh	1	:*	b906,105x24,0,0,9	:
+state	13	

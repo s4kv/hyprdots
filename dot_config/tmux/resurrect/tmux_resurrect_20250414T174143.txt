@@ -1,0 +1,13 @@
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	sakvi: btop	:/home/sakvi	1	btop	:btop
+pane	19	1	1	:*	1	sakvi: nvim .histfile	:/home/sakvi	1	nvim	:nvim .histfile
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	3	~/projects/gt_projects/GTMovieStore	:/home/sakvi/projects/gt_projects/GTMovieStore	0	zsh	:
+window	16	1	:zsh	1	:*	d61f,83x41,0,0,20	:
+window	17	1	:zsh	1	:*	e320,83x19,0,0,21	:
+window	18	1	:btop	1	:*	da51,170x42,0,0,22	:
+window	19	1	:nvim	1	:*	d622,83x41,0,0,23	:
+window	amparo	1	:zsh	1	:*Z	91e1,170x42,0,0{86x42,0,0[86x18,0,0,9,86x23,0,19,10],83x42,87,0,11}	:
+state	19	

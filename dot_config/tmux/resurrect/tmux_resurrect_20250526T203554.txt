@@ -1,0 +1,35 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	neorocanvas: cargo add leptos --features=csr	:/home/sakvi/projects/my-projects/neorocanvas	1	cargo	:/home/sakvi/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/bin/cargo add leptos --features=csr
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	CS3001: nvim therac25.md	:/home/sakvi/gatech/CS3001	1	nvim	:nvim therac25.md
+pane	6	1	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	6	2	1	:*	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	11	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+window	12	1	:zsh	1	:*	c300,105x55,0,0,3	:
+window	13	1	:zsh	1	:*	c301,105x55,0,0,4	:
+window	14	1	:zsh	1	:*	c302,105x55,0,0,5	:
+window	15	1	:cargo	1	:*	c303,105x55,0,0,6	:
+window	16	1	:zsh	1	:*	62b5,105x27,0,0,16	:
+window	17	1	:zsh	1	:*	62b6,105x27,0,0,17	:
+window	3	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	4	1	:zsh	1	:*	c305,105x55,0,0,8	:
+window	5	1	:nvim	1	:*	c306,105x55,0,0,9	:
+window	6	1	:zsh	0	:-	61af,105x55,0,0,10	:
+window	6	2	:zsh	1	:*	61b0,105x55,0,0,11	:
+window	7	1	:zsh	1	:*	61b1,105x55,0,0,12	:
+window	8	1	:zsh	1	:*	61b2,105x55,0,0,13	:
+window	9	1	:zsh	1	:*	61b3,105x55,0,0,14	:
+window	main	1	:zsh	1	:*	61b4,105x55,0,0,15	:
+state	15	9

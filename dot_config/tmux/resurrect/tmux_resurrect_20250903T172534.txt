@@ -1,0 +1,4 @@
+pane	0	1	1	:*Z	1	homework_2: nvim answers.txt	:/home/sakvi/gatech/CS2200/Homeworks/homework_2	1	nvim	:nvim answers.txt
+pane	0	1	1	:*Z	2	homework_2: xdg-open Homework 2.pdf	:/home/sakvi/gatech/CS2200/Homeworks/homework_2	0	sh	:/bin/sh /usr/bin/xdg-open Homework 2.pdf
+window	0	1	:nvim	1	:*Z	8413,84x42,0,0{42x42,0,0,0,41x42,43,0,1}	:
+state	0	

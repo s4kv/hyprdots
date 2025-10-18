@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	~/gatech/CS6140/Homeworks	:/home/sakvi/gatech/CS6140/Homeworks	1	zsh	:
+pane	1	1	1	:*	1	~/gatech/CS6140/Homeworks	:/home/sakvi/gatech/CS6140/Homeworks	1	zsh	:
+pane	2	1	1	:*	1	Homeworks: nvim homework-3.	:/home/sakvi/gatech/CS6140/Homeworks	1	nvim	:nvim homework-3.
+window	0	1	:zsh	1	:*	b43d,170x42,0,0,0	:
+window	1	1	:zsh	1	:*	a45e,84x20,0,0,1	:
+window	2	1	:nvim	1	:*	b43f,170x42,0,0,2	:
+state	2	

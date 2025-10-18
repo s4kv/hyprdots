@@ -1,0 +1,21 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+pane	10	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	latex-resume: nvim Salvador Ibarguren Resume.tex	:/home/sakvi/gatech/resumes/latex-resume	1	nvim	:nvim Salvador Ibarguren Resume.tex
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	latex-resume: nvim Salvador Ibarguren Resume.tex	:/home/sakvi/gatech/resumes/latex-resume	1	nvim	:nvim Salvador Ibarguren Resume.tex
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	10	1	:zsh	1	:*	585f,84x42,0,0,10	:
+window	2	1	:zsh	1	:*	a45f,84x20,0,0,2	:
+window	3	1	:zsh	1	:*	a1e0,41x20,0,0,3	:
+window	5	1	:nvim	1	:*	a462,84x20,0,0,5	:
+window	6	1	:zsh	1	:*	b443,170x42,0,0,6	:
+window	7	1	:zsh	1	:*	b444,170x42,0,0,7	:
+window	8	1	:nvim	1	:*	b065,84x42,0,0,8	:
+window	9	1	:zsh	1	:*	b066,84x42,0,0,9	:
+state	5	

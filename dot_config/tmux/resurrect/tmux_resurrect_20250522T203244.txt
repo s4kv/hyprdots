@@ -1,0 +1,5 @@
+pane	13	1	1	:*	1	gatech: nvim main.typ	:/home/sakvi/gatech	1	nvim	:nvim main.typ
+pane	main	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	13	1	:nvim	1	:*	c2fe,105x55,0,0,1	:
+window	main	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+state	13	main

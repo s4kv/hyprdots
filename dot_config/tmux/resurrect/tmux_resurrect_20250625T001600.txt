@@ -1,0 +1,8 @@
+pane	0	1	1	:*	1	lab1: jupyter-lab	:/home/sakvi/gatech/math3512/lab1	0	python	:/usr/bin/python /usr/bin/jupyter-lab
+pane	0	1	1	:*	2	:/home/sakvi/gatech/math3512/lab1	1	yazi	100493	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:yazi	1	:*	160f,213x56,0,0{106x56,0,0,0,106x56,107,0,1}	:
+window	1	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+window	2	1	:yazi	1	:*	c780,106x56,0,0,3	:
+state	0	

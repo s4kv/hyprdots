@@ -1,0 +1,6 @@
+pane	75	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	0	zsh	:
+pane	75	1	1	:*	2	~/.config	:/home/sakvi/.config	1	zsh	:
+pane	76	1	1	:*	1	skvpc	:/home/sakvi	1	zsh	:
+window	75	1	:zsh	1	:*	d1b6,104x54,0,0[104x27,0,0,83,104x26,0,28,84]	:
+window	76	1	:zsh	1	:*	df77,104x54,0,0,85	:
+state	76	

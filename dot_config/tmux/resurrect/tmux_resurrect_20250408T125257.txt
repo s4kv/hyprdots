@@ -1,0 +1,13 @@
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*Z	1	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	1	zsh	:
+pane	amparo	1	1	:*Z	2	~/projects/gt_projects/Amparo	:/home/sakvi/projects/gt_projects/Amparo	0	zsh	:
+pane	amparo	1	1	:*Z	3	GTMovieStore: nvim .	:/home/sakvi/projects/gt_projects/GTMovieStore	0	nvim	:nvim .
+pane	gba	1	1	:*Z	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*Z	2	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	zsh	:
+pane	gba	1	1	:*Z	3	hw06_linux: nvim test.md	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	nvim	:nvim test.md
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	1	zsh	:
+window	28	1	:zsh	1	:*	6163,213x55,0,0,33	:
+window	amparo	1	:zsh	1	:*Z	5ffa,213x55,0,0{106x55,0,0[106x26,0,0,24,106x28,0,27,25],106x55,107,0,26}	:
+window	gba	1	:nvim main	1	:*Z	5a9a,213x55,0,0{109x55,0,0,27,103x55,110,0[103x24,110,0,28,103x30,110,25,30]}	off
+window	gba	2	:run / test 	0	:-	6161,213x55,0,0,31	off
+state	28	

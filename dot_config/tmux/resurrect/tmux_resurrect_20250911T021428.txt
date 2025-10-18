@@ -1,0 +1,7 @@
+pane	0	1	1	:*	1	Homeworks: nvim homework-1.typ	:/home/sakvi/gatech/CS6140/Homeworks	1	nvim	:nvim homework-1.typ
+pane	1	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:yazi --cwd-file=/tmp/yazi-cwd.Nq6nnK
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:nvim	1	:*	b8fd,105x24,0,0,0	:
+window	1	1	:yazi	1	:*	b2fe,105x51,0,0,1	:
+window	2	1	:zsh	1	:*	b8ff,105x24,0,0,2	:
+state	0	2

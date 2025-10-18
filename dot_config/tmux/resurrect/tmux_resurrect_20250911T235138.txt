@@ -1,0 +1,4 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:hyprsunset -g 50 -t 4000
+tee
+window	0	1	:zsh	1	:*	b43d,170x42,0,0,0	:
+state	0	

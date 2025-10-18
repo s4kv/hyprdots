@@ -1,0 +1,38 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era/minecraft/mods	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era/minecraft/mods	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	15	1	1	:*	1	sakvi: btop	:/home/sakvi	1	btop	:btop
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~/.config/kitty	:/home/sakvi/.config/kitty	0	zsh	:
+pane	4	1	1	:*	2	~/.config/kitty	:/home/sakvi/.config/kitty	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	abde,83x41,0,0,1	:
+window	11	1	:zsh	1	:*	abdf,83x41,0,0,2	:
+window	12	1	:zsh	1	:*	abe0,83x41,0,0,3	:
+window	13	1	:zsh	1	:*	abe1,83x41,0,0,4	:
+window	14	1	:zsh	1	:*	abe2,83x41,0,0,5	:
+window	15	1	:btop	1	:*	5a54,170x42,0,0,15	:
+window	16	1	:zsh	1	:*	5635,168x20,0,0,16	:
+window	17	1	:zsh	1	:*	5a56,170x42,0,0,17	:
+window	18	1	:zsh	1	:*	5a57,170x42,0,0,18	:
+window	19	1	:zsh	1	:*	5a58,170x42,0,0,19	:
+window	2	1	:zsh	1	:*	abe3,83x41,0,0,6	:
+window	3	1	:zsh	1	:*	abe4,83x41,0,0,7	:
+window	4	1	:zsh	1	:*	ff92,83x41,0,0[83x20,0,0,8,83x20,0,21,9]	:
+window	5	1	:zsh	1	:*	561f,83x41,0,0,10	:
+window	6	1	:zsh	1	:*	5620,83x41,0,0,11	:
+window	7	1	:zsh	1	:*	5621,83x41,0,0,12	:
+window	8	1	:zsh	1	:*	5622,83x41,0,0,13	:
+window	9	1	:zsh	1	:*	5623,83x41,0,0,14	:
+state	14	8

@@ -1,0 +1,53 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~/.config/kitty	:/home/sakvi/.config/kitty	1	zsh	:
+pane	11	1	1	:*	1	:/home/sakvi/.config/waybar	1	yazi	64911	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/.config/tmux	:/home/sakvi/.config/tmux	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	waybar: nvim	:/home/sakvi/.config/waybar	1	nvim	:nvim
+pane	17	1	1	:*	1	~/.config/tmux	:/home/sakvi/.config/tmux	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~/.config/rofi/shared	:/home/sakvi/.config/rofi/shared	1	zsh	:
+pane	2	1	1	:*	1	~/.config/matugen	:/home/sakvi/.config/matugen	1	zsh	:
+pane	20	1	1	:*	1	~/.config/waybar	:/home/sakvi/.config/waybar	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+pane	25	1	1	:*	1	matugen: hyprpicker	:/home/sakvi/.config/matugen	1	hyprpicker	:hyprpicker
+pane	26	1	1	:*	1	kitty: nvim colors.conf	:/home/sakvi/.config/kitty	1	nvim	:nvim colors.conf
+pane	27	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~/Backgrounds	:/home/sakvi/Backgrounds	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~/.config/waybar	:/home/sakvi/.config/waybar	1	zsh	:
+pane	6	1	1	:*	1	~/.config/kitty	:/home/sakvi/.config/kitty	1	zsh	:
+pane	7	1	1	:*	1	~/.config/tmux	:/home/sakvi/.config/tmux	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	1	:zsh	1	:*	62af,105x27,0,0,10	:
+window	11	1	:yazi	1	:*	6220,212x27,0,0,11	:
+window	12	1	:zsh	1	:*	62b1,105x27,0,0,12	:
+window	13	1	:zsh	1	:*	62b2,105x27,0,0,13	:
+window	14	1	:zsh	1	:*	61b3,105x55,0,0,14	:
+window	15	1	:zsh	1	:*	62b4,105x27,0,0,15	:
+window	16	1	:nvim	1	:*	61b5,105x55,0,0,16	:
+window	17	1	:zsh	1	:*	6226,212x27,0,0,17	:
+window	18	1	:zsh	1	:*	62b7,105x27,0,0,18	:
+window	19	1	:zsh	1	:*	62b8,105x27,0,0,19	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	20	1	:[tmux]	1	:*	d25f,84x20,0,0,20	:
+window	21	1	:zsh	1	:*	e1b0,105x55,0,0,21	:
+window	22	1	:yazi	1	:*	e1b1,105x55,0,0,22	:
+window	25	1	:hyprpicker	1	:*	d264,84x20,0,0,25	:
+window	26	1	:nvim	1	:*	d265,84x20,0,0,26	:
+window	27	1	:[tmux]	1	:*	d266,84x20,0,0,27	:
+window	3	1	:zsh	1	:*	c500,105x27,0,0,3	:
+window	4	1	:zsh	1	:*	c301,105x55,0,0,4	:
+window	5	1	:zsh	1	:*	c502,105x27,0,0,5	:
+window	6	1	:zsh	1	:*	c303,105x55,0,0,6	:
+window	7	1	:zsh	1	:*	c304,105x55,0,0,7	:
+window	8	1	:zsh	1	:*	bea5,52x27,0,0,8	:
+window	9	1	:zsh	1	:*	c666,213x56,0,0,9	:
+state	25	

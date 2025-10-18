@@ -1,0 +1,14 @@
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	:/home/sakvi	1	yazi	100577	:
+pane	main	1	1	:*	1	yazi: nvim init.lua	:/home/sakvi/.config/yazi	1	nvim	:yazi
+pane	nutricast	1	1	:*Z	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	1	1	:*Z	2	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	0	zsh	:
+pane	nutricast	2	0	:-	1	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	zsh	:
+pane	nutricast	2	0	:-	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	nutricast	2	0	:-	3	~/projects/gt_projects/nutriCast/frontend	:/home/sakvi/projects/gt_projects/nutriCast/frontend	0	zsh	:
+window	15	1	:zsh	1	:*	e1b3,105x55,0,0,24	:
+window	18	1	:yazi	1	:*	e2b6,105x27,0,0,27	:
+window	main	1	:nvim	1	:*	c302,105x55,0,0,5	:
+window	nutricast	1	:zsh	1	:*Z	8da1,105x55,0,0{56x55,0,0,6,48x55,57,0,7}	:
+window	nutricast	2	:zsh	0	:-	04d6,105x55,0,0{51x55,0,0[51x30,0,0,8,51x24,0,31,9],53x55,52,0,10}	:
+state	main	15

@@ -1,0 +1,99 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~/gatech/CS3001/0_term_paper	:/home/sakvi/gatech/CS3001/0_term_paper	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	sakvi: nvim hello.md	:/home/sakvi	1	nvim	:nvim hello.md
+pane	17	1	1	:*	1	~/Downloads	:/home/sakvi/Downloads	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	:/home/sakvi/.local/share/neonvim/lazy/easyjump.yazi	1	yazi	2604373	:
+pane	20	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	24	1	1	:*	1	~/.config	:/home/sakvi/.config	1	zsh	:
+pane	25	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	26	1	1	:*	1	sakvi: man 5 mako	:/home/sakvi	1	man	:man 5 mako
+pane	27	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	sakvi: nvim main.cc	:/home/sakvi	1	nvim	:nvim main.cc
+pane	33	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~/.config	:/home/sakvi/.config	1	zsh	:chezmoi cd
+pane	39	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	40	1	1	:*	1	~/.local/share/chezmoi	:/home/sakvi/.local/share/chezmoi	1	zsh	:chezmoi cd
+pane	41	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	42	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	43	1	1	:*	1	~/Wallpaper/loop-wall	:/home/sakvi/Wallpaper/loop-wall	1	zsh	:
+pane	44	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	45	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	46	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	47	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	48	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	49	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	50	1	1	:*	1	conf: nvim env.conf	:/home/sakvi/.config/hypr/conf	1	nvim	:nvim env.conf
+pane	51	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	52	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	53	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	b05d,84x42,0,0,0	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	11	1	:zsh	1	:*	5960,213x51,0,0,11	:
+window	14	1	:zsh	1	:*	5cb3,105x24,0,0,14	:
+window	16	1	:nvim	1	:*	5925,212x51,0,0,16	:
+window	17	1	:zsh	1	:*	56c6,72x51,0,0,17	:
+window	18	1	:zsh	1	:*	5987,52x24,0,0,18	:
+window	19	1	:yazi	1	:*	59c8,72x24,0,0,19	:
+window	20	1	:yazi	1	:*	d27f,52x11,0,0,20	:
+window	21	1	:zsh	1	:*	d920,212x51,0,0,21	:
+window	22	1	:[tmux]	1	:*	d9b1,105x51,0,0,22	:
+window	23	1	:zsh	1	:*	d862,84x42,0,0,23	:
+window	24	1	:zsh	1	:*	dcb3,105x24,0,0,24	:
+window	25	1	:zsh	1	:*	dcb4,105x24,0,0,25	:
+window	26	1	:man	1	:*	dcb5,105x24,0,0,26	:
+window	27	1	:zsh	1	:*	dcb6,105x24,0,0,27	:
+window	28	1	:zsh	1	:*	d967,213x51,0,0,28	:
+window	29	1	:zsh	1	:*	dcb8,105x24,0,0,29	:
+window	3	1	:zsh	1	:*	b060,84x42,0,0,3	:
+window	30	1	:zsh	1	:*	5860,84x42,0,0,30	:
+window	31	1	:zsh	1	:*	5261,84x20,0,0,31	:
+window	32	1	:nvim	1	:*	5962,213x51,0,0,32	:
+window	33	1	:yazi	1	:*	59b3,105x51,0,0,33	:
+window	34	1	:zsh	1	:*	59b4,105x51,0,0,34	:
+window	35	1	:zsh	1	:*	5865,84x42,0,0,35	:
+window	36	1	:zsh	1	:*	5cb6,105x24,0,0,36	:
+window	37	1	:zsh	1	:*	59b7,105x51,0,0,37	:
+window	38	1	:zsh	1	:*	59b8,105x51,0,0,38	:
+window	39	1	:zsh	1	:*	5cb9,105x24,0,0,39	:
+window	4	1	:zsh	1	:*	b441,170x42,0,0,4	:
+window	40	1	:zsh	1	:*	d960,213x51,0,0,40	:
+window	41	1	:zsh	1	:*	dcb1,105x24,0,0,41	:
+window	42	1	:zsh	1	:*	d962,213x51,0,0,42	:
+window	43	1	:zsh	1	:*	d963,213x51,0,0,43	:
+window	44	1	:[tmux]	1	:*	dcb4,105x24,0,0,44	:
+window	45	1	:zsh	1	:*	dcb5,105x24,0,0,45	:
+window	46	1	:zsh	1	:*	d866,84x42,0,0,46	:
+window	47	1	:zsh	1	:*	d9b7,105x51,0,0,47	:
+window	48	1	:zsh	1	:*	dcb8,105x24,0,0,48	:
+window	49	1	:zsh	1	:*	d9b9,105x51,0,0,49	:
+window	5	1	:zsh	1	:*	a1e2,41x20,0,0,5	:
+window	50	1	:nvim	1	:*	5cb1,105x24,0,0,50	:
+window	51	1	:yazi	1	:*	5cb2,105x24,0,0,51	:
+window	52	1	:zsh	1	:*	5cb3,105x24,0,0,52	:
+window	53	1	:zsh	1	:*	59b4,105x51,0,0,53	:
+window	6	1	:zsh	1	:*	b903,105x24,0,0,6	:
+window	7	1	:zsh	1	:*	b264,213x51,0,0,7	:
+window	8	1	:zsh	1	:*	b305,105x51,0,0,8	:
+window	9	1	:zsh	1	:*	b906,105x24,0,0,9	:
+state	53	

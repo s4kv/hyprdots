@@ -1,0 +1,54 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/projects/gt_projects/JID-4341_Candid_Capture	:/home/sakvi/projects/gt_projects/JID-4341_Candid_Capture	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~/.config/.android/avd/Pixel_9.avd	:/home/sakvi/.config/.android/avd/Pixel_9.avd	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~/projects/gt_projects	:/home/sakvi/projects/gt_projects	1	zsh	:
+pane	23	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	24	1	1	:*Z	1	JID-4341_Candid_Capture: npx expo start	:/home/sakvi/projects/gt_projects/JID-4341_Candid_Capture	1	npm	:npm exec expo start
+pane	24	1	1	:*Z	2	:/home/sakvi/projects/gt_projects/JID-4341_Candid_Capture	0	yazi	2862160	:
+pane	25	1	1	:*	1	:/home/sakvi/.config/nvim/lua/custom/plugins	1	yazi	2910859	:
+pane	26	1	1	:*	1	JID-4341_Candid_Capture: npx expo start	:/home/sakvi/projects/gt_projects/JID-4341_Candid_Capture	1	npm	:npm exec expo start
+pane	27	1	1	:*	1	sakvi: paru -S expo-orbit-bin	:/home/sakvi	1	paru	:paru -S expo-orbit-bin
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~/projects/gt_projects/JID-4341_Candid_Capture	:/home/sakvi/projects/gt_projects/Wedmo	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	9	1	1	:*	1	~/projects/gt_projects/JID-4341_Candid_Capture	:/home/sakvi/projects/gt_projects/Wedmo	1	zsh	:
+window	0	1	:zsh	1	:*	a49d,52x11,0,0,0	:
+window	1	1	:zsh	1	:*	b1de,212x51,0,0,1	:
+window	10	1	:zsh	1	:*	59b2,105x51,0,0,13	:
+window	11	1	:zsh	1	:*	5cb3,105x24,0,0,14	:
+window	13	1	:zsh	1	:*	5685,52x51,0,0,16	:
+window	14	1	:zsh	1	:*	5cb6,105x24,0,0,17	:
+window	15	1	:zsh	1	:*	5cb7,105x24,0,0,18	:
+window	16	1	:zsh	1	:*	5cb8,105x24,0,0,19	:
+window	17	1	:zsh	1	:*	dc1f,212x24,0,0,20	:
+window	18	1	:zsh	1	:*	dcb0,105x24,0,0,21	:
+window	19	1	:zsh	1	:*	dcb1,105x24,0,0,22	:
+window	2	1	:zsh	1	:*	b8ff,105x24,0,0,2	:
+window	20	1	:zsh	1	:*	d862,84x42,0,0,23	:
+window	21	1	:zsh	1	:*	d9b3,105x51,0,0,24	:
+window	22	1	:zsh	1	:*	dc74,169x42,0,0,25	:
+window	23	1	:zsh	1	:*	dcb5,105x24,0,0,26	:
+window	24	1	:npm	1	:*Z	00b4,213x51,0,0{106x51,0,0,27,106x51,107,0,28}	:
+window	25	1	:yazi	1	:*	d9b8,105x51,0,0,29	:
+window	26	1	:npm	1	:*	59b0,105x51,0,0,30	:
+window	27	1	:paru	1	:*	5cb1,105x24,0,0,31	:
+window	3	1	:zsh	1	:*	b300,105x51,0,0,3	:
+window	5	1	:zsh	1	:*	b902,105x24,0,0,5	:
+window	6	1	:zsh	1	:*	b904,105x24,0,0,7	:
+window	7	1	:zsh	1	:*	b305,105x51,0,0,8	:
+window	8	1	:zsh	1	:*	5caf,105x24,0,0,10	:
+window	9	1	:zsh	1	:*	5cb0,105x24,0,0,11	:
+state	26	

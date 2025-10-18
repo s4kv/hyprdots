@@ -1,0 +1,13 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:chezmoi cd
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	bbfd,103x25,0,0,0	:
+window	1	1	:zsh	1	:*	bbfe,103x25,0,0,1	:
+window	2	1	:zsh	1	:*	bbff,103x25,0,0,2	:
+window	3	1	:zsh	1	:*	bc01,103x25,0,0,4	:
+window	4	1	:zsh	1	:*	b0e2,85x42,0,0,5	:
+window	5	1	:zsh	1	:*	a4e3,85x20,0,0,6	:
+state	5	

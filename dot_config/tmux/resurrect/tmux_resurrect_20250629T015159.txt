@@ -1,0 +1,27 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	sakvi: hyprsunset -g 60	:/home/sakvi	1	hyprsunset	:hyprsunset -g 60
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~/Pictures/Screenshots	:/home/sakvi/Pictures/Screenshots	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	4	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+pane	5	1	1	:*	1	~/temp/tarealab/flash_player_32_0_0_465_linux_sa_debug.x86_64	:/home/sakvi/temp/tarealab/flash_player_32_0_0_465_linux_sa_debug.x86_64	1	zsh	:zsh
+pane	7	1	1	:*	1	~/temp/tarealab/csi-1-5/csi-1-5/case1	:/home/sakvi/temp/tarealab/csi-1-5/csi-1-5/case1	1	zsh	:zsh
+pane	8	1	1	:*	1	flash_player_32_0_0_465_linux_sa_debug.x86_64: nvim nohup.out	:/home/sakvi/temp/tarealab/flash_player_32_0_0_465_linux_sa_debug.x86_64	1	nvim	:zsh
+pane	9	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:hyprsunset	1	:*	a45e,84x20,0,0,1	:
+window	10	1	:zsh	1	:*	62ef,106x27,0,0,10	:
+window	11	1	:zsh	1	:*	61f0,106x55,0,0,11	:
+window	12	1	:zsh	1	:*	62f1,106x27,0,0,12	:
+window	13	1	:zsh	1	:*	61f2,106x55,0,0,13	:
+window	14	1	:zsh	1	:*	6363,213x56,0,0,14	:
+window	3	1	:yazi	1	:*	b060,84x42,0,0,3	:
+window	4	1	:yazi	1	:*	ac81,169x20,0,0,4	:
+window	5	1	:zsh	1	:*	bea2,52x27,0,0,5	:
+window	7	1	:zsh	1	:*	bca4,52x55,0,0,7	:
+window	8	1	:nvim	1	:*	c665,213x56,0,0,8	:
+window	9	1	:yazi	1	:*	c306,105x55,0,0,9	:
+state	7	

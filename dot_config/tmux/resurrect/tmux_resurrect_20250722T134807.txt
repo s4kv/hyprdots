@@ -1,0 +1,6 @@
+pane	0	1	1	:*Z	1	frontend: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast/frontend	1	npm	:npm exec expo start
+pane	0	1	1	:*Z	2	~/projects/gt_projects/nutriCast/backend	:/home/sakvi/projects/gt_projects/nutriCast/backend	0	zsh	:
+pane	1	1	1	:*	1	backend: mvn spring-boot:run	:/home/sakvi/projects/gt_projects/nutriCast/backend	1	java	:/usr/lib/jvm/liberica-jdk-21-full//bin/java --enable-native-access=ALL-UNNAMED -classpath /usr/share/java/maven/boot/plexus-classworlds-2.9.0.jar -Dclassworlds.conf=/usr/share/java/maven/bin/m2.conf -Dmaven.home=/usr/share/java/maven -Dlibrary.jansi.path=/usr/share/java/maven/lib/jansi-native -Dmaven.multiModuleProjectDirectory=/home/sakvi/projects/gt_projects/nutriCast/backend org.codehaus.plexus.classworlds.launcher.Launcher spring-boot:run
+window	0	1	:npm	1	:*Z	64d6,105x55,0,0{52x55,0,0,0,52x55,53,0,1}	:
+window	1	1	:java	1	:*	c2ff,105x55,0,0,2	:
+state	0	

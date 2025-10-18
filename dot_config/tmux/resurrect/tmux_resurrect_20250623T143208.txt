@@ -1,0 +1,10 @@
+pane	16	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	2	~	:/home/sakvi	0	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	:/home/sakvi/.config/hypr/conf	1	yazi	31315	:
+window	16	1	:zsh	1	:*	61b8,105x55,0,0,19	:
+window	17	1	:zsh	1	:*	f935,105x55,0,0{52x55,0,0,20,52x55,53,0,21}	:
+window	18	1	:zsh	1	:*	e1b1,105x55,0,0,22	:
+window	5	1	:yazi	1	:*	c302,105x55,0,0,5	:
+state	5	18

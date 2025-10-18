@@ -1,0 +1,35 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/gatech/archive/spring25/cs2110	:/home/sakvi/gatech/archive/spring25/cs2110	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:yazi --cwd-file=/tmp/yazi-cwd.AfoA1Y
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	10	1	:zsh	1	:*	5f7f,52x27,0,0,10	:
+window	11	1	:zsh	1	:*	5480,52x12,0,0,11	:
+window	12	1	:zsh	1	:*	5a51,170x42,0,0,12	:
+window	13	1	:zsh	1	:*	6222,212x27,0,0,13	:
+window	14	1	:zsh	1	:*	6223,212x27,0,0,14	:
+window	15	1	:zsh	1	:*	5a54,170x42,0,0,15	:
+window	16	1	:yazi	1	:*	61b5,105x55,0,0,16	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:zsh	1	:*	c300,105x55,0,0,3	:
+window	4	1	:zsh	1	:*	c501,105x27,0,0,4	:
+window	5	1	:zsh	1	:*	c302,105x55,0,0,5	:
+window	6	1	:zsh	1	:*	c503,105x27,0,0,6	:
+window	7	1	:zsh	1	:*	bea4,52x27,0,0,7	:
+window	8	1	:zsh	1	:*	c305,105x55,0,0,8	:
+window	9	1	:zsh	1	:*	c506,105x27,0,0,9	:
+state	16	

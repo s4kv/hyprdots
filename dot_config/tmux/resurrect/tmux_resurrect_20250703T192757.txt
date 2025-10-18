@@ -1,0 +1,14 @@
+pane	0	1	1	:*	1	~/Backgrounds	:/home/sakvi/Backgrounds	1	zsh	:
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	3	1	1	:*	1	hypr: nvim hyprpaper.conf	:/home/sakvi/.config/hypr	1	nvim	:nvim hyprpaper.conf
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	:/home/sakvi/.config/hypr	0	yazi	659032	:
+pane	5	1	1	:*	2	Backgrounds: hyprpaper	:/home/sakvi/Backgrounds	1	hyprpaper	:hyprpaper
+window	0	1	:zsh	1	:*	c65d,213x56,0,0,0	:
+window	1	1	:zsh	1	:*	c2fe,105x55,0,0,1	:
+window	2	1	:zsh	1	:*	c65f,213x56,0,0,2	:
+window	3	1	:nvim	1	:*	c660,213x56,0,0,3	:
+window	4	1	:zsh	1	:*	c661,213x56,0,0,4	:
+window	5	1	:hyprpaper	1	:*	9616,213x56,0,0{106x56,0,0,5,106x56,107,0,6}	:
+state	0	2

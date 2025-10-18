@@ -1,0 +1,143 @@
+pane	10	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	100	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	32	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	33	1	0	:-	1	~/gatech	:/home/sakvi/gatech	1	zsh	:
+pane	33	2	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	37	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	38	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	39	1	1	:*	1	sakvi: nvim txt.txrt	:/home/sakvi	1	nvim	:nvim txt.txrt
+pane	40	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	41	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	42	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	43	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	44	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	45	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	46	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	47	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	48	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	49	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	50	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	51	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	52	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	53	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	54	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	55	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	56	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	57	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	58	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	59	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	60	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	61	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	62	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	63	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	64	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	65	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	66	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	67	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	68	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	69	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	70	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	71	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	72	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	73	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	74	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	75	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	76	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	77	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	78	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	79	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	80	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	81	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	82	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	83	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	84	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	85	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	86	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	87	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	88	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	89	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	90	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	91	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	92	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	93	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	94	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	95	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	96	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	97	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	98	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	99	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	10	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	100	1	:zsh	1	:*	b1a1,1x1,0,0,102	:
+window	32	1	:zsh	1	:*	5a53,170x42,0,0,33	:
+window	33	1	:zsh	0	:-	5624,83x41,0,0,34	:
+window	33	2	:zsh	1	:*	5868,84x42,0,0,38	:
+window	34	1	:zsh	1	:*	6325,83x19,0,0,35	:
+window	35	1	:zsh	1	:*	6326,83x19,0,0,36	:
+window	36	1	:zsh	1	:*	61e7,40x19,0,0,37	:
+window	37	1	:zsh	1	:*	6329,83x19,0,0,39	:
+window	38	1	:zsh	1	:*	d620,83x41,0,0,40	:
+window	39	1	:nvim	1	:*	d261,84x20,0,0,41	:
+window	40	1	:zsh	1	:*	e222,41x19,0,0,42	:
+window	41	1	:zsh	1	:*	e223,41x19,0,0,43	:
+window	42	1	:zsh	1	:*	e224,41x19,0,0,44	:
+window	43	1	:zsh	1	:*	e225,41x19,0,0,45	:
+window	44	1	:zsh	1	:*	ffe6,41x9,0,0,46	:
+window	45	1	:zsh	1	:*	0328,19x9,0,0,47	:
+window	46	1	:zsh	1	:*	f728,19x3,0,0,48	:
+window	47	1	:zsh	1	:*	e229,41x19,0,0,49	:
+window	48	1	:zsh	1	:*	6221,41x19,0,0,50	:
+window	49	1	:zsh	1	:*	6222,41x19,0,0,51	:
+window	50	1	:zsh	1	:*	6223,41x19,0,0,52	:
+window	51	1	:zsh	1	:*	7fe4,41x9,0,0,53	:
+window	52	1	:zsh	1	:*	8325,19x9,0,0,54	:
+window	53	1	:zsh	1	:*	7726,19x3,0,0,55	:
+window	54	1	:zsh	1	:*	6ae7,9x3,0,0,56	:
+window	55	1	:zsh	1	:*	66e8,9x1,0,0,57	:
+window	56	1	:zsh	1	:*	63e9,3x1,0,0,58	:
+window	57	1	:zsh	1	:*	62ea,1x1,0,0,59	:
+window	58	1	:zsh	1	:*	e221,41x19,0,0,60	:
+window	59	1	:zsh	1	:*	e222,41x19,0,0,61	:
+window	60	1	:zsh	1	:*	e223,41x19,0,0,62	:
+window	61	1	:zsh	1	:*	e224,41x19,0,0,63	:
+window	62	1	:zsh	1	:*	ffe5,41x9,0,0,64	:
+window	63	1	:zsh	1	:*	0327,19x9,0,0,65	:
+window	64	1	:zsh	1	:*	e227,41x19,0,0,66	:
+window	65	1	:zsh	1	:*	ffe8,41x9,0,0,67	:
+window	66	1	:zsh	1	:*	e229,41x19,0,0,68	:
+window	67	1	:zsh	1	:*	ffea,41x9,0,0,69	:
+window	68	1	:zsh	1	:*	7fe2,41x9,0,0,70	:
+window	69	1	:zsh	1	:*	8323,19x9,0,0,71	:
+window	70	1	:zsh	1	:*	7724,19x3,0,0,72	:
+window	71	1	:zsh	1	:*	6ae5,9x3,0,0,73	:
+window	72	1	:zsh	1	:*	66e6,9x1,0,0,74	:
+window	73	1	:zsh	1	:*	63e7,3x1,0,0,75	:
+window	74	1	:zsh	1	:*	62e8,1x1,0,0,76	:
+window	75	1	:zsh	1	:*	7fe9,41x9,0,0,77	:
+window	76	1	:zsh	1	:*	7fea,41x9,0,0,78	:
+window	77	1	:zsh	1	:*	7feb,41x9,0,0,79	:
+window	78	1	:zsh	1	:*	e222,41x19,0,0,80	:
+window	79	1	:zsh	1	:*	e223,41x19,0,0,81	:
+window	80	1	:zsh	1	:*	e224,41x19,0,0,82	:
+window	81	1	:zsh	1	:*	ffe5,41x9,0,0,83	:
+window	82	1	:zsh	1	:*	0327,19x9,0,0,84	:
+window	83	1	:zsh	1	:*	f727,19x3,0,0,85	:
+window	84	1	:zsh	1	:*	eae8,9x3,0,0,86	:
+window	85	1	:zsh	1	:*	e229,41x19,0,0,87	:
+window	86	1	:zsh	1	:*	ffea,41x9,0,0,88	:
+window	87	1	:zsh	1	:*	e22b,41x19,0,0,89	:
+window	88	1	:zsh	1	:*	7fe3,41x9,0,0,90	:
+window	89	1	:zsh	1	:*	8324,19x9,0,0,91	:
+window	90	1	:zsh	1	:*	7725,19x3,0,0,92	:
+window	91	1	:zsh	1	:*	6ae6,9x3,0,0,93	:
+window	92	1	:zsh	1	:*	66e7,9x1,0,0,94	:
+window	93	1	:zsh	1	:*	6228,41x19,0,0,95	:
+window	94	1	:zsh	1	:*	7fe9,41x9,0,0,96	:
+window	95	1	:zsh	1	:*	832a,19x9,0,0,97	:
+window	96	1	:zsh	1	:*	772b,19x3,0,0,98	:
+window	97	1	:zsh	1	:*	6aec,9x3,0,0,99	:
+window	98	1	:zsh	1	:*	b39f,9x1,0,0,100	:
+window	99	1	:zsh	1	:*	b220,3x1,0,0,101	:
+state	39	

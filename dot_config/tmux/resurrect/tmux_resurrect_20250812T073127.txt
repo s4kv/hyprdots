@@ -1,0 +1,6 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:hyprsunset -g 50 -t 4000
+tee
+pane	1	1	1	:*	1	sakvi: nvim test.txt	:/home/sakvi	1	nvim	:nvim test.txt
+window	0	1	:zsh	1	:*	b8fd,105x24,0,0,0	:
+window	1	1	:nvim	1	:*	b8fe,105x24,0,0,1	:
+state	1	

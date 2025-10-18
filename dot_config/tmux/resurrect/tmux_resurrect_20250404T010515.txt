@@ -1,0 +1,22 @@
+pane	4	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*Z	1	sakvi: nvim idea.md	:/home/sakvi	0	nvim	:nvim idea.md
+pane	6	1	1	:*Z	2	homeworks_2110: nvim resources	:/home/sakvi/gatech/cs2110/homeworks_2110	1	nvim	:nvim resources
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	amparo	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	gba	1	1	:*	1	hw06_linux: nvim main.c	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	1	nvim	:nvim main.c
+pane	gba	1	1	:*	2	hw06_linux: nvim gba.h	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	nvim	:nvim gba.h
+pane	gba	1	1	:*	3	hw06_linux: ./cs2110docker-gba.sh	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux	0	bash	:/bin/bash ./cs2110docker-gba.sh
+pane	gba	2	0	:-	1	~/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	:/home/sakvi/gatech/cs2110/homeworks_2110/hw06/hw06_linux/images	1	zsh	:
+window	4	1	:zsh	1	:*	ba04,103x53,0,0,7	:
+window	5	1	:zsh	1	:*	b5a5,50x25,0,0,8	:
+window	6	1	:nvim	1	:*Z	4922,213x55,0,0{106x55,0,0,9,106x55,107,0,10}	:
+window	7	1	:zsh	1	:*	5e30,103x25,0,0,11	:
+window	8	1	:zsh	1	:*	5e31,103x25,0,0,12	:
+window	9	1	:zsh	1	:*	c25e,213x55,0,0,1	:
+window	amparo	1	:zsh	1	:*	c25f,213x55,0,0,2	:
+window	gba	1	:nvim main	1	:*	5f39,213x55,0,0{105x55,0,0,3,107x55,106,0[107x26,106,0,4,107x28,106,27,5]}	off
+window	gba	2	:run / test 	0	:-	ba03,103x53,0,0,6	off
+state	gba	8

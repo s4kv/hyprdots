@@ -1,0 +1,9 @@
+pane	0	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	1	1	1	:*	1	~/Wallpaper/loop-wall	:/home/sakvi/Wallpaper/loop-wall	1	zsh	:zsh
+pane	2	1	1	:*	1	~/.config/hypr	:/home/sakvi/.config/hypr	1	zsh	:
+pane	3	1	1	:*	1	~/projects/learning/cmake_learning	:/home/sakvi/projects/learning/cmake_learning	1	zsh	:
+window	0	1	:zsh	1	:*	c37d,106x55,0,0,0	:
+window	1	1	:zsh	1	:*	c37e,106x55,0,0,1	:
+window	2	1	:zsh	1	:*	c2ff,105x55,0,0,2	:
+window	3	1	:zsh	1	:*	c300,105x55,0,0,3	:
+state	3	

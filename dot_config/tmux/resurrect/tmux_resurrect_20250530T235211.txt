@@ -1,0 +1,13 @@
+pane	34	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000	:/home/sakvi	1	mongosh	:mongosh
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+window	34	1	:zsh	1	:*	c4fe,105x27,0,0,1	:
+window	35	1	:zsh	1	:*	c4ff,105x27,0,0,2	:
+window	36	1	:zsh	1	:*	c500,105x27,0,0,3	:
+window	6	1	:mongosh	1	:*	bea3,52x27,0,0,6	:
+window	main	1	:zsh	1	:*	c501,105x27,0,0,4	:
+window	neuralcanvas	1	:zsh	1	:*	c502,105x27,0,0,5	:
+state	neuralcanvas	main

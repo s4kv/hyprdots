@@ -1,0 +1,68 @@
+pane	10	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era	1	zsh	:
+pane	11	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	12	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	13	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	14	1	1	:*	1	~/projects	:/home/sakvi/projects	1	zsh	:
+pane	15	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	16	1	1	:*Z	1	springboot-gcp: nvim	:/home/sakvi/projects/demo/springboot-gcp	0	nvim	:nvim
+pane	16	1	1	:*Z	2	~	:/home/sakvi	1	zsh	:
+pane	17	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	18	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	19	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	20	2	0	:-	1	~	:/home/sakvi	1	zsh	:
+pane	21	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	22	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	23	1	1	:*	1	~/.config	:/home/sakvi/.config	1	zsh	:
+pane	24	1	1	:*	1	~/gatech/resumes/latex-resume	:/home/sakvi/gatech/resumes/latex-resume	1	zsh	:
+pane	25	1	1	:*	1	~/projects/my-projects/high-five	:/home/sakvi/projects/my-projects/high-five	1	zsh	:
+pane	26	1	1	:*	1	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	27	1	1	:*	1	nutriCast: npx expo start	:/home/sakvi/projects/gt_projects/nutriCast	0	npm	:npm exec expo start
+pane	27	1	1	:*	2	~/projects/gt_projects/nutriCast	:/home/sakvi/projects/gt_projects/nutriCast	1	zsh	:
+pane	28	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	29	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	30	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	31	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	34	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	7	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	8	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	9	1	1	:*	1	~/.local/share/PrismLauncher/instances/Prominence II RPG- Hasturian Era	:/home/sakvi/.local/share/PrismLauncher/instances/Prominence\ II RPG- Hasturian Era	1	zsh	:
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*Z	2	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	0	zsh	:
+window	10	1	:zsh	1	:*	b05e,84x42,0,0,1	:
+window	11	1	:zsh	1	:*	b05f,84x42,0,0,2	:
+window	12	1	:zsh	1	:*	b060,84x42,0,0,3	:
+window	13	1	:zsh	1	:*	b061,84x42,0,0,4	:
+window	14	1	:zsh	1	:*	b062,84x42,0,0,5	:
+window	15	1	:zsh	1	:*	b063,84x42,0,0,6	:
+window	16	1	:zsh	1	:*Z	0433,84x42,0,0{42x42,0,0,7,41x42,43,0,8}	:
+window	17	1	:zsh	1	:*	b066,84x42,0,0,9	:
+window	18	1	:zsh	1	:*	585f,84x42,0,0,10	:
+window	19	1	:zsh	1	:*	5860,84x42,0,0,11	:
+window	20	1	:zsh	1	:*	5861,84x42,0,0,12	:
+window	20	2	:zsh	0	:-	5862,84x42,0,0,13	:
+window	21	1	:zsh	1	:*	5863,84x42,0,0,14	:
+window	22	1	:zsh	1	:*	5864,84x42,0,0,15	:
+window	23	1	:zsh	1	:*	5865,84x42,0,0,16	:
+window	24	1	:zsh	1	:*	5866,84x42,0,0,17	:
+window	25	1	:zsh	1	:*	5867,84x42,0,0,18	:
+window	26	1	:zsh	1	:*	5868,84x42,0,0,19	:
+window	27	1	:zsh	1	:*	7f1c,84x42,0,0{42x42,0,0,30,41x42,43,0,35}	:
+window	28	1	:zsh	1	:*	5261,84x20,0,0,31	:
+window	29	1	:zsh	1	:*	5122,41x20,0,0,32	:
+window	30	1	:zsh	1	:*	7fe3,41x9,0,0,33	:
+window	31	1	:zsh	1	:*	7ee4,20x9,0,0,34	:
+window	34	1	:zsh	1	:*	d85f,84x42,0,0,20	:
+window	35	1	:zsh	1	:*	d860,84x42,0,0,21	:
+window	36	1	:zsh	1	:*	d861,84x42,0,0,22	:
+window	6	1	:zsh	1	:*	d862,84x42,0,0,23	:
+window	7	1	:zsh	1	:*	d863,84x42,0,0,24	:
+window	8	1	:zsh	1	:*	d864,84x42,0,0,25	:
+window	9	1	:zsh	1	:*	d865,84x42,0,0,26	:
+window	main	1	:zsh	1	:*	d866,84x42,0,0,27	:
+window	neuralcanvas	1	:zsh	1	:*Z	3abd,84x42,0,0{41x42,0,0,28,42x42,42,0,29}	:
+state	27	

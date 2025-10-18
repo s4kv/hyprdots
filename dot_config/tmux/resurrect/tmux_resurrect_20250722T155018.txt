@@ -1,0 +1,9 @@
+pane	0	1	1	:*	1	nutriCast: docker compose up	:/home/sakvi/projects/gt_projects/nutriCast	1	docker	:docker compose up
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	Yazi: ~/Downloads	:/home/sakvi/Downloads	1	yazi	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+window	0	1	:docker	1	:*	b43d,170x42,0,0,0	:
+window	1	1	:zsh	1	:*	b43e,170x42,0,0,1	:
+window	2	1	:yazi	1	:*	b880,169x42,0,0,3	:
+window	3	1	:zsh	1	:*	b061,84x42,0,0,4	:
+state	3	

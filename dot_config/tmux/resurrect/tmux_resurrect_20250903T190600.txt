@@ -1,0 +1,16 @@
+pane	0	1	1	:*	1	~/.local/share/chezmoi	:/home/sakvi/.local/share/chezmoi	1	zsh	:chezmoi cd
+pane	0	1	1	:*	2	sakvi: nvim .histfile	:/home/sakvi	0	nvim	:nvim .histfile
+pane	1	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	2	1	1	:*	1	~/gatech/CS2200/Books	:/home/sakvi/gatech/CS2200/Books	1	zsh	:
+pane	3	1	1	:*	1	~	:/home/sakvi	1	zsh	:chezmoi cd
+pane	4	1	1	:*	1	CS2200: xdg-open 	:/home/sakvi/gatech/CS2200	1	sh	:/bin/sh /usr/bin/xdg-open Books/Computer Systems An Integrated Approach to Architecture and Operating Systems (Umakishore Ramachandran William D. Leahy Jr) (Z-Library)_1_1.pdf
+pane	5	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	6	1	1	:*	1	Yazi: ~/	:/home/sakvi	1	yazi	:
+window	0	1	:zsh	1	:*	96b7,170x42,0,0{85x42,0,0,0,84x42,86,0,1}	:
+window	1	1	:zsh	1	:*	a45f,84x20,0,0,2	:
+window	2	1	:zsh	1	:*	a461,84x20,0,0,4	:
+window	3	1	:zsh	1	:*	b063,84x42,0,0,6	:
+window	4	1	:sh	1	:*	b064,84x42,0,0,7	:
+window	5	1	:zsh	1	:*	b065,84x42,0,0,8	:
+window	6	1	:yazi	1	:*	a466,84x20,0,0,9	:
+state	5	

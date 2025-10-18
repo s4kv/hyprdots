@@ -1,0 +1,11 @@
+pane	34	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	35	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	36	1	1	:*	1	~	:/home/sakvi	1	zsh	:
+pane	main	1	1	:*	1	~/projects/my-projects/neuralcanvas	:/home/sakvi/projects/my-projects/neuralcanvas	1	zsh	:
+pane	neuralcanvas	1	1	:*	1	neuralcanvas: nvim src/components/chat_selector.rs	:/home/sakvi/projects/my-projects/neuralcanvas	1	nvim	:nvim src/components/chat_selector.rs
+window	34	1	:zsh	1	:*	62b8,105x27,0,0,38	:
+window	35	1	:zsh	1	:*	60b9,105x26,0,0,39	:
+window	36	1	:zsh	1	:*	e0b0,105x26,0,0,40	:
+window	main	1	:zsh	1	:*	61b6,105x55,0,0,36	:
+window	neuralcanvas	1	:nvim	1	:*	e2b7,105x27,0,0,28	:
+state	34	
