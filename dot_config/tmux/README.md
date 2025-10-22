@@ -1,6 +1,5 @@
 # Tmux
 
-
 > [!IMPORTANT]
 
 > **PREFIX** is set to <kbd>CTRL + Space</kbd>

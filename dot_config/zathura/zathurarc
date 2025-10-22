@@ -15,10 +15,10 @@ set inputbar-fg             "#d7bafb"
 set notification-error-bg   "#690005"
 set notification-error-fg   "#ffb4ab"
 
-set notification-warning-bg "#eedcff"
+set notification-warning-bg "#eddcff"
 set notification-warning-fg "#93000a"
 
-set highlight-color         "rgba(238, 220, 255, 0.5)"
+set highlight-color         "rgba(237, 220, 255, 0.5)"
 set highlight-active-color  "rgba(215, 186, 251, 0.5)"
 
 set completion-highlight-fg "rgba(60, 37, 90, 0.5)"

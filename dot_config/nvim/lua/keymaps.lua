@@ -149,3 +149,15 @@ vim.api.nvim_create_autocmd('LspAttach', {
     end
   end,
 })
+
+-- fallback for C header files to use C filetype
+-- vim.api.nvim_create_autocmd({ 'BufRead', 'BufNewFile' }, {
+--   pattern = { '*.h' },
+--   callback = function()
+--     vim.bo.filetype = 'c'
+--   end,
+-- })
+
+vim.keymap.set('n', '<leader>i', function()
+  vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { 0 }, { 0 })
+end)

@@ -12,7 +12,8 @@ output_path = '~/.config/hypr/conf/colors.conf'
 pre_hook = 'pkill waybar'
 input_path = '~/.config/matugen/templates/colors.css'
 output_path = '~/.config/waybar/colors.css'
-post_hook = 'hyprctl dispatch exec waybar'
+# post_hook = 'hyprctl dispatch exec waybar'
+post_hook = 'pgrep -x waybar > /dev/null || { waybar & }'
 
 [templates.rofi]
 input_path = '~/.config/matugen/templates/rofi-colors.rasi'
