@@ -1,5 +1,6 @@
 {
   "LuaSnip": { "branch": "master", "commit": "458560534a73f7f8d7a11a146c801db00b081df0" },
+  "NeoZoom.lua": { "branch": "main", "commit": "c97a0197548c1e9b559e4fa41ab3f7782c93e613" },
   "advanced-git-search.nvim": { "branch": "main", "commit": "ec0dabe38857bc7ba2097677e80155a572e0dfbe" },
   "ashen.nvim": { "branch": "main", "commit": "bfb04bd50b69d863469b2deb9fb361cf0d945ba7" },
   "blink.cmp": { "branch": "main", "commit": "327fff91fe6af358e990be7be1ec8b78037d2138" },
@@ -81,5 +82,6 @@
   "wrapping.nvim": { "branch": "master", "commit": "bbf1b6e4d6a94f1c362125dc927284086e9fad7d" },
   "yazi-flavor-catppuccin-macchiato": { "branch": "main", "commit": "2d73b79da7c1a04420c6c5ef0b0974697f947ef6" },
   "yazi-rs-plugins": { "branch": "main", "commit": "d1c8baab86100afb708694d22b13901b9f9baf00" },
-  "yazi.nvim": { "branch": "main", "commit": "1242f9bf230b226da23ff2d8df5f6dd09383eb66" }
+  "yazi.nvim": { "branch": "main", "commit": "1242f9bf230b226da23ff2d8df5f6dd09383eb66" },
+  "zen-mode.nvim": { "branch": "main", "commit": "8564ce6d29ec7554eb9df578efa882d33b3c23a7" }
 }
