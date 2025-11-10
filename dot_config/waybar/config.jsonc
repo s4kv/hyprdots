@@ -177,7 +177,7 @@
     "start-activated": false
   },
   "clock#time": {
-    "format": "{:%H:%M}",
+    "format": "{:%I:%M}", // Changed format from H 24h to 12h
     "tooltip": false,
     // "tooltip-format": "Standard Time: {:%I:%M %p}",
     "min-length": 6,
@@ -192,7 +192,7 @@
       "on-click-right": "mode",
       "format": {
         "months": "<span color='#928374'><b>{}</b></span>",
-        "weekdays": "<span color='#d5c4a1' font='7'>{}</span>",
+        "weekdays": "<span color='#d5c4a1'>{}</span>",
         "today": "<span color='#cc241d'><b>{}</b></span>"
       }
     },

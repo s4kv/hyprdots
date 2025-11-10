@@ -44,7 +44,7 @@ return {
     }
     vim.keymap.set('n', '<leader>z', function()
       vim.cmd 'NeoZoomToggle'
-    end, { silent = true, nowait = true })
+    end, { silent = true, nowait = true, desc = 'Zoom to current window' })
 
     -- NOTE: make it transparent when not focus
     vim.api.nvim_create_autocmd({ 'WinEnter' }, {

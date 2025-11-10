@@ -54,6 +54,36 @@ return {
           toggle = '<cr>',
         },
       }
+
+      local map = require 'mini.map'
+      map.setup {
+        integrations = {
+          map.gen_integration.builtin_search(),
+          map.gen_integration.diff(),
+          map.gen_integration.diagnostic(),
+        },
+
+        window = {
+          winblend = 100,
+          width = 5,
+        },
+      }
+
+      vim.keymap.set('n', '<Leader>mq', MiniMap.close, { desc = 'MiniMap Close' })
+      vim.keymap.set('n', '<Leader>mf', MiniMap.toggle_focus, { desc = 'MiniMap Toggle Focus' })
+      vim.keymap.set('n', '<Leader>mo', MiniMap.open, { desc = 'MiniMap Open' })
+      vim.keymap.set('n', '<Leader>mr', MiniMap.refresh, { desc = 'MiniMap Refresh' })
+      vim.keymap.set('n', '<Leader>mw', MiniMap.toggle_side, { desc = 'MiniMap Toggle Side' })
+      vim.keymap.set('n', '<Leader>mt', MiniMap.toggle, { desc = 'MiniMap Toggle' })
+
+      -- Only start mini.map when the Lsp is attached
+      vim.api.nvim_create_autocmd('LspAttach', {
+        desc = 'Open MiniMap when entering Neovim',
+        group = vim.api.nvim_create_augroup('mini-map-open', { clear = true }),
+        callback = function()
+          MiniMap.open()
+        end,
+      })
     end,
   },
 }
