@@ -74,11 +74,11 @@ date: $(date --rfc-3339=seconds)
 author: $AUTHOR
 ---
 
-# $title
+= $title
 END
     )
 
-    note_location="$NOTES_FOLDER/$file.md"
+    note_location="$NOTES_FOLDER/$file.typ"
     if [ "$title" != "" ]; then
       echo "$template" >"$note_location" | edit_note "$note_location"
       exit 0

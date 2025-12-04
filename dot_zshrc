@@ -63,9 +63,10 @@ alias czmoie='chezmoi edit'
 alias czmoi='chezmoi'
 alias zenb='zen-browser'
 alias vim='nvim'
-alias hs='pkill hyprsunset ; nohup hyprsunset -g 50 -t 4000 | tee &'
+alias hs='pkill hyprsunset ; nohup hyprsunset -g 80 -t 5000 | tee &'
 alias hsk='pkill hyprsunset'
 alias op='xdg-open'
+alias mg='maigret'
 
 # xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
 
@@ -120,10 +121,11 @@ export __NV_DISABLE_EXPLICIT_SYNC=1
 # vcpkg root
 # export VCPKG_ROOT="$HOME/tools/vcpkg"
 # export PATH="$VCPKG_ROOT:$PATH"
-export ANDROID_HOME=/opt/android-sdk
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools:$ANDROID_HOME/emulator
-
+#
+export ANDROID_HOME=${HOME}/Android/Sdk
+export PATH=${ANDROID_HOME}/tools:${PATH}
+export PATH=${ANDROID_HOME}/emulator:${PATH}
+export PATH=${ANDROID_HOME}/platform-tools:${PATH}
 
 # Yazi
 function y() {
