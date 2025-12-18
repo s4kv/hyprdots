@@ -19,6 +19,7 @@ require 'lazy-bootstrap'
 -- [[ Configure and install plugins ]]
 require 'lazy-plugins'
 
+-- [[ Configure colorscheme ]]
 require('ashen').load()
 
 -- The line beneath this is called `modeline`. See `:help modeline`

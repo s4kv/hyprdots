@@ -9,6 +9,9 @@ return {
     enabled = true,
     lazy = true,
     opts = {
+      -- temp ignore warnings
+      ignore_warnings = true,
+
       display = {
         chat = {
           intro_message = 'Welcome to Sakvi | Press ? for options',
