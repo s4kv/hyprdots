@@ -1,6 +1,7 @@
 7zip
 alsa-utils
 ani-cli
+antigravity-bin
 appmenu-gtk-module
 aquamarine
 asusctl-git
@@ -23,6 +24,7 @@ cargo-binstall
 cargo-generate
 cargo-tauri
 cava
+chafa
 chaotic-keyring
 chaotic-mirrorlist
 chezmoi
@@ -30,8 +32,8 @@ clipcat
 cliphist
 cmatrix
 code
-conan
 curseforge
+cursor-bin
 dart-sass
 deno
 discord
@@ -44,6 +46,7 @@ dragon-drop-git
 efibootmgr
 excalidraw-cli
 expac
+expo-orbit-bin
 eza
 fastfetch
 fd
@@ -121,6 +124,7 @@ lib32-nvidia-utils
 lib32-pipewire-jack
 libappimage
 libayatana-appindicator-glib
+libc++
 liberica-jdk-21-full-bin
 libgme
 libreoffice-fresh
@@ -133,6 +137,7 @@ lombok-common
 love
 luarocks
 lutris
+maigret
 mako
 mangohud
 mangojuice
@@ -141,15 +146,14 @@ matugen-bin
 maven
 mesa-utils
 minecraft-launcher
-mongodb
+minecraft-server
 mongodb-compass-beta-bin
 mongosh-bin
 mpvpaper
-mullvad-vpn
 nano
 ncdu
 neofetch
-neovim
+neovim-nightly-bin
 network-manager-applet
 networkmanager
 ngrok
@@ -159,7 +163,7 @@ nodejs
 nodejs-nodemon
 noto-fonts-emoji
 npm
-nvidia-dkms
+nvidia-open-dkms
 nvidia-prime
 nvidia-prime-rtd3pm
 nvidia-settings
@@ -182,16 +186,19 @@ otf-opendyslexic-nerd
 otf-overpass-nerd
 ouch
 pacman-contrib
+papermc
 paru
 paru-debug
 pasystray
 pavucontrol
 phonon-qt6-vlc
 picom
+pikaur-git
 pinta
 pipes.sh
 pipewire
 pipewire-pulse
+playit
 plymouth
 pokemon-colorscripts-git
 polybar
@@ -206,6 +213,7 @@ proton-ge-custom-bin
 protonplus
 pyright
 python-aiohttp
+python-asn1crypto
 python-debugpy
 python-django
 python-dotenv
@@ -218,8 +226,10 @@ python-pandas
 python-pillow
 python-pipx
 python-pygobject-stubs
+python-pyhanko
 python-pynvim
 python-pytest
+python-pyvis
 python-rlottie-python
 python-setproctitle
 python-toml
@@ -240,6 +250,7 @@ rofi-lbonn-wayland-git
 rofimoji
 rogauracore-git
 rr
+rustdesk-bin
 sccache
 sd
 shell-color-scripts-git
@@ -252,6 +263,7 @@ stremio
 supergfxctl
 supertuxkart
 swayidle
+swift-bin
 swww
 tesseract-data-eng
 texlive-basic
@@ -297,6 +309,7 @@ thefuck
 tldr
 tmux
 tree
+tree-sitter-cli
 trunk
 ttf-0xproto-nerd
 ttf-3270-nerd
@@ -363,9 +376,11 @@ typst
 udiskie
 udiskie-dmenu-git
 udisksvm
+ueberzugpp
 update-grub
 uwsm
-vcvrack
+uxplay
+vcpkg
 ventoy-bin
 vesktop-git
 vi
@@ -376,10 +391,11 @@ vulkan-radeon
 vulkan-tools
 vulkan-validation-layers
 w3m
-walker-bin
+watchman-bin
 waybar
 waypaper-git
 wev
+weylus-bin
 wf-recorder
 wine-mono
 winetricks
@@ -444,7 +460,8 @@ xorg-xwininfo
 xorg-xwud
 xterm
 xwaylandvideobridge-git
-yazi-git
+yay
+yazi-nightly-bin
 ydotool
 youtube-music-bin
 zathura

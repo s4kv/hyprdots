@@ -135,3 +135,4 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+[ -s "/home/sakvi/.jabba/jabba.sh" ] && source "/home/sakvi/.jabba/jabba.sh"
