@@ -20,7 +20,8 @@ return {
         -- have a well standardized coding style. You can add additional
         -- languages here or re-enable it for the disabled ones.
         local disable_filetypes = {
-          c = false,
+          -- temp change until I finish lab0
+          c = true,
           cpp = false,
         }
         if disable_filetypes[vim.bo[bufnr].filetype] then

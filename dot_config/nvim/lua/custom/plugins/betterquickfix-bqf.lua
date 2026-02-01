@@ -1,10 +1,15 @@
 return {
-	"kevinhwang91/nvim-bqf",
-	ft = "qf",
+  'kevinhwang91/nvim-bqf',
+  ft = 'qf',
+  dependencies = {
+    {
+      'junegunn/fzf',
+    },
+  },
 
-	opts = {
-		preview = {
-			winblend = 0,
-		},
-	},
+  opts = {
+    preview = {
+      winblend = 0,
+    },
+  },
 }

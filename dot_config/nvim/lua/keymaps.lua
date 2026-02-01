@@ -1,5 +1,16 @@
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
+vim.keymap.set('n', '<leader>b>', '<cmd>BufferLineMoveNext<cr>', { desc = 'Move Buffer Right' })
+vim.keymap.set('n', '<leader>b<', '<cmd>BufferLineMovePrev<cr>', { desc = 'Move Buffer Left' })
+
+vim.keymap.set('n', '<leader>te', function()
+  vim.diagnostic.enable(not vim.diagnostic.is_enabled())
+end, { silent = true, noremap = true, desc = 'LSP Errors/Warnings' })
+
+--
+-- C-c to esc : this is for tiny-inline to work better
+-- think that the errors only appear when you put esc, s the core idea is to map C-c to esc to avoid this
+vim.api.nvim_set_keymap('i', '<C-c>', '<Esc>', { noremap = true, silent = true })
 
 -- Save file with <C-s>
 vim.keymap.set({ 'n', 'v' }, '<C-s>', '<Cmd>w<CR>', { desc = 'Save file' })
@@ -161,4 +172,4 @@ vim.api.nvim_create_autocmd('LspAttach', {
 
 vim.keymap.set('n', '<leader>i', function()
   vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { 0 }, { 0 })
-end)
+end, { desc = 'Toggle LSP Inlay Hints' })

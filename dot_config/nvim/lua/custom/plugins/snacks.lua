@@ -51,6 +51,13 @@ return {
     notifier = { enabled = true },
   },
   keys = {
+    -- {
+    --   '<leader>sq',
+    --   function()
+    --     Snacks.picker.qflist()
+    --   end,
+    --   desc = 'Quickfix List',
+    -- },
 
     {
       '<leader>bd',

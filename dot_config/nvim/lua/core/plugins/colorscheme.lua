@@ -18,6 +18,9 @@ return {
     hl = {
       -- completely overwrite the default for error underlines
       force_override = {
+        -- this changes mini.statusline
+        MiniStatuslineModeNormal = { 'red_flame', 'red_ember' },
+        MiniStatuslineModeInsert = { 'orange_smolder', 'orange_glow' },
         -- ["@lsp.type.class.java"] = { "#eab5ee", nil, { bold = true } },
         -- ["@lsp.type.interface.java"] = { "#eab5ee", nil, { bold = true } },
         -- ["@lsp.modifier.static"] = { "#00dfff" },
