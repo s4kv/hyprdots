@@ -64,7 +64,7 @@ return {
         { '<leader>t', group = 'Toggle' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
         { '<leader>c', group = 'Code' },
-        { '<leader>a', group = 'Ai' },
+        { '<leader>?', group = 'Ai' },
         { '<leader>b', group = 'Buffer' },
         { '<leader>d', group = 'Debug' },
         { '<leader>f', group = 'Files' },

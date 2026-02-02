@@ -141,7 +141,7 @@ return {
     },
     keys = {
       {
-        '<leader>ac',
+        '<leader>?c',
         '<cmd>CodeCompanionActions<cr>',
         mode = { 'n', 'v' },
         noremap = true,
@@ -149,7 +149,7 @@ return {
         desc = 'CodeCompanion actions',
       },
       {
-        '<leader>aa',
+        '<leader>?a',
         '<cmd>CodeCompanionChat Toggle<cr>',
         mode = { 'n', 'v' },
         noremap = true,
@@ -157,7 +157,7 @@ return {
         desc = 'CodeCompanion chat',
       },
       {
-        '<leader>ad',
+        '<leader>?d',
         '<cmd>CodeCompanionChat Add<cr>',
         mode = 'v',
         noremap = true,
