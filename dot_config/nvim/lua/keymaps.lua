@@ -99,36 +99,6 @@ vim.keymap.set('n', '<leader>ul', function()
   vim.diagnostic.config { virtual_lines = not enabled }
 end, { desc = 'Toggle virtual lines' })
 
--- Autoformat
-vim.api.nvim_create_user_command('FormatDisable', function(args)
-  if args.bang then
-    -- FormatDisable! will disable formatting just for this buffer
-    vim.b.disable_autoformat = true
-  else
-    vim.g.disable_autoformat = true
-  end
-end, {
-  desc = 'Disable autoformat-on-save',
-  bang = true,
-})
-vim.api.nvim_create_user_command('FormatEnable', function()
-  vim.b.disable_autoformat = false
-  vim.g.disable_autoformat = false
-end, {
-  desc = 'Re-enable autoformat-on-save',
-})
-
--- <leader>uf for toggle autoformat
-vim.keymap.set('n', '<leader>uf', function()
-  local current = vim.g.disable_autoformat
-  vim.g.disable_autoformat = not current
-  if current then
-    vim.notify('Autoformat enabled', vim.log.levels.INFO)
-  else
-    vim.notify('Autoformat disabled', vim.log.levels.INFO)
-  end
-end, { desc = 'Toggle autoformat' })
-
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
 

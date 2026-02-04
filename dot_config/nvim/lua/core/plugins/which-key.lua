@@ -72,6 +72,7 @@ return {
         { '<leader>m', group = 'Misc' },
         { '<leader>u', group = 'Ui' },
         { '<leader>q', group = 'Sessions' },
+        { '<leader>x', group = 'Diagnostics' },
       },
     },
   },

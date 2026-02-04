@@ -54,6 +54,7 @@ return {
       -- orange_blaze = "#C4693D", -- Vibrant blaze orange
       -- orange_smolder = "#E49A44",
       orange_glow = '#afc9e7',
+
       orange_blaze = '#81d5ce',
       orange_smolder = '#cce8e4',
     },
