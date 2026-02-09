@@ -16,7 +16,7 @@
 -- }
 return {
   'willothy/nvim-cokeline',
-  -- event = { 'VeryLazy', 'ColorScheme' }, -- This is still important
+  event = { 'VeryLazy', 'ColorScheme' }, -- This is still important
   dependencies = {
     'nvim-lua/plenary.nvim', -- Required for v0.4.0+
     'nvim-tree/nvim-web-devicons', -- If you want devicons

@@ -76,4 +76,7 @@ vim.o.scrolloff = 7
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
+-- cargo path
+vim.env.PATH = vim.env.PATH .. ':' .. vim.fn.expand '~/.cargo/bin'
+
 -- vim: ts=2 sts=2 sw=2 et

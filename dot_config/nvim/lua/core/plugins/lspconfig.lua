@@ -224,7 +224,13 @@ return {
         -- clangd = {},
         -- gopls = {},
         -- pyright = {},
-        -- rust_analyzer = {},
+        -- rust_analyzer = {
+        --   inlayHints = {
+        --     typeHints = { enable = true },
+        --     parameterHints = { enable = true },
+        --     chainingHints = { enable = true },
+        --   },
+        -- },
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -232,7 +238,14 @@ return {
         --
         -- But for many setups, the LSP (`ts_ls`) will work just fine
         -- ts_ls = {},
-        --
+
+        -- You will need to install this with your package manager
+        -- in my case, I use paru -S asm_lsp
+        asm_lsp = {
+          cmd = { 'asm-lsp' },
+          -- asm-lsp’s README recommends asm/s/S; lspconfig’s baseline includes asm/vmasm
+          filetypes = { 'asm', 's', 'S', 'vmasm' },
+        },
 
         lua_ls = {
           -- cmd = { ... },
