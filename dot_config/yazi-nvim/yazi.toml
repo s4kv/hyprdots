@@ -14,10 +14,10 @@ id = "git"
 name = "*/"
 run = "git"
 
-# [[plugin.prepend_previewers]]
-# mime = "image/*"
-# exec = "noop"
-# run = "noop"
+[[plugin.prepend_previewers]]
+mime = "image/*"
+exec = "noop"
+run = "noop"
 
 [mgr]
 ratio = [2, 2, 4]

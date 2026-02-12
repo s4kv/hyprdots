@@ -79,4 +79,7 @@ vim.o.confirm = true
 -- cargo path
 vim.env.PATH = vim.env.PATH .. ':' .. vim.fn.expand '~/.cargo/bin'
 
+-- change yazi for neovim for no image previews
+vim.env.YAZI_CONFIG_HOME = vim.fn.expand '~/.config/yazi-nvim'
+
 -- vim: ts=2 sts=2 sw=2 et
