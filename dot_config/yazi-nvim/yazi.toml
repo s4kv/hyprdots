@@ -19,6 +19,12 @@ mime = "image/*"
 exec = "noop"
 run = "noop"
 
+[[plugin.prepend_previewers]]
+mime = "application/*"
+exec = "noop"
+run = "noop"
+
+
 [mgr]
 ratio = [2, 2, 4]
 sort_by = "alphabetical"
