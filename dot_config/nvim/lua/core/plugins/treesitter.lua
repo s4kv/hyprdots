@@ -1,10 +1,18 @@
 return {
-  { -- Highlight, edit, and navigate code
+  {
     'nvim-treesitter/nvim-treesitter',
+    branch = 'main',
+    version = false,
+    build = function()
+      require('nvim-treesitter').update(nil, { summary = true })
+    end,
     config = function()
-      local filetypes = {
+      local TS = require 'nvim-treesitter'
+
+      local ensure = {
         'bash',
         'c',
+        'cpp',
         'diff',
         'html',
         'lua',
@@ -18,24 +26,35 @@ return {
         'rust',
         'ron',
         'typst',
-        'markdown',
-        'markdown_inline',
         'yaml',
+        'python',
+        'typescript',
+        'javascript',
       }
 
-      vim.wo[0][0].foldexpr = 'v:lua.vim.treesitter.foldexpr()'
-      vim.wo[0][0].foldmethod = 'expr'
-      vim.api.nvim_command 'set nofoldenable'
+      TS.setup {
+        ensure_installed = ensure,
+        highlight = { enable = true },
+        indent = { enable = true },
+        folds = { enable = true },
+      }
 
-      require('nvim-treesitter').install(filetypes)
+      vim.opt.foldmethod = 'expr'
+      vim.opt.foldexpr = 'v:lua.vim.treesitter.foldexpr()'
+      vim.opt.foldenable = false
+
       vim.api.nvim_create_autocmd('FileType', {
-        pattern = filetypes,
-        callback = function()
-          vim.treesitter.start()
+        group = vim.api.nvim_create_augroup('my_treesitter_attach', { clear = true }),
+        callback = function(ev)
+          -- start only if ft maps to a TS lang
+          if vim.treesitter.language.get_lang(ev.match) then
+            pcall(vim.treesitter.start, ev.buf)
+          end
         end,
       })
     end,
   },
+
   {
     -- tree-sitter-context.lua
 
