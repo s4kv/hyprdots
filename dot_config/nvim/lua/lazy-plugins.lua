@@ -35,8 +35,9 @@ require('lazy').setup({
 
   require 'core.plugins.blink-cmp',
 
+  -- change colorscheme
   require 'core.plugins.colorscheme',
-  -- require 'core.plugins.tokyonight',
+  require 'core.plugins.tokyonight',
 
   require 'core.plugins.todo-comments',
 

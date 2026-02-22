@@ -26,6 +26,8 @@ return {
     require('transparent').clear_prefix 'BufferLine'
     require('transparent').clear_prefix 'TabLine'
     require('transparent').clear_prefix 'WildMenu'
+    require('transparent').clear_prefix 'WhichKey'
+    require('transparent').clear_prefix 'Blink'
     -- require('transparent').clear_prefix 'ToggleTerm'
     -- require("transparent").clear_prefix("Markview")
 

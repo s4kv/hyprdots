@@ -30,6 +30,8 @@ return {
         'python',
         'typescript',
         'javascript',
+        'haskell',
+        'haskell_persistent',
       }
 
       TS.setup {
