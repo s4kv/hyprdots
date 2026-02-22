@@ -88,7 +88,7 @@ return {
             ['@variable.member'] = { fg = 'white' },
 
             -- function
-            ['@function'] = { fg = 'white' },
+            ['@function'] = { fg = 'mmember' },
 
             -- main cursor line
             CursorLine = { bg = 'mcursor' },
