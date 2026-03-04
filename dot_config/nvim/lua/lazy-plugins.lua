@@ -37,7 +37,7 @@ require('lazy').setup({
 
   -- change colorscheme
   require 'core.plugins.colorscheme',
-  require 'core.plugins.tokyonight',
+  -- require 'core.plugins.tokyonight',
 
   require 'core.plugins.todo-comments',
 

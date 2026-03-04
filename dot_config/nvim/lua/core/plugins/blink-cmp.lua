@@ -195,7 +195,7 @@ return {
 
       sources = {
         -- NOTE: you could add buffer, to also get the text in the document
-        default = { 'lsp', 'path', 'snippets', 'lazydev' },
+        default = { 'lsp', 'path', 'snippets', 'lazydev', 'buffer' },
         providers = {
           lazydev = { module = 'lazydev.integrations.blink', score_offset = 100 },
         },

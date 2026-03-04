@@ -20,7 +20,7 @@ require 'lazy-bootstrap'
 require 'lazy-plugins'
 
 -- [[ Configure colorscheme ]]
--- require('ashen').load()
+--require('ashen').load()
 vim.cmd 'colorscheme lavender'
 
 -- The line beneath this is called `modeline`. See `:help modeline`

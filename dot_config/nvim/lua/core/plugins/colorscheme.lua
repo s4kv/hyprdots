@@ -90,10 +90,6 @@ return {
             -- function
             ['@function'] = { fg = 'mmember' },
 
-            -- main cursor line
-            CursorLine = { bg = 'mcursor' },
-            CursorColumn = { bg = 'mcursor' },
-
             -- make the whole line bar consistent across columns
             CursorLineNr = { bg = 'mcursor' },
             CursorLineSign = { bg = 'mcursor' },
@@ -117,6 +113,18 @@ return {
             -- optional LSP semantic tokens (if they override TS)
             ['@lsp.type.boolean'] = { fg = 'lit_teal' },
             ['@lsp.type.number'] = { fg = 'lit_teal' },
+
+            -- Cursor and visuals
+            Cursor = { bg = 'mcursor' }, -- character under the cursor
+            lCursor = { link = 'mcursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
+            CursorIM = { link = 'mcursor' }, -- like Cursor, but used when in IME mode |CursorIM|
+            CursorColumn = { bg = 'mcursor' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
+            Visual = { bg = 'mcursor' },
+            Search = { bg = 'search' },
+            CursorLine = { bg = 'mpurple', bold = true, italic = false }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+            LspReferenceRead = { bg = 'line_nr' },
+            LspReferenceText = { bg = 'line_nr' },
+            LspReferenceWrite = { bg = 'line_nr' },
           },
 
           colors = {
@@ -129,9 +137,10 @@ return {
               indent_guide = '#515151',
               line_nr = '#515151',
               mmember = '#81d5ce',
-              mcursor = '#343435',
+              mcursor = '#353535',
               lit_teal = '#3E7171',
               key_fg = '#ffffff',
+              search = '#8E9092',
             }, -- hex (true) colours - see colors/hex.lua
           },
         },
