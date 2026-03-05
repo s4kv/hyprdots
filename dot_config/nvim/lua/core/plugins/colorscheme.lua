@@ -125,11 +125,18 @@ return {
             LspReferenceRead = { bg = 'line_nr' },
             LspReferenceText = { bg = 'line_nr' },
             LspReferenceWrite = { bg = 'line_nr' },
+
+            BlinkCmpMenuSelection = {
+              fg = 'mpurple',
+              bold = true,
+              italic = true,
+            },
           },
 
           colors = {
             cterm = {}, -- cterm colours - see colors/cterm.lua
             hex = {
+              flamepurple = '#8755E1',
               mpurple = '#d7bafb',
               mpink = '#eab5ee',
               mcomments = '#6F6F6F',

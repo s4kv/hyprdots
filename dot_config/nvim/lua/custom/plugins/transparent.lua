@@ -18,7 +18,12 @@ return {
     },
 
     -- Anything you *do* want to keep opaque.
-    -- exclude_groups = { "VertSplit", "StatusLine", "StatusLineNC" },
+    exclude_groups = {
+      'BlinkCmpMenuSelection',
+      -- 'VertSplit',
+      -- 'StatusLine',
+      -- 'StatusLineNC'
+    },
   },
 
   config = function(_, opts)

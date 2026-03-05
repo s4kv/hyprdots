@@ -76,14 +76,14 @@ return {
       vim.keymap.set('n', '<Leader>mw', MiniMap.toggle_side, { desc = 'MiniMap Toggle Side' })
       vim.keymap.set('n', '<Leader>mt', MiniMap.toggle, { desc = 'MiniMap Toggle' })
 
-      -- Only start mini.map when the Lsp is attached
-      vim.api.nvim_create_autocmd('LspAttach', {
-        desc = 'Open MiniMap when entering Neovim',
-        group = vim.api.nvim_create_augroup('mini-map-open', { clear = true }),
-        callback = function()
-          MiniMap.open()
-        end,
-      })
+      -- -- Only start mini.map when the Lsp is attached
+      -- vim.api.nvim_create_autocmd('LspAttach', {
+      --   desc = 'Open MiniMap when entering Neovim',
+      --   group = vim.api.nvim_create_augroup('mini-map-open', { clear = true }),
+      --   callback = function()
+      --     MiniMap.open()
+      --   end,
+      -- })
     end,
   },
 }
