@@ -1,20 +1,3 @@
-# # Lines configured by zsh-newuser-install
-# HISTFILE=~/.histfile
-# HISTSIZE=100000000000000
-# SAVEHIST=1000000000000000000
-# setopt autocd extendedglob
-# unsetopt beep
-# bindkey -v
-# # End of lines configured by zsh-newuser-install
-# # The following lines were added by compinstall
-# zstyle :compinstall filename '/home/sakvi/.zshrc'
-#
-# autoload -Uz compinit
-# compinit
-# # End of lines added by compinstall
-# #export WAYLAND_DISPLAY=:0 
-
-
 export WAYLAND_DISPLAY=wayland-1
 
 fpath+=($HOME/.zsh/pure)
@@ -22,8 +5,6 @@ autoload -U promptinit; promptinit
 PURE_GIT_PULL=0
 zstyle :prompt:pure:git:stash show yes
 prompt pure
-
-# eval "$(starship init zsh)"
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -33,31 +14,16 @@ setopt autocd extendedglob nomatch notify
 setopt INC_APPEND_HISTORY
 unsetopt beep
 bindkey -v
+
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/sakvi/.zshrc'
-
-# cursor fix for tmux 
-# if [[ -z "$TMUX" ]]; then
-#   bindkey -v
-#   function zle-keymap-select {
-#     case $KEYMAP in
-#       vicmd) echo -ne '\e[2 q' ;;  # block
-#       viins) echo -ne '\e[6 q' ;;  # I-beam
-#     esac
-#   }
-#   zle -N zle-keymap-select
-# fi
-# autoload -Uz compinit
-# compinit
 
 # ALIAS
 alias ls='exa'
 alias grep='grep --color=auto'
 alias cat='bat'
 alias cd='z'
-# alias checkstyle='java -jar /home/sakvi/gatech/cs1332/checkstyle/checkstyle-10.14.2-all.jar -c /home/sakvi/gatech/cs1332/checkstyle/CS1332-checkstyle.xml'
-# alias xclip='xclip -selection clipboard'
 alias circuit-sim='/home/sakvi/gatech/archive/fall25/CS2200/Software/CircuitSim1.11.0'
 alias czmoie='chezmoi edit'
 alias czmoi='chezmoi'
@@ -65,14 +31,26 @@ alias zenb='zen-browser'
 alias vim='nvim'
 alias hs='pkill hyprsunset ; nohup hyprsunset -g 80 -t 5000 | tee &'
 alias hsk='pkill hyprsunset'
-alias op='xdg-open'
 alias mg='maigret'
-
+alias nqalc='nvim /tmp/calculator.qalc'
 #quartus bin 
 alias quartus='QT_QPA_PLATFORM=xcb /home/sakvi/intelFPGA_lite/24.1std/quartus/bin/quartus'
 
-# xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+# Functions
+# Open
+function op() {
+  nohup xdg-open $@ | tee &
+}
 
+# Yazi
+function y() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
+	rm -f -- "$tmp"
+}
+[ -s "/home/sakvi/.jabba/jabba.sh" ] && source "/home/sakvi/.jabba/jabba.sh"
 
 # ZNAP
 # Download Znap, if it's not there yet.
@@ -101,44 +79,38 @@ eval "$(zoxide init zsh)"
 # ZOXIDE
 eval $(thefuck --alias)
 
-# Cargo
-export PATH="$PATH:$HOME/.cargo/bin"
 
+# TMUX: handled by kitty
 # tmux
 # if [ -z "$TMUX" ]; then
 #     exec tmux
 # fi
 
-export PATH=$PATH:$HOME/.local/bin
-
-
 # Exports:
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
+export PATH=$PATH:$HOME/.local/bin
+# Cargo
+export PATH="$PATH:$HOME/.cargo/bin"
+
 export JAVA_HOME=/usr/lib/jvm/liberica-jdk-21-full/
 # export JAVA_HOME=/usr/lib/jvm/java-17-openjdk
 # export PATH="$JAVA_HOME/bin:$PATH"
-
-# fix webkitgtk
+# Fix webkitgtk
 export __NV_DISABLE_EXPLICIT_SYNC=1
 # vcpkg root
 # export VCPKG_ROOT="$HOME/tools/vcpkg"
 # export PATH="$VCPKG_ROOT:$PATH"
-#
 export ANDROID_HOME=${HOME}/Android/Sdk
 export PATH=${ANDROID_HOME}/tools:${PATH}
 export PATH=${ANDROID_HOME}/emulator:${PATH}
 export PATH=${ANDROID_HOME}/platform-tools:${PATH}
-
-# Yazi
-function y() {
-	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
-	yazi "$@" --cwd-file="$tmp"
-	IFS= read -r -d '' cwd < "$tmp"
-	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
-	rm -f -- "$tmp"
-}
-[ -s "/home/sakvi/.jabba/jabba.sh" ] && source "/home/sakvi/.jabba/jabba.sh"
-
+# Neovim as default man pages
+export MANPAGER='nvim +Man!'
 # Quartus export (req to run)
-export QSYS_ROOTDIR="/home/sakvi/intelFPGA_lite/24.1std/quartus/sopc_builder/bin"
+export QSYS_ROOTDIR="/home/sakvi/.cache/paru/clone/quartus-free/pkg/quartus-free-quartus/opt/intelFPGA/25.1/quartus/sopc_builder/bin"
+# ghcup (haskell)
+export PATH="$HOME/.ghcup/bin:$PATH"
+export PATH="$HOME/.ghcup/bin:$HOME/.cabal/bin:$PATH"
+# DL modmanager
+export SHARP_IGNORE_GLOBAL_LIBVIPS=1
