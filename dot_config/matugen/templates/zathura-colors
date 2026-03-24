@@ -90,3 +90,6 @@ map [fullscreen] W adjust_window width
 
 map [normal]     i set recolor
 map [fullscreen] i set recolor
+
+" Do not quit with q
+unmap q

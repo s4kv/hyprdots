@@ -115,7 +115,7 @@ return {
             ['@lsp.type.number'] = { fg = 'lit_teal' },
 
             -- Cursor and visuals
-            Cursor = { bg = 'mcursor' }, -- character under the cursor
+            Cursor = { bg = 'white' }, -- character under the cursor
             lCursor = { link = 'mcursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
             CursorIM = { link = 'mcursor' }, -- like Cursor, but used when in IME mode |CursorIM|
             CursorColumn = { bg = 'mcursor' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.

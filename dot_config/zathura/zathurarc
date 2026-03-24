@@ -3,36 +3,36 @@
 " -----------------------------------------------------------------------------
 
 " Colors
-set default-bg              "rgba(24, 46, 96, 0)"
-set default-fg              "#b2c5ff"
+set default-bg              "rgba(0, 51, 84, 0)"
+set default-fg              "#9ccbfb"
 
-set statusbar-bg            "#182e60"
-set statusbar-fg            "#b2c5ff"
+set statusbar-bg            "#003354"
+set statusbar-fg            "#9ccbfb"
 
-set inputbar-bg             "#182e60"
-set inputbar-fg             "#b2c5ff"
+set inputbar-bg             "#003354"
+set inputbar-fg             "#9ccbfb"
 
 set notification-error-bg   "#690005"
 set notification-error-fg   "#ffb4ab"
 
-set notification-warning-bg "#dae2ff"
+set notification-warning-bg "#cfe5ff"
 set notification-warning-fg "#93000a"
 
-set highlight-color         "rgba(218, 226, 255, 0.4)"
-set highlight-active-color  "rgba(178, 197, 255, 0.5)"
+set highlight-color         "rgba(207, 229, 255, 0.4)"
+set highlight-active-color  "rgba(156, 203, 251, 0.5)"
 
-set completion-highlight-fg "rgba(24, 46, 96, 0.5)"
-set completion-highlight-bg rgba(178, 197, 255, 0.5)""
+set completion-highlight-fg "rgba(0, 51, 84, 0.5)"
+set completion-highlight-bg rgba(156, 203, 251, 0.5)""
 
-set completion-bg           "#182e60"
-set completion-fg           "#b2c5ff"
+set completion-bg           "#003354"
+set completion-fg           "#9ccbfb"
 
-set notification-bg         "#182e60"
-set notification-fg         "#b2c5ff"
+set notification-bg         "#003354"
+set notification-fg         "#9ccbfb"
 
 set recolor                 "false"
-set recolor-lightcolor      "rgba(24, 46, 96, 0)"
-set recolor-darkcolor       "#b2c5ff"
+set recolor-lightcolor      "rgba(0, 51, 84, 0)"
+set recolor-darkcolor       "#9ccbfb"
 set recolor-reverse-video   "true"
 set recolor-keephue         "true"
 
@@ -90,3 +90,6 @@ map [fullscreen] W adjust_window width
 
 map [normal]     i set recolor
 map [fullscreen] i set recolor
+
+" Do not quit with q
+unmap q
