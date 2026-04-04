@@ -1,5 +1,5 @@
 #!/bin/bash
-swww-daemon &
+awww-daemon &
 sleep 2
 file=$(find ~/Wallpaper/loop-wall/ -type f | shuf -n 1)
 
