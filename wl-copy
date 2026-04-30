@@ -1,0 +1,136 @@
+--- UEFI ---
+UEFI: yes
+--- OS ---
+NAME="Arch Linux"
+PRETTY_NAME="Arch Linux"
+ID=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://archlinux.org/"
+DOCUMENTATION_URL="https://wiki.archlinux.org/"
+SUPPORT_URL="https://bbs.archlinux.org/"
+BUG_REPORT_URL="https://gitlab.archlinux.org/groups/archlinux/-/issues"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=archlinux-logo
+6.19.11-arch1-1
+--- LSBLK ---
+NAME         FSTYPE FSVER LABEL   UUID                                 FSAVAIL FSUSE% MOUNTPOINTS
+nvme0n1                                                                               
+├─nvme0n1p1  vfat   FAT32 SYSTEM  0AD6-68D1                                           
+├─nvme0n1p2                                                                           
+├─nvme0n1p3  ntfs         OS      B0C4D8B8C4D881D0                                    
+├─nvme0n1p4  ntfs                 144A4E5D4A4E3BAC                                    
+├─nvme0n1p5  vfat   FAT32         505D-695E                               1.5G    26% /boot
+├─nvme0n1p6  swap   1             1e86d753-f210-4dc3-956c-8b97af4b9610                [SWAP]
+├─nvme0n1p7  ext4   1.0           d3a2d0af-5e14-49ad-b2ad-3496eb37aa3a  154.1G    75% /
+├─nvme0n1p8  ntfs                 C8BC7D48BC7D3254                                    
+├─nvme0n1p9  ntfs         RESTORE 66B821FCB821CB7F                                    
+└─nvme0n1p10 vfat   FAT32 MYASUS  1C22-296F                                           
+--- FINDMNT ---
+TARGET SOURCE         FSTYPE OPTIONS
+/boot  /dev/nvme0n1p5 vfat   rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro
+--- EFIBOOTMGR ---
+BootCurrent: 0000
+Timeout: 1 seconds
+BootOrder: 0000,0001,0003,0002,0004,0005,0006
+Boot0000* GRUB	HD(5,GPT,e76d2e03-684f-4411-b11a-a7bfc11285a5,0x86f8f800,0x400000)/\EFI\GRUB\grubx64.efi
+      dp: 04 01 2a 00 05 00 00 00 00 f8 f8 86 00 00 00 00 00 00 40 00 00 00 00 00 03 2e 6d e7 4f 68 11 44 b1 1a a7 bf c1 12 85 a5 02 02 / 04 04 30 00 5c 00 45 00 46 00 49 00 5c 00 47 00 52 00 55 00 42 00 5c 00 67 00 72 00 75 00 62 00 78 00 36 00 34 00 2e 00 65 00 66 00 69 00 00 00 / 7f ff 04 00
+Boot0001* Windows Boot Manager	HD(1,GPT,b1883fff-119a-46db-b45f-d74a85323315,0x800,0x82000)/\EFI\Microsoft\Boot\bootmgfw.efi57494e444f5753000100000088000000780000004200430044004f0042004a004500430054003d007b00390064006500610038003600320063002d0035006300640064002d0034006500370030002d0061006300630031002d006600330032006200330034003400640034003700390035007d000000ffff0100000010000000040000007fff0400
+      dp: 04 01 2a 00 01 00 00 00 00 08 00 00 00 00 00 00 00 20 08 00 00 00 00 00 ff 3f 88 b1 9a 11 db 46 b4 5f d7 4a 85 32 33 15 02 02 / 04 04 46 00 5c 00 45 00 46 00 49 00 5c 00 4d 00 69 00 63 00 72 00 6f 00 73 00 6f 00 66 00 74 00 5c 00 42 00 6f 00 6f 00 74 00 5c 00 62 00 6f 00 6f 00 74 00 6d 00 67 00 66 00 77 00 2e 00 65 00 66 00 69 00 00 00 / 7f ff 04 00
+    data: 57 49 4e 44 4f 57 53 00 01 00 00 00 88 00 00 00 78 00 00 00 42 00 43 00 44 00 4f 00 42 00 4a 00 45 00 43 00 54 00 3d 00 7b 00 39 00 64 00 65 00 61 00 38 00 36 00 32 00 63 00 2d 00 35 00 63 00 64 00 64 00 2d 00 34 00 65 00 37 00 30 00 2d 00 61 00 63 00 63 00 31 00 2d 00 66 00 33 00 32 00 62 00 33 00 34 00 34 00 64 00 34 00 37 00 39 00 35 00 7d 00 00 00 ff ff 01 00 00 00 10 00 00 00 04 00 00 00 7f ff 04 00
+Boot0002* UEFI: HTTP IPv4 Realtek PCIe 2.5GBE Family Controller	PciRoot(0x0)/Pci(0x1,0x6)/Pci(0x0,0x0)/MAC(c87f54cd5423,0)/IPv4(0.0.0.0,0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)/Uri()0000424f
+      dp: 02 01 0c 00 d0 41 03 0a 00 00 00 00 / 01 01 06 00 06 01 / 01 01 06 00 00 00 / 03 0b 25 00 c8 7f 54 cd 54 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 / 03 0c 1b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 / 03 18 04 00 / 7f ff 04 00
+    data: 00 00 42 4f
+Boot0003* UEFI: PXE IPv4 Realtek PCIe 2.5GBE Family Controller	PciRoot(0x0)/Pci(0x1,0x6)/Pci(0x0,0x0)/MAC(c87f54cd5423,0)/IPv4(0.0.0.0,0,DHCP,0.0.0.0,0.0.0.0,0.0.0.0)0000424f
+      dp: 02 01 0c 00 d0 41 03 0a 00 00 00 00 / 01 01 06 00 06 01 / 01 01 06 00 00 00 / 03 0b 25 00 c8 7f 54 cd 54 23 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 / 03 0c 1b 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 / 7f ff 04 00
+    data: 00 00 42 4f
+Boot0004* UEFI:CD/DVD Drive	BBS(129,,0x0)
+      dp: 05 01 09 00 81 00 00 00 00 / 7f ff 04 00
+Boot0005* UEFI:Removable Device	BBS(130,,0x0)
+      dp: 05 01 09 00 82 00 00 00 00 / 7f ff 04 00
+Boot0006* UEFI:Network Device	BBS(131,,0x0)
+      dp: 05 01 09 00 83 00 00 00 00 / 7f ff 04 00
+--- PACKAGES ---
+grub 2:2.14-1
+efibootmgr 18-3
+sbctl 0.18-1
+--- SBCTL STATUS ---
+Installed:	✗ sbctl is not installed
+Setup Mode:	✓ Disabled
+Secure Boot:	✗ Disabled
+Vendor Keys:	microsoft builtin-db builtin-PK
+--- BOOTCTL STATUS ---
+System:
+      Firmware: n/a (n/a)
+ Firmware Arch: x64
+   Secure Boot: disabled (unknown)
+  TPM2 Support: yes
+  Measured UKI: no
+  Boot into FW: supported
+
+Current Boot Loader:
+       Product: GRUB 2.13
+     Features: ✗ Boot counting
+               ✗ Menu timeout control
+               ✗ One-shot menu timeout control
+               ✗ Default entry control
+               ✗ One-shot entry control
+               ✗ Support for XBOOTLDR partition
+               ✗ Support for passing random seed to OS
+               ✗ Load drop-in drivers
+               ✗ Support Type #1 sort-key field
+               ✗ Support @saved pseudo-entry
+               ✗ Support Type #1 devicetree field
+               ✗ Enroll SecureBoot keys
+               ✗ Retain SHIM protocols
+               ✗ Menu can be disabled
+               ✗ Multi-Profile UKIs are supported
+               ✗ Loader reports network boot URL
+               ✗ Support Type #1 uki field
+               ✗ Support Type #1 uki-url field
+               ✗ Loader reports active TPM2 PCR banks
+     Partition: /dev/disk/by-partuuid/e76d2e03-684f-4411-b11a-a7bfc11285a5
+
+Random Seed:
+ System Token: not set
+       Exists: no
+
+Available Boot Loaders on ESP:
+          ESP: /boot (/dev/disk/by-partuuid/e76d2e03-684f-4411-b11a-a7bfc11285a5)
+
+Boot Loaders Listed in EFI Variables:
+        Title: GRUB
+           ID: 0x0000
+       Status: active, boot-order
+    Partition: /dev/disk/by-partuuid/e76d2e03-684f-4411-b11a-a7bfc11285a5
+         File: └─/boot//EFI/GRUB/grubx64.efi
+
+        Title: Windows Boot Manager
+           ID: 0x0001
+       Status: active, boot-order
+    Partition: /dev/disk/by-partuuid/b1883fff-119a-46db-b45f-d74a85323315
+         File: └─/boot//EFI/Microsoft/Boot/bootmgfw.efi
+
+Boot Loader Entry Locations:
+          ESP: /boot (/dev/disk/by-partuuid/e76d2e03-684f-4411-b11a-a7bfc11285a5, $BOOT)
+       config: /boot//loader/loader.conf: No such file or directory
+        token: arch
+
+0 entries, no entry could be determined as default.
+--- SECUREBOOT VAR ---
+00000000: 0600 0000 00                             .....
+--- SETUPMODE VAR ---
+00000000: 0600 0000 00                             .....
+--- EFI FILES ---
+/boot/EFI/GRUB/grubx64.efi
+/boot/efi/GRUB/grubx64.efi
+--- /BOOT ---
+Permissions Size User Date Modified Name
+drwxr-xr-x     - root 23 Feb  2025  EFI
+drwxr-xr-x     - root 31 Jan 21:11  grub
+.rwxr-xr-x  285M root  4 Apr 15:40  initramfs-linux-fallback.img
+.rwxr-xr-x  244M root  4 Apr 15:39  initramfs-linux.img
+drwxr-xr-x     - root 23 Feb  2025  'System Volume Information'
+.rwxr-xr-x   16M root  2 Apr 23:06  vmlinuz-linux
+--- OSPROBER ---
+/dev/nvme0n1p1@/efi/Microsoft/Boot/bootmgfw.efi:Windows Boot Manager:Windows:efi
