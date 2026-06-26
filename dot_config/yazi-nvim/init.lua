@@ -10,9 +10,9 @@ require("session"):setup({
 	sync_yanked = true,
 })
 
-require("full-border"):setup({
-	type = ui.Border.ROUNDED,
-})
+-- require("full-border"):setup({
+-- 	type = ui.Border.ROUNDED,
+-- })
 
 -- https://github.com/yazi-rs/plugins/tree/main/git.yazi
 th.git = th.git or {}

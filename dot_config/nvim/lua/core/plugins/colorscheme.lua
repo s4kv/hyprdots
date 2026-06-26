@@ -1,161 +1,178 @@
 return {
   {
-    url = 'https://codeberg.org/jthvai/lavender.nvim',
-    branch = 'stable', -- versioned tags + docs updates from main
-    lazy = false,
-    priority = 1000,
-
+    'rose-pine/neovim',
+    name = 'rose-pine',
     config = function()
-      vim.g.lavender = {
-        transparent = {
-          background = true, -- do not render the main background
-          float = true, -- do not render the background in floating windows
-          popup = true, -- do not render the background in popup menus
-          sidebar = true, -- do not render the background in sidebars
-        },
-        contrast = true, -- colour the sidebar and floating windows differently to the main background
-
-        italic = {
-          comments = true, -- italic comments
-          functions = true, -- italic function names
-          keywords = false, -- italic keywords
-          variables = false, -- italic variables
-        },
-
-        signs = true, -- use icon (patched font) diagnostic sign text
-
-        -- new values will be merged in
-        overrides = {
-          -- highlight groups - see theme.lua
-          -- existing groups will be entirely replaced
-          theme = {
-            -- (1) comments
-            ['@comment'] = { fg = 'mcomments' },
-            Comment = { fg = 'mcomments' },
-
-            -- (2) table keys like `theme =`, `colors =`
-            ['@field'] = { fg = 'key_fg' },
-            ['@property'] = { fg = 'key_fg' },
-
-            -- optional: if LSP semantic tokens override the above in Lua files
-            -- ['@lsp.type.property'] = { fg = 'key_fg' },
-            -- ['@lsp.type.property.lua'] = { fg = 'key_fg' },
-
-            -- strings (Tree-sitter + legacy)
-            ['@string'] = { fg = 'mpurple', ctermfg = 'mpurple' },
-            String = { fg = 'mpurple', ctermfg = 'mpurple' },
-
-            -- (optional) if you also want escapes like "\n" to match
-            ['@string.escape'] = { fg = 'mpurple', ctermfg = 'mpurple' },
-            ['@string.special'] = { fg = 'mpurple', ctermfg = 'mpurple' },
-
-            -- gitsigns
-            GitSignsAdd = { fg = 'gs_add' },
-
-            -- indent-blankline (new "ibl")
-            IblIndent = { fg = 'indent_guide' },
-            IblScope = { fg = 'indent_guide' },
-
-            -- indent-blankline (older)
-            IndentBlanklineChar = { fg = 'indent_guide' },
-            IndentBlanklineContextChar = { fg = 'indent_guide' },
-            IndentBlanklineContextStart = { fg = 'indent_guide' },
-
-            -- mini.indentscope
-            MiniIndentscopeSymbol = { fg = 'indent_guide' },
-
-            -- snacks.nvim indent
-            SnacksIndent = { fg = 'indent_guide' },
-            SnacksIndentScope = { fg = 'mpurple' },
-
-            -- Snacks.nvim Dashboard
-            SnacksDashboardTitle = { fg = 'mpurple' },
-            SnacksDashboardFooter = { fg = 'mpurple' },
-            SnacksDashboardHeader = { fg = 'mpurple' },
-
-            SnacksDashboardFile = { fg = 'mpink' },
-            SnacksDashboardDesc = { fg = 'mpink' },
-            SnacksDashboardIcon = { fg = 'mpink' },
-            SnacksDashboardSpecial = { fg = 'mpink' },
-
-            -- normal line numbers
-            LineNr = { fg = 'line_nr' },
-
-            -- variables
-            ['@variable'] = { fg = 'white' },
-            ['@variable.lua'] = { fg = 'white' },
-            ['@variable.parameter'] = { fg = 'mpink' },
-            ['@variable.member'] = { fg = 'white' },
-
-            -- function
-            ['@function'] = { fg = 'mmember' },
-
-            -- make the whole line bar consistent across columns
-            CursorLineNr = { bg = 'mcursor' },
-            CursorLineSign = { bg = 'mcursor' },
-            CursorLineFold = { bg = 'mcursor' },
-
-            -- Snacks picker
-            SnacksPickerCursorLine = { bg = 'mcursor' },
-            SnacksPickerBoxCursorLine = { bg = 'mcursor' },
-            SnacksPickerInputCursorLine = { bg = 'mcursor' },
-
-            -- booleans
-            ['@boolean'] = { fg = 'lit_teal' },
-            Boolean = { fg = 'lit_teal' },
-
-            -- numbers
-            ['@number'] = { fg = 'lit_teal' },
-            Number = { fg = 'lit_teal' },
-            ['@float'] = { fg = 'lit_teal' }, -- optional (some parsers use @float)
-            Float = { fg = 'lit_teal' }, -- optional fallback
-
-            -- optional LSP semantic tokens (if they override TS)
-            ['@lsp.type.boolean'] = { fg = 'lit_teal' },
-            ['@lsp.type.number'] = { fg = 'lit_teal' },
-
-            -- Cursor and visuals
-            Cursor = { bg = 'white' }, -- character under the cursor
-            lCursor = { link = 'mcursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
-            CursorIM = { link = 'mcursor' }, -- like Cursor, but used when in IME mode |CursorIM|
-            CursorColumn = { bg = 'mcursor' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-            Visual = { bg = 'mcursor' },
-            Search = { bg = 'search' },
-            CursorLine = { bg = 'mpurple', bold = true, italic = false }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
-            LspReferenceRead = { bg = 'line_nr' },
-            LspReferenceText = { bg = 'line_nr' },
-            LspReferenceWrite = { bg = 'line_nr' },
-
-            BlinkCmpMenuSelection = {
-              fg = 'mpurple',
-              bold = true,
-              italic = true,
-            },
-          },
-
-          colors = {
-            cterm = {}, -- cterm colours - see colors/cterm.lua
-            hex = {
-              flamepurple = '#8755E1',
-              mpurple = '#d7bafb',
-              mpink = '#eab5ee',
-              mcomments = '#6F6F6F',
-              gs_add = '#ADADAD',
-              indent_guide = '#515151',
-              line_nr = '#515151',
-              mmember = '#81d5ce',
-              mcursor = '#353535',
-              lit_teal = '#3E7171',
-              key_fg = '#ffffff',
-              search = '#8E9092',
-            }, -- hex (true) colours - see colors/hex.lua
-          },
+      require('rose-pine').setup {
+        styles = {
+          bold = true,
+          italic = false,
+          transparency = true,
         },
       }
-
-      vim.cmd 'colorscheme lavender'
+      vim.cmd 'colorscheme rose-pine'
     end,
   },
+  -- {
+  --   url = 'https://codeberg.org/jthvai/lavender.nvim',
+  --   branch = 'stable', -- versioned tags + docs updates from main
+  --   lazy = false,
+  --   priority = 1000,
+  --
+  --   config = function()
+  --     vim.g.lavender = {
+  --       transparent = {
+  --         background = true, -- do not render the main background
+  --         float = true, -- do not render the background in floating windows
+  --         popup = true, -- do not render the background in popup menus
+  --         sidebar = true, -- do not render the background in sidebars
+  --       },
+  --       contrast = true, -- colour the sidebar and floating windows differently to the main background
+  --
+  --       italic = {
+  --         comments = true, -- italic comments
+  --         functions = true, -- italic function names
+  --         keywords = false, -- italic keywords
+  --         variables = false, -- italic variables
+  --       },
+  --
+  --       signs = true, -- use icon (patched font) diagnostic sign text
+  --
+  --       -- new values will be merged in
+  --       overrides = {
+  --         -- highlight groups - see theme.lua
+  --         -- existing groups will be entirely replaced
+  --         theme = {
+  --           -- (1) comments
+  --           ['@comment'] = { fg = 'mcomments' },
+  --           Comment = { fg = 'mcomments' },
+  --
+  --           -- (2) table keys like `theme =`, `colors =`
+  --           ['@field'] = { fg = 'key_fg' },
+  --           ['@property'] = { fg = 'key_fg' },
+  --
+  --           -- optional: if LSP semantic tokens override the above in Lua files
+  --           -- ['@lsp.type.property'] = { fg = 'key_fg' },
+  --           -- ['@lsp.type.property.lua'] = { fg = 'key_fg' },
+  --
+  --           -- strings (Tree-sitter + legacy)
+  --           ['@string'] = { fg = 'mpurple', ctermfg = 'mpurple' },
+  --           String = { fg = 'mpurple', ctermfg = 'mpurple' },
+  --
+  --           -- (optional) if you also want escapes like "\n" to match
+  --           ['@string.escape'] = { fg = 'mpurple', ctermfg = 'mpurple' },
+  --           ['@string.special'] = { fg = 'mpurple', ctermfg = 'mpurple' },
+  --
+  --           -- gitsigns
+  --           GitSignsAdd = { fg = 'gs_add' },
+  --
+  --           -- indent-blankline (new "ibl")
+  --           IblIndent = { fg = 'indent_guide' },
+  --           IblScope = { fg = 'indent_guide' },
+  --
+  --           -- indent-blankline (older)
+  --           IndentBlanklineChar = { fg = 'indent_guide' },
+  --           IndentBlanklineContextChar = { fg = 'indent_guide' },
+  --           IndentBlanklineContextStart = { fg = 'indent_guide' },
+  --
+  --           -- mini.indentscope
+  --           MiniIndentscopeSymbol = { fg = 'indent_guide' },
+  --
+  --           -- snacks.nvim indent
+  --           SnacksIndent = { fg = 'indent_guide' },
+  --           SnacksIndentScope = { fg = 'mpurple' },
+  --
+  --           -- Snacks.nvim Dashboard
+  --           SnacksDashboardTitle = { fg = 'mpurple' },
+  --           SnacksDashboardFooter = { fg = 'mpurple' },
+  --           SnacksDashboardHeader = { fg = 'mpurple' },
+  --
+  --           SnacksDashboardFile = { fg = 'mpink' },
+  --           SnacksDashboardDesc = { fg = 'mpink' },
+  --           SnacksDashboardIcon = { fg = 'mpink' },
+  --           SnacksDashboardSpecial = { fg = 'mpink' },
+  --
+  --           -- normal line numbers
+  --           LineNr = { fg = 'line_nr' },
+  --
+  --           -- variables
+  --           ['@variable'] = { fg = 'white' },
+  --           ['@variable.lua'] = { fg = 'white' },
+  --           ['@variable.parameter'] = { fg = 'mpink' },
+  --           ['@variable.member'] = { fg = 'white' },
+  --
+  --           -- function
+  --           ['@function'] = { fg = 'mmember' },
+  --
+  --           -- make the whole line bar consistent across columns
+  --           CursorLineNr = { bg = 'mcursor' },
+  --           CursorLineSign = { bg = 'mcursor' },
+  --           CursorLineFold = { bg = 'mcursor' },
+  --
+  --           -- Snacks picker
+  --           SnacksPickerCursorLine = { bg = 'mcursor' },
+  --           SnacksPickerBoxCursorLine = { bg = 'mcursor' },
+  --           SnacksPickerInputCursorLine = { bg = 'mcursor' },
+  --
+  --           -- booleans
+  --           ['@boolean'] = { fg = 'lit_teal' },
+  --           Boolean = { fg = 'lit_teal' },
+  --
+  --           -- numbers
+  --           ['@number'] = { fg = 'lit_teal' },
+  --           Number = { fg = 'lit_teal' },
+  --           ['@float'] = { fg = 'lit_teal' }, -- optional (some parsers use @float)
+  --           Float = { fg = 'lit_teal' }, -- optional fallback
+  --
+  --           -- optional LSP semantic tokens (if they override TS)
+  --           ['@lsp.type.boolean'] = { fg = 'lit_teal' },
+  --           ['@lsp.type.number'] = { fg = 'lit_teal' },
+  --
+  --           -- Cursor and visuals
+  --           Cursor = { bg = 'white' }, -- character under the cursor
+  --           lCursor = { link = 'mcursor' }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
+  --           CursorIM = { link = 'mcursor' }, -- like Cursor, but used when in IME mode |CursorIM|
+  --           CursorColumn = { bg = 'mcursor' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
+  --           Visual = { bg = 'mcursor' },
+  --           Search = { bg = 'search' },
+  --           CursorLine = { bg = 'mpurple', bold = true, italic = false }, -- Screen-line at the cursor, when 'cursorline' is set.  Low-priority if foreground (ctermfg OR guifg) is not set.
+  --           LspReferenceRead = { bg = 'line_nr' },
+  --           LspReferenceText = { bg = 'line_nr' },
+  --           LspReferenceWrite = { bg = 'line_nr' },
+  --
+  --           BlinkCmpMenuSelection = {
+  --             fg = 'mpurple',
+  --             bold = true,
+  --             italic = true,
+  --           },
+  --
+  --           -- mini
+  --           MiniStatuslineModeNormal = { bg = 'flamepurple' },
+  --         },
+  --
+  --         colors = {
+  --           cterm = {}, -- cterm colours - see colors/cterm.lua
+  --           hex = {
+  --             flamepurple = '#8755E1',
+  --             mpurple = '#d7bafb',
+  --             mpink = '#eab5ee',
+  --             mcomments = '#6F6F6F',
+  --             gs_add = '#ADADAD',
+  --             indent_guide = '#515151',
+  --             line_nr = '#515151',
+  --             mmember = '#81d5ce',
+  --             mcursor = '#353535',
+  --             lit_teal = '#3E7171',
+  --             key_fg = '#ffffff',
+  --             search = '#8E9092',
+  --           }, -- hex (true) colours - see colors/hex.lua
+  --         },
+  --       },
+  --     }
+  --
+  --     vim.cmd 'colorscheme lavender'
+  --   end,
+  -- },
 
   -- -- commented out the ashen
   -- {

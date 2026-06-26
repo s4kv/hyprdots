@@ -1,10 +1,11 @@
+eval "$(starship init zsh)"
 export WAYLAND_DISPLAY=wayland-1
 
-fpath+=($HOME/.zsh/pure)
-autoload -U promptinit; promptinit
-PURE_GIT_PULL=0
-zstyle :prompt:pure:git:stash show yes
-prompt pure
+# fpath+=($HOME/.zsh/pure)
+# autoload -U promptinit; promptinit
+# PURE_GIT_PULL=0
+# zstyle :prompt:pure:git:stash show yes
+# prompt pure
 
 # Lines configured by zsh-newuser-install
 HISTFILE=~/.histfile
@@ -19,6 +20,20 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/sakvi/.zshrc'
 
+# -- better tab completion --- 
+# Initialize the native completion system
+autoload -Uz compinit && compinit
+# Enable an interactive selection menu you can navigate with arrow keys
+zstyle ':completion:*' menu select
+# Group completion results by type/category
+zstyle ':completion:*' group-name ''
+# Format the descriptions for the grouped headings
+zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
+# Use case-insensitive, fuzzy-like matching (matches lower/uppercase and partials)
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+# Complete options even when typing right in the middle of a word
+setopt COMPLETE_IN_WORD
+
 # ALIAS
 alias ls='exa'
 alias grep='grep --color=auto'
@@ -29,10 +44,11 @@ alias czmoie='chezmoi edit'
 alias czmoi='chezmoi'
 alias zenb='zen-browser'
 alias vim='nvim'
-alias hs='pkill hyprsunset ; nohup hyprsunset -g 80 -t 5000 | tee &'
+alias hs='pkill hyprsunset ; nohup hyprsunset -g 30 -t 5000 | tee &'
 alias hsk='pkill hyprsunset'
 alias mg='maigret'
 alias nqalc='nvim /tmp/calculator.qalc'
+alias tldr='cht.sh'
 #quartus bin 
 alias quartus='QT_QPA_PLATFORM=xcb /home/sakvi/intelFPGA_lite/24.1std/quartus/bin/quartus'
 
@@ -114,3 +130,8 @@ export PATH="$HOME/.ghcup/bin:$PATH"
 export PATH="$HOME/.ghcup/bin:$HOME/.cabal/bin:$PATH"
 # DL modmanager
 export SHARP_IGNORE_GLOBAL_LIBVIPS=1
+export PATH="$PATH":"$HOME/.pub-cache/bin"
+
+# make sure to sue the correct version of nvm
+# source /usr/share/nvm/init-nvm.sh
+

@@ -8,33 +8,35 @@ sort=-time
 output=DP-2
 layer=overlay
 anchor=top-right
-background-color=#583a6f
+background-color=#2b4678
 width=300
 height=110
 margin=5
 padding=0,5,10
 border-size=2
-border-color=#ddb9f7
+border-color=#adc6ff
 border-radius=15
 icons=1
 max-icon-size=64
 default-timeout=5000
 ignore-timeout=1
+# make sounds for notifications
+#on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
 
 [urgency=normal]
 border-color=#ffb4ab
-background-color=#372c3f
+background-color=#293041
 
 [urgency=high]
 border-color=#ffb4ab
-background-color=#4c2529
+background-color=#402843
 default-timeout=0
 
 [app-name=lightcord]
-border-color=#d1c1d9
+border-color=#bfc6dc
 
 [summary~="log-.*"]
-border-color=#f4b7bb
+border-color=#debcdf
 
 [app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
 invisible=1
