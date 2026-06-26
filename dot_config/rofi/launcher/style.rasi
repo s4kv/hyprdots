@@ -17,27 +17,28 @@ configuration {
 * {
     border-colour:               var(selected);
     handle-colour:               var(selected);
-    background-colour:           var(background);
+    background-colour:           rgba(0,0,0,0.6); 
+    /* used to be var(background) */
     foreground-colour:           var(foreground);
     alternate-background:        var(background-alt);
-    normal-background:           var(background);
+    normal-background:           rgba(0,0,0,0.6);
     normal-foreground:           var(foreground);
     urgent-background:           var(urgent);
-    urgent-foreground:           var(background);
+    urgent-foreground:           rgba(0,0,0,0.6);
     active-background:           var(active);
-    active-foreground:           var(background);
-    selected-normal-background:  var(background);
+    active-foreground:           rgba(0,0,0,0.6);
+    selected-normal-background:  rgba(0,0,0,0.6);
     selected-normal-foreground:  var(selected);
     selected-urgent-background:  var(active);
-    selected-urgent-foreground:  var(background);
+    selected-urgent-foreground:  rgba(0,0,0,0.6);
     selected-active-background:  var(urgent);
-    selected-active-foreground:  var(background);
-    alternate-normal-background: var(background);
+    selected-active-foreground:  rgba(0,0,0,0.6);
+    alternate-normal-background: rgba(0,0,0,0.6);
     alternate-normal-foreground: var(foreground);
     alternate-urgent-background: var(urgent);
-    alternate-urgent-foreground: var(background);
+    alternate-urgent-foreground: rgba(0,0,0,0.6);
     alternate-active-background: var(active);
-    alternate-active-foreground: var(background);
+    alternate-active-foreground: rgba(0,0,0,0.6);
 }
 
 /*****----- Main Window -----*****/
