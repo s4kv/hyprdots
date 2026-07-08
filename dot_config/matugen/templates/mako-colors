@@ -8,7 +8,7 @@ sort=-time
 output=DP-2
 layer=overlay
 anchor=top-right
-background-color={{colors.primary_container.default.hex}}
+background-color=#00000080
 width=300
 height=110
 margin=5
@@ -25,11 +25,13 @@ ignore-timeout=1
 
 [urgency=normal]
 border-color={{colors.error.default.hex}}
-background-color={{colors.on_secondary.default.hex}}
+background-color=#00000080
+# old
+# background-color={{colors.on_secondary.default.hex}}
 
 [urgency=high]
 border-color={{colors.error.default.hex}}
-background-color={{colors.on_tertiary.default.hex}}
+background-color=#00000080
 default-timeout=0
 
 [app-name=lightcord]

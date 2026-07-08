@@ -1,27 +1,13 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
-# format = """
-# $username\
-# $hostname\
-# $kubernetes\
-# $directory\
-# $git_branch\
-# $git_state\
-# $git_status\
-# $cmd_duration\
-# $line_break\
-# $python\
-# $character"""
-
 format = """
-$git_state\
-$git_status\
-$line_break\
 $username\
 $hostname\
 $kubernetes\
 $directory\
 $git_branch\
+(\n$git_state\
+$git_status)\
 $cmd_duration\
 $line_break\
 $python\
@@ -59,10 +45,10 @@ style = 'bold green'
 
 [git_status]
 # format = '([ \( $all_status$ahead_behind\)]($style) )'
-format = '([\( $all_status$ahead_behind\)]($style) )'
+format = '[󱞪](white)([ \( $all_status$ahead_behind\)]($style) )'
 style = 'bold green'
 conflicted = '[ confliced=${count}](red) '
-up_to_date = '[󰘽 up-to-date](green) '
+up_to_date = '[󰘽 up_to_date](green) '
 untracked = '[󰋗 untracked=${count}](red) '
 ahead = ' ahead=${count}'
 diverged = ' ahead=${ahead_count}  behind=${behind_count}'
@@ -86,7 +72,6 @@ format = "[$virtualenv]($style) "
 style = "bright-black"
 detect_extensions = []
 detect_files = []
-
 
 [kubernetes]
 format = 'via [󱃾 $context\($namespace\)](bold purple) '
