@@ -14,7 +14,7 @@ height=110
 margin=5
 padding=0,5,10
 border-size=2
-border-color=#adc6ff
+border-color=#bcc2ff
 border-radius=15
 icons=1
 max-icon-size=64
@@ -27,7 +27,7 @@ ignore-timeout=1
 border-color=#ffb4ab
 background-color=#00000080
 # old
-# background-color=#293041
+# background-color=#2d2f42
 
 [urgency=high]
 border-color=#ffb4ab
@@ -35,10 +35,10 @@ background-color=#00000080
 default-timeout=0
 
 [app-name=lightcord]
-border-color=#bfc6dc
+border-color=#c4c5dd
 
 [summary~="log-.*"]
-border-color=#debcdf
+border-color=#e6bad6
 
 [app-name=lightcord summary~="(.*(^| )orz|ORZ|sto|STO|otl|OTL( |$).*)"]
 invisible=1
