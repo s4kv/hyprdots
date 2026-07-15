@@ -32,6 +32,7 @@ return {
         'javascript',
         'haskell',
         'haskell_persistent',
+        'sql',
       }
 
       TS.setup {

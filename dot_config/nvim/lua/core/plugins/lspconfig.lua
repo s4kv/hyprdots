@@ -247,6 +247,8 @@ return {
           filetypes = { 'asm', 's', 'S', 'vmasm' },
         },
 
+        postgres_lsp = {},
+
         lua_ls = {
           -- cmd = { ... },
           -- filetypes = { ... },
@@ -284,7 +286,7 @@ return {
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
       require('mason-lspconfig').setup {
-        ensure_installed = { 'lua_ls' },
+        ensure_installed = { 'lua_ls', 'postgres_lsp' },
       }
 
       for name, server in pairs(servers) do

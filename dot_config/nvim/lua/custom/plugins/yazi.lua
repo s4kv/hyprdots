@@ -11,7 +11,7 @@ return {
       {
         '<leader>\\',
         mode = { 'n', 'v' },
-        '<cmd>Yazi<cr>',
+        '<cmd>Yazi toggle<cr>',
         desc = 'Open yazi at the current file',
       },
       {
@@ -20,11 +20,11 @@ return {
         '<cmd>Yazi cwd<cr>',
         desc = "Open the file manager in nvim's working directory",
       },
-      {
-        '<c-up>',
-        '<cmd>Yazi toggle<cr>',
-        desc = 'Resume the last yazi session',
-      },
+      -- {
+      --   '<c-up>',
+      --   '<cmd>Yazi toggle<cr>',
+      --   desc = 'Resume the last yazi session',
+      -- },
     },
     ---@type YaziConfig | {}
     opts = {

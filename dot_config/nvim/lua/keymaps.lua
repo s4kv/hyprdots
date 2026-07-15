@@ -146,3 +146,9 @@ vim.api.nvim_create_autocmd('LspAttach', {
 vim.keymap.set('n', '<leader>i', function()
   vim.lsp.inlay_hint.enable(not vim.lsp.inlay_hint.is_enabled { 0 }, { 0 })
 end, { desc = 'Toggle LSP Inlay Hints' })
+
+-- Explicit 5-step resizing
+vim.keymap.set('n', '<C-right>', ':vertical resize -5<CR>', { silent = true })
+vim.keymap.set('n', '<C-left>', ':vertical resize +5<CR>', { silent = true })
+vim.keymap.set('n', '<C-down>', ':resize -5<CR>', { silent = true })
+vim.keymap.set('n', '<C-up>', ':resize +5<CR>', { silent = true })

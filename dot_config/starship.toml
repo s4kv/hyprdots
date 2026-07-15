@@ -6,9 +6,9 @@ $hostname\
 $kubernetes\
 $directory\
 $git_branch\
+$cmd_duration\
 (\n$git_state\
 $git_status)\
-$cmd_duration\
 $line_break\
 $python\
 $character"""
@@ -50,7 +50,7 @@ style = 'bold green'
 conflicted = '[ confliced=${count}](red) '
 up_to_date = '[󰘽 up_to_date](green) '
 untracked = '[󰋗 untracked=${count}](red) '
-ahead = ' ahead=${count}'
+ahead = ' ahead=${count} '
 diverged = ' ahead=${ahead_count}  behind=${behind_count}'
 behind = ' behind=${count}'
 stashed = '[ stashed=${count}](green) '

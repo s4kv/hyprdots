@@ -71,6 +71,9 @@ return {
       formatters_by_ft = {
         lua = { 'stylua' },
         rust = { 'rustfmt' },
+        sql = { 'sqlfluff', 'pg_format', stop_after_first = true },
+        mysql = { 'sqlfluff', 'pg_format', stop_after_first = true },
+        plsql = { 'sqlfluff', 'pg_format', stop_after_first = true },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --

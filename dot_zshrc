@@ -131,6 +131,8 @@ export PATH="$HOME/.ghcup/bin:$HOME/.cabal/bin:$PATH"
 # DL modmanager
 export SHARP_IGNORE_GLOBAL_LIBVIPS=1
 export PATH="$PATH":"$HOME/.pub-cache/bin"
+# Golang 
+export PATH="$PATH:$(go env GOPATH)/bin"
 
 # make sure to sue the correct version of nvm
 # source /usr/share/nvm/init-nvm.sh
