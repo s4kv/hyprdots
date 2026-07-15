@@ -136,4 +136,3 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 # make sure to sue the correct version of nvm
 # source /usr/share/nvm/init-nvm.sh
-
