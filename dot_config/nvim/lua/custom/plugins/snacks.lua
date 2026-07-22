@@ -193,7 +193,10 @@ return {
     {
       '<leader>e',
       function()
-        Snacks.explorer()
+        Snacks.explorer {
+          -- NOTE: NEW
+          layout = { present = 'slidebar', preview = true },
+        }
       end,
       desc = 'File Explorer',
     },

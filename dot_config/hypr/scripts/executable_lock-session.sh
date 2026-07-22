@@ -15,4 +15,4 @@ if pgrep -x hyprlock >/dev/null; then
   exit 0
 fi
 
-exec hyprlock --grace 0
+exec hyprlock --config "${HOME}/.config/hypr/hyprlock.conf" --grace 0

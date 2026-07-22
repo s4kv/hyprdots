@@ -1,0 +1,12 @@
+[config.wallpaper]
+command = 'awww img --transition-type center "{{ image }}"'
+set = false
+
+[templates.hyprland_lua]
+input_path = '~/.config/hypr/templates/hyprland-colors.lua'
+output_path = '~/.config/hypr/conf/colors.lua'
+
+[templates.hyprlock]
+input_path = '~/.config/hypr/templates/hyprlock-colors.conf'
+output_path = '~/.config/hypr/conf/colors.conf'
+post_hook = 'hyprctl reload >/dev/null 2>&1 || true'

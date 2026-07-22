@@ -1,9 +1,5 @@
-#!/bin/bash
-swww-daemon &
-sleep 0.1
-file=$(find ~/Wallpaper/loop-wall/ -type f | shuf -n 1)
+#!/usr/bin/env bash
+set -euo pipefail
 
-if [[ -n "$file" ]]; then
-  matugen image "$file" --source-color-index 0
-fi
-# swww img ~/Backgrounds/wallhavpurp.jpg
+# Keep the legacy filename used by Waybar, but use the current awww pipeline.
+exec "${HOME}/.config/hypr/swww-wall.sh"

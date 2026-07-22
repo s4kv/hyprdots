@@ -65,12 +65,32 @@ return {
     -- Single tabpage interface for easily cycling through diffs for all
     -- modified files for any git rev.
     -- https://github.com/sindrets/diffview.nvim
-    'sindrets/diffview.nvim',
+    'dlyongemallo/diffview-plus.nvim',
+    version = '*',
+
+    opts = {
+      use_icons = true,
+      enhanced_diff_hl = true,
+      view = {
+        default = { layout = 'diff2_horizontal' },
+        merge_tool = { layout = 'diff3_horizontal' },
+      },
+      file_panel = {
+        listing_style = 'tree',
+        win_config = { position = 'left', width = 35 }, -- Use "auto" to fit content
+      },
+      -- hooks = {}, -- See :h diffview-config-hooks
+      -- keymaps = {}, -- See :h diffview-config-keymaps
+    },
 
     cmd = {
       'DiffviewOpen',
+      'DiffviewToggle',
       'DiffviewFileHistory',
+      'DiffviewDiffFiles',
+      'DiffviewLog',
     },
+
     keys = {
       {
         '<leader>gD',
@@ -78,6 +98,29 @@ return {
         '<cmd>DiffviewFileHistory %<cr>',
         { desc = 'Diffview file history' },
       },
+    },
+  },
+
+  {
+    'NeogitOrg/neogit',
+    lazy = true,
+    dependencies = {
+      -- Only one of these is needed.
+      'sindrets/diffview.nvim', -- optional
+      'esmuellert/codediff.nvim', -- optional
+
+      -- For a custom log pager
+      'm00qek/baleia.nvim', -- optional
+
+      -- Only one of these is needed.
+      'nvim-telescope/telescope.nvim', -- optional
+      'ibhagwan/fzf-lua', -- optional
+      'nvim-mini/mini.pick', -- optional
+      'folke/snacks.nvim', -- optional
+    },
+    cmd = 'Neogit',
+    keys = {
+      { '<leader>gg', '<cmd>Neogit<cr>', desc = 'Show Neogit UI' },
     },
   },
 }

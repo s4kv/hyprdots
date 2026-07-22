@@ -59,7 +59,10 @@ return {
       -- Automatically install LSPs and related tools to stdpath for Neovim
       -- Mason must be loaded before its dependents so we need to set it up here.
       -- NOTE: `opts = {}` is the same as calling `require('mason').setup({})`
-      { 'mason-org/mason.nvim', opts = {} },
+      {
+        'mason-org/mason.nvim',
+        opts = {},
+      },
       'mason-org/mason-lspconfig.nvim',
       'WhoIsSethDaniel/mason-tool-installer.nvim',
 
@@ -257,6 +260,20 @@ return {
             Lua = {
               completion = {
                 callSnippet = 'Replace',
+              },
+
+              -- NOTE: needs hyprland, comment next if not
+              workspace = {
+                checkThirdParty = false,
+                -- Point the LSP to Hyprland's definitions stub folder
+                library = {
+                  '/usr/share/hypr/stubs',
+                  -- or "/run/current-system/sw/share/hypr/stubs" if on NixOS
+                },
+              },
+              diagnostics = {
+                -- Prevents 'Undefined global hl' warnings
+                globals = { 'hl' },
               },
               -- You can toggle below to ignore Lua_LS's noisy `missing-fields` warnings
               -- diagnostics = { disable = { 'missing-fields' } },

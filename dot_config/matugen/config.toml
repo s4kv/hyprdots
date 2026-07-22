@@ -1,19 +1,20 @@
 [config.wallpaper]
-command = "awww"
-arguments = ["img", "--transition-type", "center"]
+command = 'awww img --transition-type center "{{ image }}"'
 set = true
 
-[templates.hyprland]
-input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+[templates.hyprland_lua]
+input_path = '~/.config/matugen/templates/hyprland-colors.lua'
+output_path = '~/.config/hypr/conf/colors.lua'
+
+[templates.hyprlock]
+input_path = '~/.config/matugen/templates/hyprlock-colors.conf'
 output_path = '~/.config/hypr/conf/colors.conf'
-# post_hook = 'hyprctl reload'
+post_hook = 'hyprctl reload >/dev/null 2>&1 || true'
 
 [templates.waybar]
-pre_hook = 'pkill waybar'
 input_path = '~/.config/matugen/templates/colors.css'
 output_path = '~/.config/waybar/colors.css'
-# post_hook = 'hyprctl dispatch exec waybar'
-post_hook = 'pgrep -x waybar > /dev/null || { waybar & }'
+post_hook = '$HOME/.config/hypr/scripts/restart-waybar.sh'
 
 [templates.rofi]
 input_path = '~/.config/matugen/templates/rofi-colors.rasi'
@@ -46,7 +47,7 @@ output_path = '~/.config/gtk-4.0/colors.css'
 [templates.mako]
 input_path = '~/.config/matugen/templates/mako-colors'
 output_path = '~/.config/mako/config'
-post_hook = 'makoctl reload'
+post_hook = 'makoctl reload >/dev/null 2>&1 || true'
 
 [templates.zathura]
 input_path = '~/.config/matugen/templates/zathura-colors'
@@ -58,8 +59,8 @@ output_path = '~/.config/hypr/boot-wall.sh'
 post_hook = 'chmod +x ~/.config/hypr/boot-wall.sh'
 
 [templates.quickshell_overview]
-input_path  = "./templates/quickshell-overview.qml"
-output_path = "~/.config/quickshell/overview/common/Appearance.colors.qml"
+input_path = '~/.config/matugen/templates/quickshell-overview.qml'
+output_path = '~/.config/quickshell/overview/common/Appearance.colors.qml'
 
 [templates.hamr_colors]
 input_path = '~/.config/matugen/templates/hamr-colors.json'
