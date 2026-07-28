@@ -8,7 +8,7 @@ local main_mod = "SUPER"
 
 -- Programs.
 -- local terminal = "kitty"
-local terminal = "ghostty"
+local terminal = "ghostty --title='tmux'"
 -- local file_manager = "dolphin"
 local file_manager = "kitty -e tmux new-session yazi"
 local menu = "~/.config/rofi/launcher/launcher.sh"

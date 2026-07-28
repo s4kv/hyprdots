@@ -20,19 +20,19 @@ bindkey -v
 # The following lines were added by compinstall
 zstyle :compinstall filename '/home/sakvi/.zshrc'
 
-# -- better tab completion --- 
-# Initialize the native completion system
-autoload -Uz compinit && compinit
-# Enable an interactive selection menu you can navigate with arrow keys
-zstyle ':completion:*' menu select
-# Group completion results by type/category
-zstyle ':completion:*' group-name ''
-# Format the descriptions for the grouped headings
-zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
-# Use case-insensitive, fuzzy-like matching (matches lower/uppercase and partials)
-zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
-# Complete options even when typing right in the middle of a word
-setopt COMPLETE_IN_WORD
+# # -- better tab completion --- 
+# # Initialize the native completion system
+# autoload -Uz compinit && compinit
+# # Enable an interactive selection menu you can navigate with arrow keys
+# zstyle ':completion:*' menu select
+# # Group completion results by type/category
+# zstyle ':completion:*' group-name ''
+# # Format the descriptions for the grouped headings
+# zstyle ':completion:*:descriptions' format '%F{yellow}-- %d --%f'
+# # Use case-insensitive, fuzzy-like matching (matches lower/uppercase and partials)
+# zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' 'r:|=*' 'l:|=* r:|=*'
+# # Complete options even when typing right in the middle of a word
+# setopt COMPLETE_IN_WORD
 
 # ALIAS
 alias ls='exa'
@@ -70,10 +70,10 @@ function y() {
 
 # ZNAP
 # Download Znap, if it's not there yet.
-[[ -r ~/Repos/znap-pluggins/znap/znap.zsh ]] ||
+[[ -r ~/Repos/znap-plugins/znap/znap.zsh ]] ||
     git clone --depth 1 -- \
-        https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap-pluggins/znap
-source ~/Repos/znap-pluggins/znap/znap.zsh  # Start Znap
+        https://github.com/marlonrichert/zsh-snap.git ~/Repos/znap-plugins/znap
+source ~/Repos/znap-plugins/znap/znap.zsh  # Start Znap
 
 # `znap prompt` makes your prompt visible in just 15-40ms!
 # znap prompt sindresorhus/pure
@@ -89,12 +89,37 @@ znap source zsh-users/zsh-syntax-highlighting
 znap source zsh-users/zsh-autosuggestions
 znap source zsh-users/zsh-completions 
 
+
 # ZOXIDE
 eval "$(zoxide init zsh)"
 
 # ZOXIDE
 eval $(thefuck --alias)
 
+
+# FZF-Tab
+znap source Aloxaf/fzf-tab
+# disable sort when completing `git checkout`
+zstyle ':completion:*:git-checkout:*' sort false
+# set descriptions format to enable group support
+# NOTE: don't use escape sequences (like '%F{red}%d%f') here, fzf-tab will ignore them
+zstyle ':completion:*:descriptions' format '[%d]'
+# set list-colors to enable filename colorizing
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+# force zsh not to show completion menu, which allows fzf-tab to capture the unambiguous prefix
+zstyle ':completion:*' menu no
+# preview directory's content with eza when completing cd
+zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
+# custom fzf flags
+# NOTE: fzf-tab does not follow FZF_DEFAULT_OPTS by default
+zstyle ':fzf-tab:*' fzf-flags --color=fg:1,fg+:2 --bind=tab:accept
+# To make fzf-tab follow FZF_DEFAULT_OPTS.
+# NOTE: This may lead to unexpected behavior since some flags break this plugin. See Aloxaf/fzf-tab#455.
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
+# switch group using `<` and `>`
+zstyle ':fzf-tab:*' switch-group '<' '>'
+
+zstyle ':fzf-tab:*' fzf-command ftb-tmux-popup
 
 # TMUX: handled by kitty
 # tmux

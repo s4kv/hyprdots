@@ -47,7 +47,7 @@ return {
 
       require('mini.icons').setup()
 
-      require('mini.sessions').setup()
+      -- require('mini.sessions').setup()
 
       require('mini.splitjoin').setup {
         mappings = {

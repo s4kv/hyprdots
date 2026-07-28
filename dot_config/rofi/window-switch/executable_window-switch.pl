@@ -51,9 +51,9 @@ exit unless defined $index && $index =~ /^\d+$/;
 
 my $dest = $addressarr[$index] or die "Invalid selection.\n";
 my %hyprdispatchs = (
-    f => ["hyprctl", "dispatch", "focuswindow", "address:$dest"],
-    c => ["hyprctl", "dispatch", "closewindow", "address:$dest"],
-    m => ["hyprctl", "--batch", "dispatch focuswindow address:$dest; dispatch movetoworkspace $workspacename"]
+    f => ["hyprctl", "dispatch", qq(hl.dsp.focus({window="address:$dest"}))],
+    c => ["hyprctl", "dispatch", qq(hl.dsp.window.close({window="address:$dest"}))],
+    m => ["hyprctl", "--batch", qq(dispatch hl.dsp.focus({window="address:$dest"}) ; dispatch hl.dsp.window.move({workspace="$workspacename"}))]
 );
 
 exec $hyprdispatchs{$mode}->@*;

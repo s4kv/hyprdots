@@ -155,13 +155,13 @@ return {
       desc = 'Select Scratch Buffer',
     },
     -- Top Pickers & Explorer
-    -- {
-    -- 	"<leader><space>",
-    -- 	function()
-    -- 		Snacks.picker.smart()
-    -- 	end,
-    -- 	desc = "Smart Find Files",
-    -- },
+    {
+      '<leader>p',
+      function()
+        Snacks.picker.smart()
+      end,
+      desc = 'Smart Find Files',
+    },
     {
       '<leader>,',
       function()
