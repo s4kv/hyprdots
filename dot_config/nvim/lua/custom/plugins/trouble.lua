@@ -15,12 +15,12 @@ return {
     },
     {
       '<leader>cs',
-      '<cmd>Trouble symbols toggle focus=false<cr>',
+      '<cmd>Trouble symbols toggle focus=false win = { type = split, position = bottom }<cr>',
       desc = 'Symbols (Trouble)',
     },
     {
       '<leader>cl',
-      '<cmd>Trouble lsp toggle focus=false win.position=right<cr>',
+      '<cmd>Trouble lsp toggle focus=false win.position=bottom win.size = {height = 0.35 } <cr>',
       desc = 'LSP Definitions / references / ... (Trouble)',
     },
     {
@@ -32,6 +32,11 @@ return {
       '<leader>xQ',
       '<cmd>Trouble qflist toggle<cr>',
       desc = 'Quickfix List (Trouble)',
+    },
+    {
+      '<leader>xt',
+      '<cmd>TodoTrouble<cr>',
+      desc = 'Todo List (Trouble)',
     },
   },
 }

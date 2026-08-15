@@ -66,8 +66,7 @@ require('lazy').setup({
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   { import = 'custom.plugins' },
 
-  -- [[ Configure future/in-test plugins ]]
-  -- { import = 'future.new' },
+  require 'core.plugins.arrow',
 
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
@@ -96,7 +95,7 @@ require('lazy').setup({
   change_detection = {
     notify = false,
   },
-  install = { colorscheme = { 'ashen' } }, -- Automatically install the colorscheme
+  -- install = { colorscheme = { 'ashen' } }, -- Automatically install the colorscheme
 })
 
 -- vim: ts=2 sts=2 sw=2 et

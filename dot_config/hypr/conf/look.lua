@@ -32,8 +32,8 @@ hl.config({
 		-- allow_tearing = false,
 		allow_tearing = true,
 
-		-- layout = "dwindle",
 		layout = "scrolling",
+		-- layout = "dwindle",
 	},
 
 	-- https://wiki.hypr.land/Configuring/Basics/Variables/#decoration
@@ -95,6 +95,9 @@ hl.config({
 	misc = {
 		-- Allow recovering a session lock after a crash.
 		allow_session_lock_restore = true,
+		-- Enable VRR only for fullscreen photo/video/game content. Game windows
+		-- are tagged in conf/windows.lua; unsupported monitors ignore this.
+		vrr = 3,
 		-- Disable the default mascot wallpapers and Hyprland logo.
 		force_default_wallpaper = -1,
 		disable_hyprland_logo = true,
@@ -105,6 +108,11 @@ hl.config({
 	cursor = {
 		-- Auto-select software cursors when required by the driver.
 		no_hardware_cursors = 2,
+	},
+
+	-- Bypass compositor rendering for eligible fullscreen game windows.
+	render = {
+		direct_scanout = 2,
 	},
 })
 
@@ -177,7 +185,9 @@ hl.animation({
 	style = "slidefadevert -15%",
 })
 hl.animation({ leaf = "border", enabled = true, speed = 7, bezier = "smooth" })
-hl.animation({ leaf = "borderangle", enabled = true, speed = 35, bezier = "linear", style = "loop" })
+-- A looping border angle forces continuous redraws on both high-refresh
+-- monitors, so keep it disabled to leave GPU time available for games.
+hl.animation({ leaf = "borderangle", enabled = false })
 hl.animation({ leaf = "layersIn", enabled = true, speed = 4, bezier = "bounce", style = "slide" })
 hl.animation({ leaf = "layersOut", enabled = true, speed = 3, bezier = "smooth", style = "slide" })
 

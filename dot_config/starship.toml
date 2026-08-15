@@ -27,7 +27,7 @@ vimcmd_symbol = "[❮](green)"
 
 [git_branch]
 symbol = ' '
-format = 'via [$symbol$branch]($style)'
+format = 'via [$symbol$branch ]($style)'
 # truncation_length = 4
 truncation_symbol = '…/'
 style = 'bold green'

@@ -40,24 +40,24 @@ return {
   {
     'vossenwout/guts.nvim',
     config = function()
-      vim.cmd 'colorscheme guts'
+      -- vim.cmd 'colorscheme guts'
 
-      local background = '#101113'
-      local foreground = '#9f9e99'
-
-      -- MiniStatusLine
-      local cBack = '#101113'
-      local iBack = '#161719'
-      local iFore = '#554a62'
-      vim.api.nvim_set_hl(0, 'MiniStatuslineFilename', { bg = background, fg = foreground })
-      vim.api.nvim_set_hl(0, 'MiniStatuslineDevinfo', { bg = background, fg = foreground })
-      vim.api.nvim_set_hl(0, 'MiniStatuslineFileinfo', { bg = background, fg = foreground })
-      vim.api.nvim_set_hl(0, 'MiniStatuslineModeCommand', { bg = cBack, fg = foreground })
-      vim.api.nvim_set_hl(0, 'MiniStatuslineInactive', { bg = iBack, fg = iFore })
-      vim.api.nvim_set_hl(0, 'MiniStatuslineModeNormal', { bg = foreground, fg = background })
-
-      -- Cursor
-      vim.api.nvim_set_hl(0, 'CursorLine', { fg = 'NONE', bold = true })
+      -- local background = '#101113'
+      -- local foreground = '#9f9e99'
+      --
+      -- -- MiniStatusLine
+      -- local cBack = '#101113'
+      -- local iBack = '#161719'
+      -- local iFore = '#554a62'
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineFilename', { bg = background, fg = foreground })
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineDevinfo', { bg = background, fg = foreground })
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineFileinfo', { bg = background, fg = foreground })
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineModeCommand', { bg = cBack, fg = foreground })
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineInactive', { bg = iBack, fg = iFore })
+      -- vim.api.nvim_set_hl(0, 'MiniStatuslineModeNormal', { bg = foreground, fg = background })
+      --
+      -- -- Cursor
+      -- vim.api.nvim_set_hl(0, 'CursorLine', { fg = 'NONE', bold = true })
     end,
   },
 
@@ -88,6 +88,22 @@ return {
       }
 
       -- vim.cmd 'colorscheme rose-pine'
+    end,
+  },
+
+  {
+    'ThorstenRhau/token',
+
+    opts = {
+      transparent = true,
+      plugins = { all = true },
+      terminal_colors = true,
+      dim_inactive = false,
+    },
+
+    config = function(_, opts)
+      require('token').setup(opts)
+      vim.cmd 'colorscheme token'
     end,
   },
   -- {

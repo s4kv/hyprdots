@@ -9,6 +9,7 @@ local main_mod = "SUPER"
 -- Programs.
 -- local terminal = "kitty"
 local terminal = "ghostty --title='tmux'"
+local terminal_private = "ghostty --title='private terminal'" -- this terminal will not support screenshare
 -- local file_manager = "dolphin"
 local file_manager = "kitty -e tmux new-session yazi"
 local menu = "~/.config/rofi/launcher/launcher.sh"
@@ -154,10 +155,9 @@ local function toggle_power_saver()
 			debug = { vfr = normal_effects.vfr },
 		})
 
-		-- A looping border-angle animation keeps rendering at the monitor's
-		-- refresh rate even when animations.enabled is false, so restore it
-		-- separately when returning to the normal profile.
-		hl.animation({ leaf = "borderangle", enabled = true, speed = 35, bezier = "linear", style = "loop" })
+		-- Keep the looping border-angle animation disabled: it forces redraws at
+		-- the monitors' refresh rates even while the desktop is otherwise idle.
+		hl.animation({ leaf = "borderangle", enabled = false })
 	else
 		normal_effects = capture_normal_effects()
 
@@ -192,6 +192,7 @@ end
 -- bind(main_mod .. " + C", hl.dsp.window.close(), "Close active window")
 -- bind(main_mod .. " + M", hl.dsp.exit(), "Exit Hyprland")
 bind(main_mod .. " + Return", hl.dsp.exec_cmd(terminal), "Open terminal")
+bind(main_mod .. " + SHIFT + Return", hl.dsp.exec_cmd(terminal_private), "Open private terminal")
 bind(main_mod .. " + W", hl.dsp.window.close(), "Close active window")
 bind(main_mod .. " + E", hl.dsp.exec_cmd(file_manager), "Open file manager")
 bind(main_mod .. " + M", hl.dsp.window.fullscreen({ mode = "maximized" }), "Toggle maximize")

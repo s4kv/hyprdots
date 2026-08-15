@@ -195,7 +195,7 @@ return {
       function()
         Snacks.explorer {
           -- NOTE: NEW
-          layout = { present = 'slidebar', preview = true },
+          layout = { present = 'slidebar', preview = false },
         }
       end,
       desc = 'File Explorer',
