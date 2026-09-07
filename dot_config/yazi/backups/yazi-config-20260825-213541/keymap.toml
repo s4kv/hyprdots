@@ -5,12 +5,11 @@
 [[mgr.prepend_keymap]]
 on = ["i"]
 run = "plugin easyjump"
-desc = "EasyJump"
+desc = "easyjump"
 
 [[mgr.prepend_keymap]]
-on = ["C"]
-run = "plugin ouch"
-desc = "Compress with ouch"
+on = ["<Right>"]
+run = "shell lazygit --block --confirm"
 
 # https://yazi-rs.github.io/docs/tips/#cd-to-git-root
 [[mgr.prepend_keymap]]
@@ -24,20 +23,25 @@ run = '''
 [[mgr.prepend_keymap]]
 on = ["c", "r"]
 run = '''
-  shell 'git ls-files --full-name %s | perl -pe "chomp if eof" | wl-copy'
+  shell 'git ls-files --full-name $@ | perl -pe "chomp if eof" | wl-copy'
 '''
 
 [[mgr.prepend_keymap]]
 on = ["c", "i"] # copy inside
 run = '''
-  shell 'cat %s | wl-copy'
+  shell 'cat $@ | wl-copy'
 '''
 
 # use dragon to drag and drop files
 [[mgr.prepend_keymap]]
 on = ["<C-n>"]
-run = "shell -- dragon-drop -x -i -T %h"
-desc = "Drag hovered file"
+run = 'shell -- dragon-drop -x -i -T "$0"'
+
+# compression with ouch
+[[mgr.prepend_keymap]]
+on = ["C"]
+run = "plugin ouch"
+desc = "Compress with ouch"
 
 [mgr]
 
@@ -50,6 +54,9 @@ keymap = [
   ], run = "escape", desc = "Exit visual mode, clear selected, or cancel search" },
   { on = [
     "q",
+  ], run = "quit", desc = "Exit the process" },
+  { on = [
+    "<up>",
   ], run = "quit", desc = "Exit the process" },
   { on = [
     "Q",
@@ -144,10 +151,10 @@ keymap = [
   ], run = "arrow 1", desc = "Move cursor down" },
   { on = [
     "<Left>",
-  ], run = "leave", desc = "Go back to the parent directory" },
+  ], run = "noop" },
   { on = [
     "<Right>",
-  ], run = "enter", desc = "Enter the child directory" },
+  ], run = "noop" },
 
   { on = [
     "g",
@@ -238,6 +245,9 @@ keymap = [
   { on = [
     "s",
   ], run = "plugin fzf", desc = "Jump to a directory, or reveal a file using fzf" },
+  { on = [
+    "s",
+  ], run = "search fd", desc = "Search files by name using fd" },
   { on = [
     "S",
   ], run = "search rg", desc = "Search files by content using ripgrep" },

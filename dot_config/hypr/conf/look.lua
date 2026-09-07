@@ -89,6 +89,7 @@ hl.config({
 	scrolling = {
 		column_width = 0.333,
 		direction = "right",
+		follow_focus = false,
 	},
 
 	-- https://wiki.hypr.land/Configuring/Basics/Variables/#misc

@@ -3,7 +3,7 @@
 # A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
 # If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
 
-# https://github.com/yazi-rs/plugins/tree/main/git.yazi#setup
+# Git status fetcher, provided by plugins/git.yazi.
 [[plugin.prepend_fetchers]]
 url = "*"
 run = "git"
@@ -43,30 +43,26 @@ ueberzug_offset = [0, 0, 0, 0]
 
 [opener]
 edit = [
-  #
-  { run = '${EDITOR:=nvim} "$@"', desc = "$EDITOR", block = true, for = "unix" },
-  { run = 'code "%*"', orphan = true, for = "windows" },
+  { run = "${EDITOR:-nvim} %s", desc = "$EDITOR", block = true, for = "unix" },
+  { run = "code %s", orphan = true, for = "windows" },
 ]
 open = [
-  #
-  { run = 'xdg-open "$@"', desc = "Open", for = "unix" },
-  { run = 'open "$@"', desc = "Open", for = "macos" },
-  { run = 'start "" "%1"', orphan = true, desc = "Open", for = "windows" },
+  { run = "xdg-open %s1", desc = "Open", for = "linux" },
+  { run = "open %s", desc = "Open", for = "macos" },
+  { run = 'start "" %s1', orphan = true, desc = "Open", for = "windows" },
 ]
 reveal = [
-  #
-  { run = 'open -R "$1"', desc = "Reveal", for = "macos" },
-  { run = 'explorer /select, "%1"', orphan = true, desc = "Reveal", for = "windows" },
-  { run = '''exiftool "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show EXIF", for = "unix" },
+  { run = "xdg-open %d1", desc = "Reveal", for = "linux" },
+  { run = "open -R %s1", desc = "Reveal", for = "macos" },
+  { run = 'explorer /select,%s1', orphan = true, desc = "Reveal", for = "windows" },
+  { run = "clear; exiftool %s1; echo 'Press enter to exit'; read _", block = true, desc = "Show EXIF", for = "unix" },
 ]
 extract = [
   # use ouch to extract archives
-  { run = 'ouch d -y %*', desc = "Extract here with ouch", for = "windows" },
-  { run = 'ouch d -y "$@"', desc = "Extract here with ouch", for = "unix" },
+  { run = "ouch d -y %s", desc = "Extract here with ouch" },
 ]
 play = [
-  #
-  { run = 'mpv "$@"', orphan = true, for = "unix" },
-  { run = 'mpv "%1"', orphan = true, for = "windows" },
-  { run = '''mediainfo "$1"; echo "Press enter to exit"; read''', block = true, desc = "Show media info", for = "unix" },
+  { run = "mpv %s", orphan = true, for = "unix" },
+  { run = "mpv %s1", orphan = true, for = "windows" },
+  { run = "mediainfo %s1; echo 'Press enter to exit'; read _", block = true, desc = "Show media info", for = "unix" },
 ]

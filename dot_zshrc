@@ -51,6 +51,7 @@ alias nqalc='nvim /tmp/calculator.qalc'
 alias tldr='cht.sh'
 #quartus bin 
 alias quartus='QT_QPA_PLATFORM=xcb /home/sakvi/intelFPGA_lite/24.1std/quartus/bin/quartus'
+alias debug_lazyphotos='/home/sakvi/projects/lazyphotos/target/debug/lazyphotos'
 
 # Functions
 # Open
@@ -161,3 +162,4 @@ export PATH="$PATH:$(go env GOPATH)/bin"
 
 # make sure to sue the correct version of nvm
 # source /usr/share/nvm/init-nvm.sh
+

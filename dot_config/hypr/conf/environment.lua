@@ -7,34 +7,34 @@
 
 -- Core Wayland + NVIDIA.
 local environment = {
-    GBM_BACKEND = "nvidia-drm",
-    __GLX_VENDOR_LIBRARY_NAME = "nvidia",
-    AQ_DRM_DEVICES = "/dev/dri/card1",
+	GBM_BACKEND = "nvidia-drm",
+	__GLX_VENDOR_LIBRARY_NAME = "nvidia",
+	AQ_DRM_DEVICES = "/dev/dri/card1",
 
-    -- Session identity.
-    XDG_SESSION_TYPE = "wayland",
-    XDG_CURRENT_DESKTOP = "Hyprland",
-    XDG_SESSION_DESKTOP = "Hyprland",
+	-- Session identity.
+	XDG_SESSION_TYPE = "wayland",
+	XDG_CURRENT_DESKTOP = "Hyprland",
+	XDG_SESSION_DESKTOP = "Hyprland",
 
-    -- Toolkits. Prefer Wayland while retaining X11 fallback for older Qt apps.
-    QT_QPA_PLATFORM = "wayland;xcb", -- Prefer Wayland; tolerate X11-only Qt apps.
-    QT_WAYLAND_DISABLE_WINDOWDECORATION = "1",
-    QT_QPA_PLATFORMTHEME = "qt5ct",
-    -- Electron apps.
-    ELECTRON_OZONE_PLATFORM_HINT = "auto",
+	-- Toolkits. Prefer Wayland while retaining X11 fallback for older Qt apps.
+	QT_QPA_PLATFORM = "wayland;xcb", -- Prefer Wayland; tolerate X11-only Qt apps.
+	QT_WAYLAND_DISABLE_WINDOWDECORATION = "1",
+	QT_QPA_PLATFORMTHEME = "qt5ct",
+	-- Electron apps.
+	ELECTRON_OZONE_PLATFORM_HINT = "auto",
 
-    -- Cursors.
-    XCURSOR_SIZE = "24",
-    HYPRCURSOR_SIZE = "24",
-    XCURSOR_THEME = "Adwaita",
+	-- Cursors.
+	XCURSOR_SIZE = "24",
+	HYPRCURSOR_SIZE = "24",
+	XCURSOR_THEME = "Adwaita",
 
-    -- Android emulation handle; remove if the xcb platform fails.
-    ANDROID_EMULATOR_USE_SYSTEM_LIBS = "1",
-    SYSTEMD_EDITOR = "nvim",
+	-- Android emulation handle; remove if the xcb platform fails.
+	ANDROID_EMULATOR_USE_SYSTEM_LIBS = "1",
+	SYSTEMD_EDITOR = "nvim",
 }
 
 for name, value in pairs(environment) do
-    hl.env(name, value)
+	hl.env(name, value)
 end
 
 -- Alternative toolkit values retained from the original config:
@@ -52,8 +52,10 @@ end
 -- AMD DRM device.
 
 hl.config({
-    debug = {
-        -- Hyprland now advertises some color-management protocol pieces.
-        full_cm_proto = true,
-    },
+	debug = {
+		-- Hyprland now advertises some color-management protocol pieces.
+		full_cm_proto = true,
+	},
 })
+
+hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")

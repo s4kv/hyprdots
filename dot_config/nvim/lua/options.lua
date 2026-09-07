@@ -84,4 +84,9 @@ vim.env.PATH = vim.env.PATH .. ':' .. vim.fn.expand '~/.cargo/bin'
 -- change yazi for neovim for no image previews
 vim.env.YAZI_CONFIG_HOME = vim.fn.expand '~/.config/yazi-nvim'
 
+-- Treat `*.v` as Verilog, not V (vlang) or Coq.
+-- Neovim sniffs `.v` file contents to disambiguate and falls back to `v`,
+-- so empty/new files never get `verilog` and slang_server won't attach.
+vim.g.filetype_v = 'verilog'
+
 -- vim: ts=2 sts=2 sw=2 et

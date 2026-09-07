@@ -33,6 +33,8 @@ return {
         'haskell',
         'haskell_persistent',
         'sql',
+        'verilog',
+        'systemverilog',
       }
 
       TS.setup {
