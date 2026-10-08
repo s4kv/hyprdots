@@ -14,28 +14,15 @@
     "hyprland/window" // window title
   ],
   "modules-center": [
-    "custom/paddc",
-    "custom/left2",
     "custom/cpuinfo", // temperature
-    "custom/left3",
     "memory", // memory
-    "custom/left4",
     "cpu", // cpu
-    "custom/leftin1",
-    "custom/left5",
-    "custom/distro", // distro icon
-    "custom/right2",
-    "custom/rightin1",
     "idle_inhibitor", // idle inhibitor
     "clock#time", // time
-    "custom/right3",
     "clock#date", // date
-    "custom/right4",
     "custom/wifi", // wi-fi
     "bluetooth", // bluetooth
-    "power-profiles-daemon", // power profile
-    // "custom/update", // system update
-    "custom/right5"
+    "power-profiles-daemon" // power profile
   ],
   "modules-right": [
     "tray",
@@ -75,8 +62,8 @@
     "max-length": 3
   },
   "hyprland/workspaces": {
-    "on-scroll-up": "hyprctl dispatch workspace -1",
-    "on-scroll-down": "hyprctl dispatch workspace +1",
+    "on-scroll-up": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e-1\" })'",
+    "on-scroll-down": "hyprctl dispatch 'hl.dsp.focus({ workspace = \"e+1\" })'",
     "persistent-workspaces": {
       "1": [],
       "2": [],
@@ -162,10 +149,6 @@
     "min-length": 6,
     "max-length": 6
   },
-  "custom/distro": {
-    "format": " ",
-    "tooltip": false
-  },
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
@@ -234,7 +217,7 @@
     "exec": "~/.config/waybar/scripts/system-update.sh",
     "return-type": "json",
     "format": "{}",
-    "on-click": "hyprctl dispatch exec '~/.config/waybar/scripts/system-update.sh up'",
+    "on-click": "hyprctl dispatch 'hl.dsp.exec_cmd(\"~/.config/waybar/scripts/system-update.sh up\")'",
     "interval": 30,
     "min-length": 1,
     "max-length": 1

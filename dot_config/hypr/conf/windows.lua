@@ -56,6 +56,7 @@ for _, game in ipairs({
 	{ name = "osu", class = "^osu!$" },
 	{ name = "gamescope", class = "^gamescope$" },
 	{ name = "cs2", class = "^cs2$" },
+	{ name = "Deadlock", class = "^Deadlock" },
 }) do
 	hl.window_rule({
 		name = game.name,

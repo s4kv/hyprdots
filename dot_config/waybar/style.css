@@ -52,6 +52,7 @@ tooltip label {
   color: @module-fg;
   border-radius: 8px;
   box-shadow: none;
+  font-size: 9px;
   margin: 2px 0;
   padding: 0 2px;
   transition: none;
@@ -495,3 +496,197 @@ tooltip label,
 */
 
 @import "animation.css";
+
+/* ------------------------------------------------ MODERN CENTER ISLAND --- */
+
+/*
+ * Keep this section on Matugen's semantic palette. The generated colors.css
+ * can change freely without requiring any layout or styling edits here.
+ */
+.modules-center {
+  background: alpha(@surface_container_lowest, 0.92);
+  border: 1px solid alpha(@outline_variant, 0.55);
+  border-radius: 13px;
+  box-shadow: 0 2px 7px alpha(@shadow, 0.55);
+  margin: 2px 0;
+  padding: 1px 3px;
+}
+
+.modules-center #custom-cpuinfo,
+.modules-center #memory,
+.modules-center #cpu,
+.modules-center #idle_inhibitor,
+.modules-center #clock.time,
+.modules-center #clock.date,
+.modules-center #custom-wifi,
+.modules-center #bluetooth,
+.modules-center #power-profiles-daemon {
+  animation: none;
+  background: @surface_container;
+  color: @on_surface;
+  font-size: 11px;
+  margin: 0;
+  min-height: 18px;
+  padding: 0 6px;
+  text-shadow: none;
+}
+
+/* System telemetry capsule. */
+.modules-center #custom-cpuinfo {
+  border-radius: 9px 0 0 9px;
+  color: @tertiary;
+  padding-left: 8px;
+}
+
+.modules-center #memory,
+.modules-center #cpu {
+  border-left: 1px solid alpha(@outline_variant, 0.45);
+}
+
+.modules-center #cpu {
+  border-radius: 0 9px 9px 0;
+  margin-right: 5px;
+  padding-right: 8px;
+}
+
+/* Focus / time / date capsule. */
+.modules-center #idle_inhibitor,
+.modules-center #clock.time,
+.modules-center #clock.date {
+  background: @surface_container_high;
+}
+
+.modules-center #idle_inhibitor {
+  border-radius: 9px 0 0 9px;
+  color: @tertiary;
+  padding-left: 7px;
+}
+
+.modules-center #clock.time,
+.modules-center #clock.date {
+  border-left: 1px solid alpha(@outline_variant, 0.45);
+}
+
+.modules-center #clock.time {
+  color: @primary;
+  font-weight: 800;
+}
+
+.modules-center #clock.date {
+  border-radius: 0 9px 9px 0;
+  color: @secondary;
+  margin-right: 5px;
+  padding-right: 8px;
+}
+
+/* Connectivity capsule. */
+.modules-center #custom-wifi {
+  border-radius: 9px 0 0 9px;
+  color: @tertiary;
+  padding-left: 8px;
+}
+
+.modules-center #bluetooth,
+.modules-center #power-profiles-daemon {
+  border-left: 1px solid alpha(@outline_variant, 0.45);
+}
+
+.modules-center #power-profiles-daemon {
+  border-radius: 0 9px 9px 0;
+  color: @primary;
+  padding-right: 8px;
+}
+
+.modules-center #custom-cpuinfo:hover,
+.modules-center #memory:hover,
+.modules-center #cpu:hover,
+.modules-center #idle_inhibitor:hover,
+.modules-center #clock.time:hover,
+.modules-center #clock.date:hover,
+.modules-center #custom-wifi:hover,
+.modules-center #bluetooth:hover,
+.modules-center #power-profiles-daemon:hover {
+  background: @surface_container_highest;
+  color: @primary;
+}
+
+/* ----------------------------------------- CENTER ENTRANCE ANIMATIONS --- */
+
+/* Opacity-only reveals keep the compact layout stable while Waybar starts. */
+@keyframes center_island_in {
+  from {
+    opacity: 0;
+    border-color: transparent;
+    box-shadow: none;
+  }
+
+  to {
+    opacity: 1;
+    border-color: alpha(@outline_variant, 0.55);
+    box-shadow: 0 2px 7px alpha(@shadow, 0.55);
+  }
+}
+
+@keyframes center_item_in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modules-center {
+  opacity: 0;
+  animation: center_island_in 240ms ease-out 80ms forwards;
+}
+
+.modules-center #custom-cpuinfo,
+.modules-center #memory,
+.modules-center #cpu,
+.modules-center #idle_inhibitor,
+.modules-center #clock.time,
+.modules-center #clock.date,
+.modules-center #custom-wifi,
+.modules-center #bluetooth,
+.modules-center #power-profiles-daemon {
+  opacity: 0;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.modules-center #custom-cpuinfo {
+  animation: center_item_in 180ms ease-out 180ms forwards;
+}
+
+.modules-center #memory {
+  animation: center_item_in 180ms ease-out 220ms forwards;
+}
+
+.modules-center #cpu {
+  animation: center_item_in 180ms ease-out 260ms forwards;
+}
+
+.modules-center #idle_inhibitor {
+  animation: center_item_in 180ms ease-out 310ms forwards;
+}
+
+.modules-center #clock.time {
+  animation: center_item_in 180ms ease-out 350ms forwards;
+}
+
+.modules-center #clock.date {
+  animation: center_item_in 180ms ease-out 390ms forwards;
+}
+
+.modules-center #custom-wifi {
+  animation: center_item_in 180ms ease-out 440ms forwards;
+}
+
+.modules-center #bluetooth {
+  animation: center_item_in 180ms ease-out 480ms forwards;
+}
+
+.modules-center #power-profiles-daemon {
+  animation: center_item_in 180ms ease-out 520ms forwards;
+}

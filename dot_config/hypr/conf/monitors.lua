@@ -43,6 +43,15 @@ hl.monitor({
 	scale = 1.0,
 })
 
+-- mirror the laptop monitor
+-- hl.monitor({
+-- 	output = "HDMI-A-1",
+-- 	mode = "1920x1080@165.0",
+-- 	position = "0x0",
+-- 	scale = 1.0,
+-- 	mirror = "eDP-1",
+-- })
+
 hl.monitor({
 	output = "",
 	mode = "1920x1080",

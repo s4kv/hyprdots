@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-wallpaper="/home/sakvi/Wallpaper/loop-wall/sand.png"
+wallpaper="/home/sakvi/Wallpaper/loop-wall/wallhavpurp.jpg"
 state_dir="${XDG_STATE_HOME:-${HOME}/.local/state}/hypr"
 
 mkdir -p "${state_dir}"

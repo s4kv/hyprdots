@@ -12,9 +12,11 @@ $git_status)\
 $line_break\
 $python\
 $character"""
+command_timeout = 20
 
 [directory]
 style = "blue"
+truncation_length = 3
 
 [character]
 success_symbol = "[❯](purple)"
